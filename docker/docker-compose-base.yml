@@ -1,0 +1,45 @@
+services:
+  mysql:
+    # prep-study-assistant-mysql简称：ppsa-mysql
+    container_name: ppsa-mysql
+    image: mysql:8.0.39
+    env_file: .env
+    environment:
+      MYSQL_ROOT_PASSWORD_FILE: /run/secrets/mysql_root_password
+      TZ: ${TIMEZONE}
+    secrets:
+      - mysql_root_password
+    command:
+      --max_connections=1000
+      --character-set-server=utf8mb4
+      --collation-server=utf8mb4_unicode_ci
+      --default-authentication-plugin=mysql_native_password
+      --tls_version="TLSv1.2,TLSv1.3"
+      --init-file /data/application/init.sql
+      --binlog_expire_logs_seconds=604800
+    ports:
+      - ${MYSQL_PORT}:3306
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./init.sql:/data/application/init.sql
+    networks:
+      - prep-study-assistant
+    healthcheck:
+      test: [ "CMD-SHELL", "mysqladmin ping -uroot -p$$(cat /run/secrets/mysql_root_password)" ]
+      interval: 10s
+      timeout: 10s
+      retries: 3
+    restart: on-failure
+
+
+secrets:
+  mysql_root_password:
+    file: ./mysql_root_password.txt
+
+volumes:
+  mysql_data:
+    driver: local
+
+networks:
+  prep-study-assistant:
+    driver: bridge
