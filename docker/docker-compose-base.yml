@@ -31,13 +31,42 @@ services:
       retries: 3
     restart: on-failure
 
+  minio:
+    container_name: ppsa-minio
+    image: minio/minio:RELEASE.2025-07-23T15-54-02Z-cpuv1
+    command: server --console-address ":9001" /data
+    ports:
+      - ${MINIO_PORT}:9000
+      - ${MINIO_CONSOLE_PORT}:9001
+    env_file: .env
+    environment:
+      MINIO_ROOT_USER: ${MINIO_USER}
+      MINIO_ROOT_PASSWORD_FILE: /run/secrets/minio_root_password
+      TZ: ${TIMEZONE}
+    volumes:
+      - minio_data:/data
+    secrets:
+      - minio_root_password
+    networks:
+      - prep-study-assistant
+    restart: on-failure
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9000/minio/health/live"]
+      interval: 30s
+      timeout: 20s
+      retries: 3
+
 
 secrets:
   mysql_root_password:
     file: ./mysql_root_password.txt
+  minio_root_password:
+    file: ./minio_root_password.txt
 
 volumes:
   mysql_data:
+    driver: local
+  minio_data:
     driver: local
 
 networks:
