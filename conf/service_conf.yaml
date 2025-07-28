@@ -1,0 +1,8 @@
+llm:
+  model_type: 'Qwen/Qwen2.5-7B-Instruct'
+  model_url: 'https://api-inference.modelscope.cn/v1/'
+  api_key: ''
+admin:
+  username: 'admin'
+  password: 'admin@123'
+  name_nick: '系统管理员'
