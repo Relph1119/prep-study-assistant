@@ -1,0 +1,94 @@
+[
+    {
+        "section_id": 1,
+        "section_name": "第1章极限与连续"
+    },
+    {
+        "section_id": 2,
+        "section_name": "第2章导数与微分"
+    },
+    {
+        "section_id": 3,
+        "section_name": "第3章中值定理和泰勒公式"
+    },
+    {
+        "section_id": 4,
+        "section_name": "第4章积分"
+    },
+    {
+        "section_id": 5,
+        "section_name": "第5章无穷级数"
+    },
+    {
+        "section_id": 6,
+        "section_name": "第 $\\mathbf{6}$ 章微分方程"
+    },
+    {
+        "section_id": 7,
+        "section_name": "第7章向量代数与空间解析几何"
+    },
+    {
+        "section_id": 8,
+        "section_name": "第8章多元函数微分学"
+    },
+    {
+        "section_id": 9,
+        "section_name": "第9章多元函数积分学"
+    },
+    {
+        "section_id": 10,
+        "section_name": "第1章行列式"
+    },
+    {
+        "section_id": 11,
+        "section_name": "第2章矩阵"
+    },
+    {
+        "section_id": 12,
+        "section_name": "第3章线性方程组"
+    },
+    {
+        "section_id": 13,
+        "section_name": "第4章向量空间与线性变换"
+    },
+    {
+        "section_id": 14,
+        "section_name": "第5章 特征值和特征向量"
+    },
+    {
+        "section_id": 15,
+        "section_name": "第 $\\mathbf{6}$ 章二次型"
+    },
+    {
+        "section_id": 16,
+        "section_name": "第1章概率论的基本概念"
+    },
+    {
+        "section_id": 17,
+        "section_name": "第2章随机变量及其分布"
+    },
+    {
+        "section_id": 18,
+        "section_name": "第3章多维随机变量及其分布"
+    },
+    {
+        "section_id": 19,
+        "section_name": "第4章_随机变量的数字特征"
+    },
+    {
+        "section_id": 20,
+        "section_name": "第5章大数定律和中心极限定理"
+    },
+    {
+        "section_id": 21,
+        "section_name": "第 $\\mathbf{6}$ 章数理统计的基本概念"
+    },
+    {
+        "section_id": 22,
+        "section_name": "第 $7$ 章参数估计"
+    },
+    {
+        "section_id": 23,
+        "section_name": "第8章假设检验"
+    }
+]

@@ -1,0 +1,7 @@
+fitz
+pix2text
+onnxruntime-gpu
+openai
+faiss-cpu
+sentence_transformers
+tqdm

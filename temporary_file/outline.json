@@ -1,0 +1,2084 @@
+[
+    {
+        "id": 1,
+        "content": "函数的概念",
+        "familiarity": "理解",
+        "source_chapter": "一、函数、极限、连续高等数学袅考试内容"
+    },
+    {
+        "id": 2,
+        "content": "函数的表示法",
+        "familiarity": "掌握",
+        "source_chapter": "一、函数、极限、连续高等数学袅考试内容"
+    },
+    {
+        "id": 3,
+        "content": "建立应用问题的函数关系",
+        "familiarity": "会建立",
+        "source_chapter": "一、函数、极限、连续高等数学袅考试内容"
+    },
+    {
+        "id": 4,
+        "content": "函数的有界性",
+        "familiarity": "理解",
+        "source_chapter": "一、函数、极限、连续高等数学袅考试内容"
+    },
+    {
+        "id": 5,
+        "content": "函数的单调性",
+        "familiarity": "理解",
+        "source_chapter": "一、函数、极限、连续高等数学袅考试内容"
+    },
+    {
+        "id": 6,
+        "content": "函数的周期性",
+        "familiarity": "理解",
+        "source_chapter": "一、函数、极限、连续高等数学袅考试内容"
+    },
+    {
+        "id": 7,
+        "content": "函数的奇偶性",
+        "familiarity": "理解",
+        "source_chapter": "一、函数、极限、连续高等数学袅考试内容"
+    },
+    {
+        "id": 8,
+        "content": "复合函数的概念",
+        "familiarity": "理解",
+        "source_chapter": "一、函数、极限、连续高等数学袅考试内容"
+    },
+    {
+        "id": 9,
+        "content": "分段函数的概念",
+        "familiarity": "理解",
+        "source_chapter": "一、函数、极限、连续高等数学袅考试内容"
+    },
+    {
+        "id": 10,
+        "content": "反函数的概念",
+        "familiarity": "理解",
+        "source_chapter": "一、函数、极限、连续高等数学袅考试内容"
+    },
+    {
+        "id": 11,
+        "content": "隐函数的概念",
+        "familiarity": "理解",
+        "source_chapter": "一、函数、极限、连续高等数学袅考试内容"
+    },
+    {
+        "id": 12,
+        "content": "基本初等函数的性质及其图形",
+        "familiarity": "掌握",
+        "source_chapter": "一、函数、极限、连续高等数学袅考试内容"
+    },
+    {
+        "id": 13,
+        "content": "初等函数的概念",
+        "familiarity": "理解",
+        "source_chapter": "一、函数、极限、连续高等数学袅考试内容"
+    },
+    {
+        "id": 14,
+        "content": "极限的概念",
+        "familiarity": "理解",
+        "source_chapter": "一、函数、极限、连续高等数学袅考试内容"
+    },
+    {
+        "id": 15,
+        "content": "函数的左极限与右极限的概念",
+        "familiarity": "理解",
+        "source_chapter": "一、函数、极限、连续高等数学袅考试内容"
+    },
+    {
+        "id": 16,
+        "content": "函数极限存在与左极限、右极限之间的关系",
+        "familiarity": "理解",
+        "source_chapter": "一、函数、极限、连续高等数学袅考试内容"
+    },
+    {
+        "id": 17,
+        "content": "极限的性质",
+        "familiarity": "掌握",
+        "source_chapter": "一、函数、极限、连续高等数学袅考试内容"
+    },
+    {
+        "id": 18,
+        "content": "极限的四则运算法则",
+        "familiarity": "掌握",
+        "source_chapter": "一、函数、极限、连续高等数学袅考试内容"
+    },
+    {
+        "id": 19,
+        "content": "极限存在的两个准则",
+        "familiarity": "掌握",
+        "source_chapter": "一、函数、极限、连续高等数学袅考试内容"
+    },
+    {
+        "id": 20,
+        "content": "利用两个重要极限求极限的方法",
+        "familiarity": "掌握",
+        "source_chapter": "一、函数、极限、连续高等数学袅考试内容"
+    },
+    {
+        "id": 21,
+        "content": "无穷小量的概念",
+        "familiarity": "理解",
+        "source_chapter": "一、函数、极限、连续高等数学袅考试内容"
+    },
+    {
+        "id": 22,
+        "content": "无穷大量的概念",
+        "familiarity": "理解",
+        "source_chapter": "一、函数、极限、连续高等数学袅考试内容"
+    },
+    {
+        "id": 23,
+        "content": "无穷小量的比较方法",
+        "familiarity": "掌握",
+        "source_chapter": "一、函数、极限、连续高等数学袅考试内容"
+    },
+    {
+        "id": 24,
+        "content": "等价无穷小量求极限的方法",
+        "familiarity": "掌握",
+        "source_chapter": "一、函数、极限、连续高等数学袅考试内容"
+    },
+    {
+        "id": 25,
+        "content": "函数连续性概念",
+        "familiarity": "理解",
+        "source_chapter": "一、函数、极限、连续高等数学袅考试内容"
+    },
+    {
+        "id": 26,
+        "content": "左连续与右连续",
+        "familiarity": "理解",
+        "source_chapter": "一、函数、极限、连续高等数学袅考试内容"
+    },
+    {
+        "id": 27,
+        "content": "函数间断点类型判别",
+        "familiarity": "掌握",
+        "source_chapter": "一、函数、极限、连续高等数学袅考试内容"
+    },
+    {
+        "id": 28,
+        "content": "连续函数的性质",
+        "familiarity": "了解",
+        "source_chapter": "一、函数、极限、连续高等数学袅考试内容"
+    },
+    {
+        "id": 29,
+        "content": "初等函数的连续性",
+        "familiarity": "了解",
+        "source_chapter": "一、函数、极限、连续高等数学袅考试内容"
+    },
+    {
+        "id": 30,
+        "content": "闭区间上连续函数的性质（有界性、最大值和最小值定理、介值定理)",
+        "familiarity": "理解",
+        "source_chapter": "一、函数、极限、连续高等数学袅考试内容"
+    },
+    {
+        "id": 31,
+        "content": "应用这些性质",
+        "familiarity": "会",
+        "source_chapter": "一、函数、极限、连续高等数学袅考试内容"
+    },
+    {
+        "id": 32,
+        "content": "导数的概念",
+        "familiarity": "理解",
+        "source_chapter": "二、一元函数微分学"
+    },
+    {
+        "id": 33,
+        "content": "微分的概念",
+        "familiarity": "理解",
+        "source_chapter": "二、一元函数微分学"
+    },
+    {
+        "id": 34,
+        "content": "导数与微分的关系",
+        "familiarity": "理解",
+        "source_chapter": "二、一元函数微分学"
+    },
+    {
+        "id": 35,
+        "content": "导数的几何意义",
+        "familiarity": "理解",
+        "source_chapter": "二、一元函数微分学"
+    },
+    {
+        "id": 36,
+        "content": "平面曲线的切线方程和法线方程",
+        "familiarity": "理解",
+        "source_chapter": "二、一元函数微分学"
+    },
+    {
+        "id": 37,
+        "content": "导数的物理意义",
+        "familiarity": "理解",
+        "source_chapter": "二、一元函数微分学"
+    },
+    {
+        "id": 38,
+        "content": "函数的可导性与连续性的关系",
+        "familiarity": "理解",
+        "source_chapter": "二、一元函数微分学"
+    },
+    {
+        "id": 39,
+        "content": "导数的四则运算法则",
+        "familiarity": "掌握",
+        "source_chapter": "二、一元函数微分学"
+    },
+    {
+        "id": 40,
+        "content": "复合函数的求导法则",
+        "familiarity": "掌握",
+        "source_chapter": "二、一元函数微分学"
+    },
+    {
+        "id": 41,
+        "content": "基本初等函数的导数公式",
+        "familiarity": "掌握",
+        "source_chapter": "二、一元函数微分学"
+    },
+    {
+        "id": 42,
+        "content": "微分的四则运算法则",
+        "familiarity": "掌握",
+        "source_chapter": "二、一元函数微分学"
+    },
+    {
+        "id": 43,
+        "content": "一阶微分形式的不变性",
+        "familiarity": "了解",
+        "source_chapter": "二、一元函数微分学"
+    },
+    {
+        "id": 44,
+        "content": "求函数的微分",
+        "familiarity": "会",
+        "source_chapter": "二、一元函数微分学"
+    },
+    {
+        "id": 45,
+        "content": "高阶导数的概念",
+        "familiarity": "理解",
+        "source_chapter": "二、一元函数微分学"
+    },
+    {
+        "id": 46,
+        "content": "简单函数的高阶导数",
+        "familiarity": "掌握",
+        "source_chapter": "二、一元函数微分学"
+    },
+    {
+        "id": 47,
+        "content": "分段函数的导数",
+        "familiarity": "会求",
+        "source_chapter": "二、一元函数微分学"
+    },
+    {
+        "id": 48,
+        "content": "隐函数的导数",
+        "familiarity": "会求",
+        "source_chapter": "二、一元函数微分学"
+    },
+    {
+        "id": 49,
+        "content": "由参数方程所确定的函数的导数",
+        "familiarity": "会求",
+        "source_chapter": "二、一元函数微分学"
+    },
+    {
+        "id": 50,
+        "content": "反函数的导数",
+        "familiarity": "会求",
+        "source_chapter": "二、一元函数微分学"
+    },
+    {
+        "id": 51,
+        "content": "罗尔（Rolle）定理",
+        "familiarity": "理解",
+        "source_chapter": "二、一元函数微分学"
+    },
+    {
+        "id": 52,
+        "content": "拉格朗日（Lagrange）中值定理",
+        "familiarity": "理解",
+        "source_chapter": "二、一元函数微分学"
+    },
+    {
+        "id": 53,
+        "content": "泰勒(（Tylor）定理",
+        "familiarity": "理解",
+        "source_chapter": "二、一元函数微分学"
+    },
+    {
+        "id": 54,
+        "content": "柯西（Cauchy）中值定理",
+        "familiarity": "了解",
+        "source_chapter": "二、一元函数微分学"
+    },
+    {
+        "id": 55,
+        "content": "洛必达法则",
+        "familiarity": "掌握",
+        "source_chapter": "二、一元函数微分学"
+    },
+    {
+        "id": 56,
+        "content": "函数的极值概念",
+        "familiarity": "理解",
+        "source_chapter": "二、一元函数微分学"
+    },
+    {
+        "id": 57,
+        "content": "用导数判断函数的单调性",
+        "familiarity": "掌握",
+        "source_chapter": "二、一元函数微分学"
+    },
+    {
+        "id": 58,
+        "content": "求函数极值的方法",
+        "familiarity": "掌握",
+        "source_chapter": "二、一元函数微分学"
+    },
+    {
+        "id": 59,
+        "content": "求函数最大值和最小值",
+        "familiarity": "掌握",
+        "source_chapter": "二、一元函数微分学"
+    },
+    {
+        "id": 60,
+        "content": "应用",
+        "familiarity": "掌握",
+        "source_chapter": "二、一元函数微分学"
+    },
+    {
+        "id": 61,
+        "content": "会用导数判断函数图形的凹凸性",
+        "familiarity": "掌握",
+        "source_chapter": "二、一元函数微分学"
+    },
+    {
+        "id": 62,
+        "content": "会求函数图形的拐点场及水平、铅直和斜渐近线",
+        "familiarity": "掌握",
+        "source_chapter": "二、一元函数微分学"
+    },
+    {
+        "id": 63,
+        "content": "会描绘函数的图形",
+        "familiarity": "掌握",
+        "source_chapter": "二、一元函数微分学"
+    },
+    {
+        "id": 64,
+        "content": "原函数的概念",
+        "familiarity": "理解",
+        "source_chapter": "三、一元函数积分学"
+    },
+    {
+        "id": 65,
+        "content": "不定积分的概念",
+        "familiarity": "理解",
+        "source_chapter": "三、一元函数积分学"
+    },
+    {
+        "id": 66,
+        "content": "定积分的概念",
+        "familiarity": "理解",
+        "source_chapter": "三、一元函数积分学"
+    },
+    {
+        "id": 67,
+        "content": "有理函数的积分",
+        "familiarity": "会求",
+        "source_chapter": "三、一元函数积分学"
+    },
+    {
+        "id": 68,
+        "content": "三角函数有理式的积分",
+        "familiarity": "会求",
+        "source_chapter": "三、一元函数积分学"
+    },
+    {
+        "id": 69,
+        "content": "简单无理函数的积分",
+        "familiarity": "会求",
+        "source_chapter": "三、一元函数积分学"
+    },
+    {
+        "id": 70,
+        "content": "积分上限的函数",
+        "familiarity": "理解",
+        "source_chapter": "三、一元函数积分学"
+    },
+    {
+        "id": 71,
+        "content": "导数",
+        "familiarity": "掌握",
+        "source_chapter": "三、一元函数积分学"
+    },
+    {
+        "id": 72,
+        "content": "牛顿-莱布尼茨公式",
+        "familiarity": "掌握",
+        "source_chapter": "三、一元函数积分学"
+    },
+    {
+        "id": 73,
+        "content": "反常积分的概念",
+        "familiarity": "理解",
+        "source_chapter": "三、一元函数积分学"
+    },
+    {
+        "id": 74,
+        "content": "反常积分收敛的比较判别法",
+        "familiarity": "理解",
+        "source_chapter": "三、一元函数积分学"
+    },
+    {
+        "id": 75,
+        "content": "反常积分的计算方法",
+        "familiarity": "掌握",
+        "source_chapter": "三、一元函数积分学"
+    },
+    {
+        "id": 76,
+        "content": "用定积分表达和计算几何量",
+        "familiarity": "掌握",
+        "source_chapter": "三、一元函数积分学"
+    },
+    {
+        "id": 77,
+        "content": "平面图形的面积",
+        "familiarity": "掌握",
+        "source_chapter": "三、一元函数积分学"
+    },
+    {
+        "id": 78,
+        "content": "平面曲线的弧长",
+        "familiarity": "掌握",
+        "source_chapter": "三、一元函数积分学"
+    },
+    {
+        "id": 79,
+        "content": "旋转体的体积及侧面积",
+        "familiarity": "掌握",
+        "source_chapter": "三、一元函数积分学"
+    },
+    {
+        "id": 80,
+        "content": "平行截面面积为已知的立体体积",
+        "familiarity": "掌握",
+        "source_chapter": "三、一元函数积分学"
+    },
+    {
+        "id": 81,
+        "content": "功",
+        "familiarity": "掌握",
+        "source_chapter": "三、一元函数积分学"
+    },
+    {
+        "id": 82,
+        "content": "引力",
+        "familiarity": "掌握",
+        "source_chapter": "三、一元函数积分学"
+    },
+    {
+        "id": 83,
+        "content": "压力",
+        "familiarity": "掌握",
+        "source_chapter": "三、一元函数积分学"
+    },
+    {
+        "id": 84,
+        "content": "质心",
+        "familiarity": "掌握",
+        "source_chapter": "三、一元函数积分学"
+    },
+    {
+        "id": 85,
+        "content": "形心",
+        "familiarity": "掌握",
+        "source_chapter": "三、一元函数积分学"
+    },
+    {
+        "id": 86,
+        "content": "空间直角坐标系",
+        "familiarity": "理解",
+        "source_chapter": "四、向量代数和空间解析几何"
+    },
+    {
+        "id": 87,
+        "content": "向量的概念及其表示",
+        "familiarity": "理解",
+        "source_chapter": "四、向量代数和空间解析几何"
+    },
+    {
+        "id": 88,
+        "content": "向量的运算",
+        "familiarity": "掌握",
+        "source_chapter": "四、向量代数和空间解析几何"
+    },
+    {
+        "id": 89,
+        "content": "线性运算",
+        "familiarity": "掌握",
+        "source_chapter": "四、向量代数和空间解析几何"
+    },
+    {
+        "id": 90,
+        "content": "数量积",
+        "familiarity": "掌握",
+        "source_chapter": "四、向量代数和空间解析几何"
+    },
+    {
+        "id": 91,
+        "content": "向量积",
+        "familiarity": "掌握",
+        "source_chapter": "四、向量代数和空间解析几何"
+    },
+    {
+        "id": 92,
+        "content": "混合积",
+        "familiarity": "掌握",
+        "source_chapter": "四、向量代数和空间解析几何"
+    },
+    {
+        "id": 93,
+        "content": "两个向量垂直的条件",
+        "familiarity": "了解",
+        "source_chapter": "四、向量代数和空间解析几何"
+    },
+    {
+        "id": 94,
+        "content": "两个向量平行的条件",
+        "familiarity": "了解",
+        "source_chapter": "四、向量代数和空间解析几何"
+    },
+    {
+        "id": 95,
+        "content": "单位向量",
+        "familiarity": "理解",
+        "source_chapter": "四、向量代数和空间解析几何"
+    },
+    {
+        "id": 96,
+        "content": "方向数与方向余弦",
+        "familiarity": "理解",
+        "source_chapter": "四、向量代数和空间解析几何"
+    },
+    {
+        "id": 97,
+        "content": "向量的坐标表达式",
+        "familiarity": "理解",
+        "source_chapter": "四、向量代数和空间解析几何"
+    },
+    {
+        "id": 98,
+        "content": "向量运算方法",
+        "familiarity": "掌握",
+        "source_chapter": "四、向量代数和空间解析几何"
+    },
+    {
+        "id": 99,
+        "content": "平面方程",
+        "familiarity": "掌握",
+        "source_chapter": "四、向量代数和空间解析几何"
+    },
+    {
+        "id": 100,
+        "content": "直线方程",
+        "familiarity": "掌握",
+        "source_chapter": "四、向量代数和空间解析几何"
+    },
+    {
+        "id": 101,
+        "content": "平面与平面的夹角",
+        "familiarity": "会求",
+        "source_chapter": "四、向量代数和空间解析几何"
+    },
+    {
+        "id": 102,
+        "content": "平面与直线的夹角",
+        "familiarity": "会求",
+        "source_chapter": "四、向量代数和空间解析几何"
+    },
+    {
+        "id": 103,
+        "content": "直线与直线的夹角",
+        "familiarity": "会求",
+        "source_chapter": "四、向量代数和空间解析几何"
+    },
+    {
+        "id": 104,
+        "content": "平面之间的关系（平行、垂直、相交等）",
+        "familiarity": "会利用",
+        "source_chapter": "四、向量代数和空间解析几何"
+    },
+    {
+        "id": 105,
+        "content": "直线之间的关系（平行、垂直、相交等）",
+        "familiarity": "会利用",
+        "source_chapter": "四、向量代数和空间解析几何"
+    },
+    {
+        "id": 106,
+        "content": "平面与直线的相互关系（平行、垂直、相交等）",
+        "familiarity": "会利用",
+        "source_chapter": "四、向量代数和空间解析几何"
+    },
+    {
+        "id": 107,
+        "content": "点到直线的距离",
+        "familiarity": "会求",
+        "source_chapter": "四、向量代数和空间解析几何"
+    },
+    {
+        "id": 108,
+        "content": "点到平面的距离",
+        "familiarity": "会求",
+        "source_chapter": "四、向量代数和空间解析几何"
+    },
+    {
+        "id": 109,
+        "content": "曲面方程的概念",
+        "familiarity": "了解",
+        "source_chapter": "四、向量代数和空间解析几何"
+    },
+    {
+        "id": 110,
+        "content": "空间曲线方程的概念",
+        "familiarity": "了解",
+        "source_chapter": "四、向量代数和空间解析几何"
+    },
+    {
+        "id": 111,
+        "content": "常用二次曲面的方程及其图形",
+        "familiarity": "了解",
+        "source_chapter": "四、向量代数和空间解析几何"
+    },
+    {
+        "id": 112,
+        "content": "柱面和旋转曲面的方程",
+        "familiarity": "掌握",
+        "source_chapter": "四、向量代数和空间解析几何"
+    },
+    {
+        "id": 113,
+        "content": "空间曲线参数方程",
+        "familiarity": "理解",
+        "source_chapter": "四、向量代数和空间解析几何"
+    },
+    {
+        "id": 114,
+        "content": "空间曲线的一般方程",
+        "familiarity": "理解",
+        "source_chapter": "四、向量代数和空间解析几何"
+    },
+    {
+        "id": 115,
+        "content": "空间曲线在坐标平面上的投影",
+        "familiarity": "理解",
+        "source_chapter": "四、向量代数和空间解析几何"
+    },
+    {
+        "id": 116,
+        "content": "投影曲线方程",
+        "familiarity": "理解",
+        "source_chapter": "四、向量代数和空间解析几何"
+    },
+    {
+        "id": 117,
+        "content": "多元函数的概念",
+        "familiarity": "理解",
+        "source_chapter": "五、多元函数微分学"
+    },
+    {
+        "id": 118,
+        "content": "二元函数的几何意义",
+        "familiarity": "理解",
+        "source_chapter": "五、多元函数微分学"
+    },
+    {
+        "id": 119,
+        "content": "二元函数的极限与连续的概念",
+        "familiarity": "了解",
+        "source_chapter": "五、多元函数微分学"
+    },
+    {
+        "id": 120,
+        "content": "有界闭区域上连续函数的性质",
+        "familiarity": "了解",
+        "source_chapter": "五、多元函数微分学"
+    },
+    {
+        "id": 121,
+        "content": "多元函数偏导数",
+        "familiarity": "理解",
+        "source_chapter": "五、多元函数微分学"
+    },
+    {
+        "id": 122,
+        "content": "全微分",
+        "familiarity": "理解",
+        "source_chapter": "五、多元函数微分学"
+    },
+    {
+        "id": 123,
+        "content": "全微分求法",
+        "familiarity": "掌握",
+        "source_chapter": "五、多元函数微分学"
+    },
+    {
+        "id": 124,
+        "content": "全微分存在条件",
+        "familiarity": "了解",
+        "source_chapter": "五、多元函数微分学"
+    },
+    {
+        "id": 125,
+        "content": "多元复合函数的一阶偏导数的求法",
+        "familiarity": "掌握",
+        "source_chapter": "五、多元函数微分学"
+    },
+    {
+        "id": 126,
+        "content": "多元复合函数的二阶偏导数的求法",
+        "familiarity": "掌握",
+        "source_chapter": "五、多元函数微分学"
+    },
+    {
+        "id": 127,
+        "content": "空间曲线的切线和法平面",
+        "familiarity": "理解",
+        "source_chapter": "五、多元函数微分学"
+    },
+    {
+        "id": 128,
+        "content": "曲面的切平面和法线",
+        "familiarity": "理解",
+        "source_chapter": "五、多元函数微分学"
+    },
+    {
+        "id": 129,
+        "content": "二元函数的二阶泰勒公式",
+        "familiarity": "理解",
+        "source_chapter": "五、多元函数微分学"
+    },
+    {
+        "id": 130,
+        "content": "多元函数极值和条件极值的概念",
+        "familiarity": "理解",
+        "source_chapter": "五、多元函数微分学"
+    },
+    {
+        "id": 131,
+        "content": "多元函数极值存在的必要条件",
+        "familiarity": "掌握",
+        "source_chapter": "五、多元函数微分学"
+    },
+    {
+        "id": 132,
+        "content": "二元函数极值存在的充分条件",
+        "familiarity": "掌握",
+        "source_chapter": "五、多元函数微分学"
+    },
+    {
+        "id": 133,
+        "content": "二元函数的极值",
+        "familiarity": "掌握",
+        "source_chapter": "五、多元函数微分学"
+    },
+    {
+        "id": 134,
+        "content": "拉格朗日乘数法求条件极值",
+        "familiarity": "掌握",
+        "source_chapter": "五、多元函数微分学"
+    },
+    {
+        "id": 135,
+        "content": "简单多元函数的最",
+        "familiarity": "理解",
+        "source_chapter": "五、多元函数微分学"
+    },
+    {
+        "id": 136,
+        "content": "二重积分的概念",
+        "familiarity": "理解",
+        "source_chapter": "六、多元函数积分学"
+    },
+    {
+        "id": 137,
+        "content": "三重积分的概念",
+        "familiarity": "理解",
+        "source_chapter": "六、多元函数积分学"
+    },
+    {
+        "id": 138,
+        "content": "重积分的性质",
+        "familiarity": "理解",
+        "source_chapter": "六、多元函数积分学"
+    },
+    {
+        "id": 139,
+        "content": "二重积分的中值定理",
+        "familiarity": "理解",
+        "source_chapter": "六、多元函数积分学"
+    },
+    {
+        "id": 140,
+        "content": "二重积分的计算方法",
+        "familiarity": "掌握",
+        "source_chapter": "六、多元函数积分学"
+    },
+    {
+        "id": 141,
+        "content": "三重积分的计算方法",
+        "familiarity": "掌握",
+        "source_chapter": "六、多元函数积分学"
+    },
+    {
+        "id": 142,
+        "content": "两类曲线积分的方法",
+        "familiarity": "掌握",
+        "source_chapter": "六、多元函数积分学"
+    },
+    {
+        "id": 143,
+        "content": "格林公式",
+        "familiarity": "掌握",
+        "source_chapter": "六、多元函数积分学"
+    },
+    {
+        "id": 144,
+        "content": "平面曲线积分与路径无关的条件",
+        "familiarity": "掌握",
+        "source_chapter": "六、多元函数积分学"
+    },
+    {
+        "id": 145,
+        "content": "二元函数全微分的原函数",
+        "familiarity": "掌握",
+        "source_chapter": "六、多元函数积分学"
+    },
+    {
+        "id": 146,
+        "content": "两类曲面积分的概念",
+        "familiarity": "了解",
+        "source_chapter": "六、多元函数积分学"
+    },
+    {
+        "id": 147,
+        "content": "两类曲面积分的性质",
+        "familiarity": "了解",
+        "source_chapter": "六、多元函数积分学"
+    },
+    {
+        "id": 148,
+        "content": "两类曲面积分的关系",
+        "familiarity": "了解",
+        "source_chapter": "六、多元函数积分学"
+    },
+    {
+        "id": 149,
+        "content": "计算两类曲面积分的方法",
+        "familiarity": "掌握",
+        "source_chapter": "六、多元函数积分学"
+    },
+    {
+        "id": 150,
+        "content": "用高斯公式计算曲面积分的方法",
+        "familiarity": "掌握",
+        "source_chapter": "六、多元函数积分学"
+    },
+    {
+        "id": 151,
+        "content": "用斯托克斯公式计算曲线积分",
+        "familiarity": "掌握",
+        "source_chapter": "六、多元函数积分学"
+    },
+    {
+        "id": 152,
+        "content": "散度的概念",
+        "familiarity": "了解",
+        "source_chapter": "六、多元函数积分学"
+    },
+    {
+        "id": 153,
+        "content": "旋度的概念",
+        "familiarity": "了解",
+        "source_chapter": "六、多元函数积分学"
+    },
+    {
+        "id": 154,
+        "content": "散度的计算方法",
+        "familiarity": "掌握",
+        "source_chapter": "六、多元函数积分学"
+    },
+    {
+        "id": 155,
+        "content": "旋度的计算方法",
+        "familiarity": "掌握",
+        "source_chapter": "六、多元函数积分学"
+    },
+    {
+        "id": 156,
+        "content": "重积分",
+        "familiarity": "会用",
+        "source_chapter": "六、多元函数积分学"
+    },
+    {
+        "id": 157,
+        "content": "曲线积分",
+        "familiarity": "会用",
+        "source_chapter": "六、多元函数积分学"
+    },
+    {
+        "id": 158,
+        "content": "曲面积分",
+        "familiarity": "会用",
+        "source_chapter": "六、多元函数积分学"
+    },
+    {
+        "id": 159,
+        "content": "常数项级数收敛、发散以及收敛级数的和的概念",
+        "familiarity": "理解",
+        "source_chapter": "七、无穷级数"
+    },
+    {
+        "id": 160,
+        "content": "级数的基本性质及收敛的必要条件",
+        "familiarity": "掌握",
+        "source_chapter": "七、无穷级数"
+    },
+    {
+        "id": 161,
+        "content": "$p$ 级数的收敛与发散的条件",
+        "familiarity": "理解",
+        "source_chapter": "七、无穷级数"
+    },
+    {
+        "id": 162,
+        "content": "正项级数收敛性比较判别法",
+        "familiarity": "掌握",
+        "source_chapter": "七、无穷级数"
+    },
+    {
+        "id": 163,
+        "content": "比值判别法",
+        "familiarity": "掌握",
+        "source_chapter": "七、无穷级数"
+    },
+    {
+        "id": 164,
+        "content": "根值判别法",
+        "familiarity": "掌握",
+        "source_chapter": "七、无穷级数"
+    },
+    {
+        "id": 165,
+        "content": "积分判别法",
+        "familiarity": "会用",
+        "source_chapter": "七、无穷级数"
+    },
+    {
+        "id": 166,
+        "content": "交错级数的莱布尼茨判别法",
+        "familiarity": "掌握",
+        "source_chapter": "七、无穷级数"
+    },
+    {
+        "id": 167,
+        "content": "任意项级数的概念",
+        "familiarity": "理解",
+        "source_chapter": "七、无穷级数"
+    },
+    {
+        "id": 168,
+        "content": "绝对收敛与条件收敛的关系",
+        "familiarity": "理解",
+        "source_chapter": "七、无穷级数"
+    },
+    {
+        "id": 169,
+        "content": "绝对收敛与收敛的关系",
+        "familiarity": "理解",
+        "source_chapter": "七、无穷级数"
+    },
+    {
+        "id": 170,
+        "content": "函数项级数的收敛域",
+        "familiarity": "理解",
+        "source_chapter": "七、无穷级数"
+    },
+    {
+        "id": 171,
+        "content": "和函数的概念",
+        "familiarity": "理解",
+        "source_chapter": "七、无穷级数"
+    },
+    {
+        "id": 172,
+        "content": "幂级数收敛半径的概念",
+        "familiarity": "理解",
+        "source_chapter": "七、无穷级数"
+    },
+    {
+        "id": 173,
+        "content": "幂级数的收敛半径",
+        "familiarity": "掌握",
+        "source_chapter": "七、无穷级数"
+    },
+    {
+        "id": 174,
+        "content": "幂级数的收敛区间",
+        "familiarity": "掌握",
+        "source_chapter": "七、无穷级数"
+    },
+    {
+        "id": 175,
+        "content": "幂级数的收敛域",
+        "familiarity": "掌握",
+        "source_chapter": "七、无穷级数"
+    },
+    {
+        "id": 176,
+        "content": "幂级数的基本性质",
+        "familiarity": "了解",
+        "source_chapter": "七、无穷级数"
+    },
+    {
+        "id": 177,
+        "content": "和函数的连续性",
+        "familiarity": "了解",
+        "source_chapter": "七、无穷级数"
+    },
+    {
+        "id": 178,
+        "content": "逐项求导",
+        "familiarity": "了解",
+        "source_chapter": "七、无穷级数"
+    },
+    {
+        "id": 179,
+        "content": "逐项积分",
+        "familiarity": "了解",
+        "source_chapter": "七、无穷级数"
+    },
+    {
+        "id": 180,
+        "content": "幂级数在收敛区间内的和函数",
+        "familiarity": "了解",
+        "source_chapter": "七、无穷级数"
+    },
+    {
+        "id": 181,
+        "content": "某些幂级数的和函数",
+        "familiarity": "了解",
+        "source_chapter": "七、无穷级数"
+    },
+    {
+        "id": 182,
+        "content": "函数展开为泰勒级数的充分必要条件",
+        "familiarity": "理解",
+        "source_chapter": "七、无穷级数"
+    },
+    {
+        "id": 183,
+        "content": "e^x的麦克劳林展开式",
+        "familiarity": "掌握",
+        "source_chapter": "七、无穷级数"
+    },
+    {
+        "id": 184,
+        "content": "sin x的麦克劳林展开式",
+        "familiarity": "掌握",
+        "source_chapter": "七、无穷级数"
+    },
+    {
+        "id": 185,
+        "content": "cos x的麦克劳林展开式",
+        "familiarity": "掌握",
+        "source_chapter": "七、无穷级数"
+    },
+    {
+        "id": 186,
+        "content": "ln(1+x)的麦克劳林展开式",
+        "familiarity": "掌握",
+        "source_chapter": "七、无穷级数"
+    },
+    {
+        "id": 187,
+        "content": "(1+x)^α的麦克劳林展开式",
+        "familiarity": "掌握",
+        "source_chapter": "七、无穷级数"
+    },
+    {
+        "id": 188,
+        "content": "傅里叶级数的概念",
+        "familiarity": "了解",
+        "source_chapter": "七、无穷级数"
+    },
+    {
+        "id": 189,
+        "content": "狄利克雷收敛定理",
+        "familiarity": "了解",
+        "source_chapter": "七、无穷级数"
+    },
+    {
+        "id": 190,
+        "content": "将定义在[-l, l]上的函数展开为傅里叶级数",
+        "familiarity": "会",
+        "source_chapter": "七、无穷级数"
+    },
+    {
+        "id": 191,
+        "content": "微分方程及其阶、解、通解、初始条件和特解等概念",
+        "familiarity": "了解",
+        "source_chapter": "常微分方程"
+    },
+    {
+        "id": 192,
+        "content": "变量可分离的微分方程",
+        "familiarity": "掌握",
+        "source_chapter": "常微分方程"
+    },
+    {
+        "id": 193,
+        "content": "一阶线性微分方程",
+        "familiarity": "掌握",
+        "source_chapter": "常微分方程"
+    },
+    {
+        "id": 194,
+        "content": "齐次微分方程",
+        "familiarity": "会解",
+        "source_chapter": "常微分方程"
+    },
+    {
+        "id": 195,
+        "content": "伯努利方程",
+        "familiarity": "会解",
+        "source_chapter": "常微分方程"
+    },
+    {
+        "id": 196,
+        "content": "全微分方程",
+        "familiarity": "会解",
+        "source_chapter": "常微分方程"
+    },
+    {
+        "id": 197,
+        "content": "变量代换解某些微分方程",
+        "familiarity": "会用",
+        "source_chapter": "常微分方程"
+    },
+    {
+        "id": 198,
+        "content": "降阶法解微分方程",
+        "familiarity": "会",
+        "source_chapter": "常微分方程"
+    },
+    {
+        "id": 199,
+        "content": "二阶常系数齐次线性微分方程的解法",
+        "familiarity": "掌握",
+        "source_chapter": "5.理解线性微分方程解的性质及解的结构。"
+    },
+    {
+        "id": 200,
+        "content": "高于二阶的常系数齐次线性微分方程的解法",
+        "familiarity": "会",
+        "source_chapter": "5.理解线性微分方程解的性质及解的结构。"
+    },
+    {
+        "id": 201,
+        "content": "二阶常系数非齐次线性微分方程",
+        "familiarity": "会求",
+        "source_chapter": "5.理解线性微分方程解的性质及解的结构。"
+    },
+    {
+        "id": 202,
+        "content": "欧拉方程",
+        "familiarity": "会求",
+        "source_chapter": "5.理解线性微分方程解的性质及解的结构。"
+    },
+    {
+        "id": 203,
+        "content": "微分方程的应用问题",
+        "familiarity": "会求",
+        "source_chapter": "5.理解线性微分方程解的性质及解的结构。"
+    },
+    {
+        "id": 204,
+        "content": "行列式的概念",
+        "familiarity": "了解",
+        "source_chapter": "一、行列式线性代数暑考试内容"
+    },
+    {
+        "id": 205,
+        "content": "行列式的性质",
+        "familiarity": "掌握",
+        "source_chapter": "一、行列式线性代数暑考试内容"
+    },
+    {
+        "id": 206,
+        "content": "行列式的性质",
+        "familiarity": "会",
+        "source_chapter": "一、行列式线性代数暑考试内容"
+    },
+    {
+        "id": 207,
+        "content": "行列式按行（列）展开定理",
+        "familiarity": "会",
+        "source_chapter": "一、行列式线性代数暑考试内容"
+    },
+    {
+        "id": 208,
+        "content": "矩阵的概念",
+        "familiarity": "理解",
+        "source_chapter": "二、矩阵"
+    },
+    {
+        "id": 209,
+        "content": "单位矩阵",
+        "familiarity": "了解",
+        "source_chapter": "二、矩阵"
+    },
+    {
+        "id": 210,
+        "content": "数量矩阵",
+        "familiarity": "了解",
+        "source_chapter": "二、矩阵"
+    },
+    {
+        "id": 211,
+        "content": "对角矩阵",
+        "familiarity": "了解",
+        "source_chapter": "二、矩阵"
+    },
+    {
+        "id": 212,
+        "content": "三角矩阵",
+        "familiarity": "了解",
+        "source_chapter": "二、矩阵"
+    },
+    {
+        "id": 213,
+        "content": "对称矩阵",
+        "familiarity": "了解",
+        "source_chapter": "二、矩阵"
+    },
+    {
+        "id": 214,
+        "content": "反对称矩阵",
+        "familiarity": "了解",
+        "source_chapter": "二、矩阵"
+    },
+    {
+        "id": 215,
+        "content": "它们的性质",
+        "familiarity": "了解",
+        "source_chapter": "二、矩阵"
+    },
+    {
+        "id": 216,
+        "content": "矩阵的线性运算",
+        "familiarity": "掌握",
+        "source_chapter": "二、矩阵"
+    },
+    {
+        "id": 217,
+        "content": "矩阵的乘法",
+        "familiarity": "掌握",
+        "source_chapter": "二、矩阵"
+    },
+    {
+        "id": 218,
+        "content": "矩阵的转置",
+        "familiarity": "掌握",
+        "source_chapter": "二、矩阵"
+    },
+    {
+        "id": 219,
+        "content": "矩阵的幂与方阵乘积的行列式性质",
+        "familiarity": "了解",
+        "source_chapter": "二、矩阵"
+    },
+    {
+        "id": 220,
+        "content": "逆矩阵的概念",
+        "familiarity": "理解",
+        "source_chapter": "二、矩阵"
+    },
+    {
+        "id": 221,
+        "content": "逆矩阵的性质",
+        "familiarity": "掌握",
+        "source_chapter": "二、矩阵"
+    },
+    {
+        "id": 222,
+        "content": "矩阵可逆的充分必要条件",
+        "familiarity": "理解",
+        "source_chapter": "二、矩阵"
+    },
+    {
+        "id": 223,
+        "content": "伴随矩阵的概念",
+        "familiarity": "理解",
+        "source_chapter": "二、矩阵"
+    },
+    {
+        "id": 224,
+        "content": "用伴随矩阵求逆矩阵",
+        "familiarity": "会",
+        "source_chapter": "二、矩阵"
+    },
+    {
+        "id": 225,
+        "content": "矩阵初等变换的概念",
+        "familiarity": "理解",
+        "source_chapter": "二、矩阵"
+    },
+    {
+        "id": 226,
+        "content": "初等矩阵的性质",
+        "familiarity": "了解",
+        "source_chapter": "二、矩阵"
+    },
+    {
+        "id": 227,
+        "content": "矩阵等价的概念",
+        "familiarity": "了解",
+        "source_chapter": "二、矩阵"
+    },
+    {
+        "id": 228,
+        "content": "矩阵的秩的概念",
+        "familiarity": "理解",
+        "source_chapter": "二、矩阵"
+    },
+    {
+        "id": 229,
+        "content": "用初等变换求矩阵的秩和逆矩阵的方法",
+        "familiarity": "掌握",
+        "source_chapter": "二、矩阵"
+    },
+    {
+        "id": 230,
+        "content": "分块矩阵及其运算",
+        "familiarity": "了解",
+        "source_chapter": "二、矩阵"
+    },
+    {
+        "id": 231,
+        "content": "$n$",
+        "familiarity": "理解",
+        "source_chapter": "三、向量"
+    },
+    {
+        "id": 232,
+        "content": "向量组线性相关",
+        "familiarity": "理解",
+        "source_chapter": "三、向量"
+    },
+    {
+        "id": 233,
+        "content": "向量组线性无关",
+        "familiarity": "理解",
+        "source_chapter": "三、向量"
+    },
+    {
+        "id": 234,
+        "content": "有关性质",
+        "familiarity": "掌握",
+        "source_chapter": "三、向量"
+    },
+    {
+        "id": 235,
+        "content": "判别法",
+        "familiarity": "掌握",
+        "source_chapter": "三、向量"
+    },
+    {
+        "id": 236,
+        "content": "向量组的极大线性无关组",
+        "familiarity": "理解",
+        "source_chapter": "三、向量"
+    },
+    {
+        "id": 237,
+        "content": "向量组的秩",
+        "familiarity": "理解",
+        "source_chapter": "三、向量"
+    },
+    {
+        "id": 238,
+        "content": "向量组的极大线性无关组及秩的求法",
+        "familiarity": "掌握",
+        "source_chapter": "三、向量"
+    },
+    {
+        "id": 239,
+        "content": "向量组等价的概念",
+        "familiarity": "理解",
+        "source_chapter": "三、向量"
+    },
+    {
+        "id": 240,
+        "content": "矩阵的秩与其行（列）向量组的秩之间的关系",
+        "familiarity": "理解",
+        "source_chapter": "三、向量"
+    },
+    {
+        "id": 241,
+        "content": "n维向量空间",
+        "familiarity": "了解",
+        "source_chapter": "三、向量"
+    },
+    {
+        "id": 242,
+        "content": "子空间",
+        "familiarity": "了解",
+        "source_chapter": "三、向量"
+    },
+    {
+        "id": 243,
+        "content": "基底",
+        "familiarity": "了解",
+        "source_chapter": "三、向量"
+    },
+    {
+        "id": 244,
+        "content": "维数",
+        "familiarity": "了解",
+        "source_chapter": "三、向量"
+    },
+    {
+        "id": 245,
+        "content": "坐标",
+        "familiarity": "了解",
+        "source_chapter": "三、向量"
+    },
+    {
+        "id": 246,
+        "content": "基变换和坐标变换公式",
+        "familiarity": "理解",
+        "source_chapter": "三、向量"
+    },
+    {
+        "id": 247,
+        "content": "过渡矩阵",
+        "familiarity": "掌握",
+        "source_chapter": "三、向量"
+    },
+    {
+        "id": 248,
+        "content": "内积的概念",
+        "familiarity": "理解",
+        "source_chapter": "三、向量"
+    },
+    {
+        "id": 249,
+        "content": "线性无关向量组正交规范化的施密特方法",
+        "familiarity": "掌握",
+        "source_chapter": "三、向量"
+    },
+    {
+        "id": 250,
+        "content": "规范正交基",
+        "familiarity": "理解",
+        "source_chapter": "三、向量"
+    },
+    {
+        "id": 251,
+        "content": "正交矩阵",
+        "familiarity": "理解",
+        "source_chapter": "三、向量"
+    },
+    {
+        "id": 252,
+        "content": "性质",
+        "familiarity": "理解",
+        "source_chapter": "三、向量"
+    },
+    {
+        "id": 253,
+        "content": "克拉默法则",
+        "familiarity": "会使用",
+        "source_chapter": "四、线性方程组"
+    },
+    {
+        "id": 254,
+        "content": "齐次线性方程组的基础解系",
+        "familiarity": "理解",
+        "source_chapter": "四、线性方程组"
+    },
+    {
+        "id": 255,
+        "content": "齐次线性方程组的通解",
+        "familiarity": "理解",
+        "source_chapter": "四、线性方程组"
+    },
+    {
+        "id": 256,
+        "content": "齐次线性方程组的解空间",
+        "familiarity": "理解",
+        "source_chapter": "四、线性方程组"
+    },
+    {
+        "id": 257,
+        "content": "齐次线性方程组的基础解系和通解的求法",
+        "familiarity": "掌握",
+        "source_chapter": "四、线性方程组"
+    },
+    {
+        "id": 258,
+        "content": "非齐次线性方程组解的结构",
+        "familiarity": "理解",
+        "source_chapter": "四、线性方程组"
+    },
+    {
+        "id": 259,
+        "content": "通解的概念",
+        "familiarity": "理解",
+        "source_chapter": "四、线性方程组"
+    },
+    {
+        "id": 260,
+        "content": "用初等行变换求解线性方程组的方法",
+        "familiarity": "掌握",
+        "source_chapter": "四、线性方程组"
+    },
+    {
+        "id": 261,
+        "content": "矩阵的特征值和特征向量的概念及性质",
+        "familiarity": "理解",
+        "source_chapter": "五、矩阵的特征值与特征向量"
+    },
+    {
+        "id": 262,
+        "content": "矩阵的特征值和特征向量的求解方法",
+        "familiarity": "掌握",
+        "source_chapter": "五、矩阵的特征值与特征向量"
+    },
+    {
+        "id": 263,
+        "content": "相似矩阵的概念",
+        "familiarity": "理解",
+        "source_chapter": "五、矩阵的特征值与特征向量"
+    },
+    {
+        "id": 264,
+        "content": "相似矩阵的性质",
+        "familiarity": "理解",
+        "source_chapter": "五、矩阵的特征值与特征向量"
+    },
+    {
+        "id": 265,
+        "content": "相似矩阵的矩阵可相似对角化的充分必要条件",
+        "familiarity": "掌握",
+        "source_chapter": "五、矩阵的特征值与特征向量"
+    },
+    {
+        "id": 266,
+        "content": "将矩阵化为相似对角矩阵的方法",
+        "familiarity": "掌握",
+        "source_chapter": "五、矩阵的特征值与特征向量"
+    },
+    {
+        "id": 267,
+        "content": "二次型的概念",
+        "familiarity": "理解",
+        "source_chapter": "五、矩阵的特征值与特征向量"
+    },
+    {
+        "id": 268,
+        "content": "二次型的性质",
+        "familiarity": "理解",
+        "source_chapter": "五、矩阵的特征值与特征向量"
+    },
+    {
+        "id": 269,
+        "content": "二次型的矩阵表示",
+        "familiarity": "理解",
+        "source_chapter": "五、矩阵的特征值与特征向量"
+    },
+    {
+        "id": 270,
+        "content": "二次型的标准形",
+        "familiarity": "掌握",
+        "source_chapter": "五、矩阵的特征值与特征向量"
+    },
+    {
+        "id": 271,
+        "content": "二次型及其矩阵表示",
+        "familiarity": "掌握",
+        "source_chapter": "五、矩阵的特征值与特征向量"
+    },
+    {
+        "id": 272,
+        "content": "二次型秩的概念",
+        "familiarity": "理解",
+        "source_chapter": "五、矩阵的特征值与特征向量"
+    },
+    {
+        "id": 273,
+        "content": "合同变换与合同矩阵的概念",
+        "familiarity": "了解",
+        "source_chapter": "五、矩阵的特征值与特征向量"
+    },
+    {
+        "id": 274,
+        "content": "二次型的标准形、规范形的概念以及惯性定理",
+        "familiarity": "了解",
+        "source_chapter": "五、矩阵的特征值与特征向量"
+    },
+    {
+        "id": 275,
+        "content": "用正交变换化二次型为标准形的方法",
+        "familiarity": "掌握",
+        "source_chapter": "五、矩阵的特征值与特征向量"
+    },
+    {
+        "id": 276,
+        "content": "用配方法化二次型为标准形",
+        "familiarity": "掌握",
+        "source_chapter": "五、矩阵的特征值与特征向量"
+    },
+    {
+        "id": 277,
+        "content": "样本空间（基本事件空间）的概念",
+        "familiarity": "了解",
+        "source_chapter": "一、随机事件与概率概率论与数理统计鼍考试内容"
+    },
+    {
+        "id": 278,
+        "content": "随机事件的概念",
+        "familiarity": "了解",
+        "source_chapter": "一、随机事件与概率概率论与数理统计鼍考试内容"
+    },
+    {
+        "id": 279,
+        "content": "事件的关系及运算",
+        "familiarity": "掌握",
+        "source_chapter": "一、随机事件与概率概率论与数理统计鼍考试内容"
+    },
+    {
+        "id": 280,
+        "content": "概率的概念",
+        "familiarity": "理解",
+        "source_chapter": "一、随机事件与概率概率论与数理统计鼍考试内容"
+    },
+    {
+        "id": 281,
+        "content": "条件概率的概念",
+        "familiarity": "理解",
+        "source_chapter": "一、随机事件与概率概率论与数理统计鼍考试内容"
+    },
+    {
+        "id": 282,
+        "content": "概率的基本性质",
+        "familiarity": "理解",
+        "source_chapter": "一、随机事件与概率概率论与数理统计鼍考试内容"
+    },
+    {
+        "id": 283,
+        "content": "古典型概率的计算方法",
+        "familiarity": "掌握",
+        "source_chapter": "一、随机事件与概率概率论与数理统计鼍考试内容"
+    },
+    {
+        "id": 284,
+        "content": "几何型概率的计算方法",
+        "familiarity": "掌握",
+        "source_chapter": "一、随机事件与概率概率论与数理统计鼍考试内容"
+    },
+    {
+        "id": 285,
+        "content": "概率的加法公式",
+        "familiarity": "掌握",
+        "source_chapter": "一、随机事件与概率概率论与数理统计鼍考试内容"
+    },
+    {
+        "id": 286,
+        "content": "概率的减法公式",
+        "familiarity": "掌握",
+        "source_chapter": "一、随机事件与概率概率论与数理统计鼍考试内容"
+    },
+    {
+        "id": 287,
+        "content": "概率的乘法公式",
+        "familiarity": "掌握",
+        "source_chapter": "一、随机事件与概率概率论与数理统计鼍考试内容"
+    },
+    {
+        "id": 288,
+        "content": "全概率公式",
+        "familiarity": "掌握",
+        "source_chapter": "一、随机事件与概率概率论与数理统计鼍考试内容"
+    },
+    {
+        "id": 289,
+        "content": "贝叶斯（Bayes）公式",
+        "familiarity": "掌握",
+        "source_chapter": "一、随机事件与概率概率论与数理统计鼍考试内容"
+    },
+    {
+        "id": 290,
+        "content": "事件独立性",
+        "familiarity": "理解",
+        "source_chapter": "一、随机事件与概率概率论与数理统计鼍考试内容"
+    },
+    {
+        "id": 291,
+        "content": "概率计算方法",
+        "familiarity": "掌握",
+        "source_chapter": "一、随机事件与概率概率论与数理统计鼍考试内容"
+    },
+    {
+        "id": 292,
+        "content": "独立重复试验",
+        "familiarity": "理解",
+        "source_chapter": "一、随机事件与概率概率论与数理统计鼍考试内容"
+    },
+    {
+        "id": 293,
+        "content": "计算方法",
+        "familiarity": "掌握",
+        "source_chapter": "一、随机事件与概率概率论与数理统计鼍考试内容"
+    },
+    {
+        "id": 294,
+        "content": "随机变量函数的分布",
+        "familiarity": "会求",
+        "source_chapter": "二、随机变量及其分布"
+    },
+    {
+        "id": 295,
+        "content": "多维随机变量的概念",
+        "familiarity": "理解",
+        "source_chapter": "三、多维随机变量及其分布暑考试内容"
+    },
+    {
+        "id": 296,
+        "content": "多维随机变量的分布的概念和性质",
+        "familiarity": "理解",
+        "source_chapter": "三、多维随机变量及其分布暑考试内容"
+    },
+    {
+        "id": 297,
+        "content": "二维离散型随机变量的概率分布、边缘分布和条件分布",
+        "familiarity": "理解",
+        "source_chapter": "三、多维随机变量及其分布暑考试内容"
+    },
+    {
+        "id": 298,
+        "content": "二维连续型随机变量的概率密度、边缘密度和条件密度",
+        "familiarity": "理解",
+        "source_chapter": "三、多维随机变量及其分布暑考试内容"
+    },
+    {
+        "id": 299,
+        "content": "与二维随机变量相关事件的概率的求解方法",
+        "familiarity": "掌握",
+        "source_chapter": "三、多维随机变量及其分布暑考试内容"
+    },
+    {
+        "id": 300,
+        "content": "随机变量的独立性",
+        "familiarity": "理解",
+        "source_chapter": "三、多维随机变量及其分布暑考试内容"
+    },
+    {
+        "id": 301,
+        "content": "随机变量的不相关性",
+        "familiarity": "理解",
+        "source_chapter": "三、多维随机变量及其分布暑考试内容"
+    },
+    {
+        "id": 302,
+        "content": "随机变量相互独立的条件",
+        "familiarity": "掌握",
+        "source_chapter": "三、多维随机变量及其分布暑考试内容"
+    },
+    {
+        "id": 303,
+        "content": "随机变量数字特征",
+        "familiarity": "理解",
+        "source_chapter": "四、随机变量的数字特征"
+    },
+    {
+        "id": 304,
+        "content": "概念",
+        "familiarity": "理解",
+        "source_chapter": "四、随机变量的数字特征"
+    },
+    {
+        "id": 305,
+        "content": "数学期望",
+        "familiarity": "理解",
+        "source_chapter": "四、随机变量的数字特征"
+    },
+    {
+        "id": 306,
+        "content": "方差",
+        "familiarity": "理解",
+        "source_chapter": "四、随机变量的数字特征"
+    },
+    {
+        "id": 307,
+        "content": "标准差",
+        "familiarity": "理解",
+        "source_chapter": "四、随机变量的数字特征"
+    },
+    {
+        "id": 308,
+        "content": "矩",
+        "familiarity": "理解",
+        "source_chapter": "四、随机变量的数字特征"
+    },
+    {
+        "id": 309,
+        "content": "协方差",
+        "familiarity": "理解",
+        "source_chapter": "四、随机变量的数字特征"
+    },
+    {
+        "id": 310,
+        "content": "相关系数",
+        "familiarity": "理解",
+        "source_chapter": "四、随机变量的数字特征"
+    },
+    {
+        "id": 311,
+        "content": "基本性质",
+        "familiarity": "理解",
+        "source_chapter": "四、随机变量的数字特征"
+    },
+    {
+        "id": 312,
+        "content": "常用分布的数字特征",
+        "familiarity": "掌握",
+        "source_chapter": "四、随机变量的数字特征"
+    },
+    {
+        "id": 313,
+        "content": "随机变量函数的数学期望",
+        "familiarity": "会求",
+        "source_chapter": "四、随机变量的数字特征"
+    },
+    {
+        "id": 314,
+        "content": "切比雪夫不等式",
+        "familiarity": "了解",
+        "source_chapter": "四、随机变量的数字特征"
+    },
+    {
+        "id": 315,
+        "content": "切比雪夫大数定律",
+        "familiarity": "理解",
+        "source_chapter": "四、随机变量的数字特征"
+    },
+    {
+        "id": 316,
+        "content": "伯努利大数定律",
+        "familiarity": "理解",
+        "source_chapter": "四、随机变量的数字特征"
+    },
+    {
+        "id": 317,
+        "content": "辛钦大数定律",
+        "familiarity": "理解",
+        "source_chapter": "四、随机变量的数字特征"
+    },
+    {
+        "id": 318,
+        "content": "棣莫弗-拉普拉斯定理",
+        "familiarity": "了解",
+        "source_chapter": "四、随机变量的数字特征"
+    },
+    {
+        "id": 319,
+        "content": "列维-林德伯格定理",
+        "familiarity": "了解",
+        "source_chapter": "四、随机变量的数字特征"
+    },
+    {
+        "id": 320,
+        "content": "总体",
+        "familiarity": "理解",
+        "source_chapter": "六、数理统计的基本概念"
+    },
+    {
+        "id": 321,
+        "content": "简单随机样本",
+        "familiarity": "理解",
+        "source_chapter": "六、数理统计的基本概念"
+    },
+    {
+        "id": 322,
+        "content": "统计量",
+        "familiarity": "理解",
+        "source_chapter": "六、数理统计的基本概念"
+    },
+    {
+        "id": 323,
+        "content": "样本均值",
+        "familiarity": "理解",
+        "source_chapter": "六、数理统计的基本概念"
+    },
+    {
+        "id": 324,
+        "content": "样本方差及样本矩",
+        "familiarity": "理解",
+        "source_chapter": "六、数理统计的基本概念"
+    },
+    {
+        "id": 325,
+        "content": "χ²分布",
+        "familiarity": "理解",
+        "source_chapter": "六、数理统计的基本概念"
+    },
+    {
+        "id": 326,
+        "content": "t分布",
+        "familiarity": "理解",
+        "source_chapter": "六、数理统计的基本概念"
+    },
+    {
+        "id": 327,
+        "content": "F分布",
+        "familiarity": "理解",
+        "source_chapter": "六、数理统计的基本概念"
+    },
+    {
+        "id": 328,
+        "content": "上侧α分位数的概念",
+        "familiarity": "理解",
+        "source_chapter": "六、数理统计的基本概念"
+    },
+    {
+        "id": 329,
+        "content": "查表计算",
+        "familiarity": "掌握",
+        "source_chapter": "六、数理统计的基本概念"
+    },
+    {
+        "id": 330,
+        "content": "正态总体的常用抽样分布",
+        "familiarity": "理解",
+        "source_chapter": "六、数理统计的基本概念"
+    },
+    {
+        "id": 331,
+        "content": "参数的点估计",
+        "familiarity": "理解",
+        "source_chapter": "七、参数估计"
+    },
+    {
+        "id": 332,
+        "content": "估计量与估计值",
+        "familiarity": "理解",
+        "source_chapter": "七、参数估计"
+    },
+    {
+        "id": 333,
+        "content": "矩估计法（一阶矩、二阶矩）",
+        "familiarity": "掌握",
+        "source_chapter": "七、参数估计"
+    },
+    {
+        "id": 334,
+        "content": "最大似然估计法",
+        "familiarity": "掌握",
+        "source_chapter": "七、参数估计"
+    },
+    {
+        "id": 335,
+        "content": "估计量的无偏性",
+        "familiarity": "理解",
+        "source_chapter": "七、参数估计"
+    },
+    {
+        "id": 336,
+        "content": "估计量的有效性（最小方差性）",
+        "familiarity": "理解",
+        "source_chapter": "七、参数估计"
+    },
+    {
+        "id": 337,
+        "content": "估计量的一致性（相合性）",
+        "familiarity": "理解",
+        "source_chapter": "七、参数估计"
+    },
+    {
+        "id": 338,
+        "content": "区间估计的概念",
+        "familiarity": "理解",
+        "source_chapter": "七、参数估计"
+    },
+    {
+        "id": 339,
+        "content": "单个正态总体的均值的置信区间",
+        "familiarity": "掌握",
+        "source_chapter": "七、参数估计"
+    },
+    {
+        "id": 340,
+        "content": "单个正态总体的方差的置信区间",
+        "familiarity": "掌握",
+        "source_chapter": "七、参数估计"
+    },
+    {
+        "id": 341,
+        "content": "两个正态总体的均值差的置信区间",
+        "familiarity": "掌握",
+        "source_chapter": "七、参数估计"
+    },
+    {
+        "id": 342,
+        "content": "两个正态总体的方差比的置信区间",
+        "familiarity": "掌握",
+        "source_chapter": "七、参数估计"
+    },
+    {
+        "id": 343,
+        "content": "显著性检验的基本思想",
+        "familiarity": "理解",
+        "source_chapter": "、假设检验"
+    },
+    {
+        "id": 344,
+        "content": "假设检验的基本步骤",
+        "familiarity": "掌握",
+        "source_chapter": "、假设检验"
+    },
+    {
+        "id": 345,
+        "content": "可能产生的两类错误",
+        "familiarity": "了解",
+        "source_chapter": "、假设检验"
+    },
+    {
+        "id": 346,
+        "content": "单个正态总体的均值和方差的假设检验",
+        "familiarity": "掌握",
+        "source_chapter": "、假设检验"
+    },
+    {
+        "id": 347,
+        "content": "两个正态总体的均值和方差的假设检验",
+        "familiarity": "掌握",
+        "source_chapter": "、假设检验"
+    }
+]

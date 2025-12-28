@@ -1,0 +1,8376 @@
+{
+  "version": "1.0",
+  "truncation": null,
+  "padding": null,
+  "added_tokens": [
+    {
+      "id": 0,
+      "content": "<pad>",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 1,
+      "content": "<s>",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 2,
+      "content": "</s>",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 3,
+      "content": "<unk>",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 4,
+      "content": "<mask>",
+      "single_word": false,
+      "lstrip": true,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    }
+  ],
+  "normalizer": null,
+  "pre_tokenizer": {
+    "type": "ByteLevel",
+    "add_prefix_space": false,
+    "trim_offsets": true,
+    "use_regex": true
+  },
+  "post_processor": null,
+  "decoder": {
+    "type": "ByteLevel",
+    "add_prefix_space": true,
+    "trim_offsets": true,
+    "use_regex": true
+  },
+  "model": {
+    "type": "BPE",
+    "dropout": null,
+    "unk_token": null,
+    "continuing_subword_prefix": null,
+    "end_of_word_suffix": null,
+    "fuse_unk": false,
+    "byte_fallback": false,
+    "ignore_merges": false,
+    "vocab": {
+      "<pad>": 0,
+      "<s>": 1,
+      "</s>": 2,
+      "<unk>": 3,
+      "<mask>": 4,
+      "!": 5,
+      "\"": 6,
+      "#": 7,
+      "$": 8,
+      "%": 9,
+      "&": 10,
+      "'": 11,
+      "(": 12,
+      ")": 13,
+      "*": 14,
+      "+": 15,
+      ",": 16,
+      "-": 17,
+      ".": 18,
+      "/": 19,
+      "0": 20,
+      "1": 21,
+      "2": 22,
+      "3": 23,
+      "4": 24,
+      "5": 25,
+      "6": 26,
+      "7": 27,
+      "8": 28,
+      "9": 29,
+      ":": 30,
+      ";": 31,
+      "<": 32,
+      "=": 33,
+      ">": 34,
+      "?": 35,
+      "@": 36,
+      "A": 37,
+      "B": 38,
+      "C": 39,
+      "D": 40,
+      "E": 41,
+      "F": 42,
+      "G": 43,
+      "H": 44,
+      "I": 45,
+      "J": 46,
+      "K": 47,
+      "L": 48,
+      "M": 49,
+      "N": 50,
+      "O": 51,
+      "P": 52,
+      "Q": 53,
+      "R": 54,
+      "S": 55,
+      "T": 56,
+      "U": 57,
+      "V": 58,
+      "W": 59,
+      "X": 60,
+      "Y": 61,
+      "Z": 62,
+      "[": 63,
+      "\\": 64,
+      "]": 65,
+      "^": 66,
+      "_": 67,
+      "`": 68,
+      "a": 69,
+      "b": 70,
+      "c": 71,
+      "d": 72,
+      "e": 73,
+      "f": 74,
+      "g": 75,
+      "h": 76,
+      "i": 77,
+      "j": 78,
+      "k": 79,
+      "l": 80,
+      "m": 81,
+      "n": 82,
+      "o": 83,
+      "p": 84,
+      "q": 85,
+      "r": 86,
+      "s": 87,
+      "t": 88,
+      "u": 89,
+      "v": 90,
+      "w": 91,
+      "x": 92,
+      "y": 93,
+      "z": 94,
+      "{": 95,
+      "|": 96,
+      "}": 97,
+      "~": 98,
+      "¡": 99,
+      "¢": 100,
+      "£": 101,
+      "¤": 102,
+      "¥": 103,
+      "¦": 104,
+      "§": 105,
+      "¨": 106,
+      "©": 107,
+      "ª": 108,
+      "«": 109,
+      "¬": 110,
+      "®": 111,
+      "¯": 112,
+      "°": 113,
+      "±": 114,
+      "²": 115,
+      "³": 116,
+      "´": 117,
+      "µ": 118,
+      "¶": 119,
+      "·": 120,
+      "¸": 121,
+      "¹": 122,
+      "º": 123,
+      "»": 124,
+      "¼": 125,
+      "½": 126,
+      "¾": 127,
+      "¿": 128,
+      "À": 129,
+      "Á": 130,
+      "Â": 131,
+      "Ã": 132,
+      "Ä": 133,
+      "Å": 134,
+      "Æ": 135,
+      "Ç": 136,
+      "È": 137,
+      "É": 138,
+      "Ê": 139,
+      "Ë": 140,
+      "Ì": 141,
+      "Í": 142,
+      "Î": 143,
+      "Ï": 144,
+      "Ð": 145,
+      "Ñ": 146,
+      "Ò": 147,
+      "Ó": 148,
+      "Ô": 149,
+      "Õ": 150,
+      "Ö": 151,
+      "×": 152,
+      "Ø": 153,
+      "Ù": 154,
+      "Ú": 155,
+      "Û": 156,
+      "Ü": 157,
+      "Ý": 158,
+      "Þ": 159,
+      "ß": 160,
+      "à": 161,
+      "á": 162,
+      "â": 163,
+      "ã": 164,
+      "ä": 165,
+      "å": 166,
+      "æ": 167,
+      "ç": 168,
+      "è": 169,
+      "é": 170,
+      "ê": 171,
+      "ë": 172,
+      "ì": 173,
+      "í": 174,
+      "î": 175,
+      "ï": 176,
+      "ð": 177,
+      "ñ": 178,
+      "ò": 179,
+      "ó": 180,
+      "ô": 181,
+      "õ": 182,
+      "ö": 183,
+      "÷": 184,
+      "ø": 185,
+      "ù": 186,
+      "ú": 187,
+      "û": 188,
+      "ü": 189,
+      "ý": 190,
+      "þ": 191,
+      "ÿ": 192,
+      "Ā": 193,
+      "ā": 194,
+      "Ă": 195,
+      "ă": 196,
+      "Ą": 197,
+      "ą": 198,
+      "Ć": 199,
+      "ć": 200,
+      "Ĉ": 201,
+      "ĉ": 202,
+      "Ċ": 203,
+      "ċ": 204,
+      "Č": 205,
+      "č": 206,
+      "Ď": 207,
+      "ď": 208,
+      "Đ": 209,
+      "đ": 210,
+      "Ē": 211,
+      "ē": 212,
+      "Ĕ": 213,
+      "ĕ": 214,
+      "Ė": 215,
+      "ė": 216,
+      "Ę": 217,
+      "ę": 218,
+      "Ě": 219,
+      "ě": 220,
+      "Ĝ": 221,
+      "ĝ": 222,
+      "Ğ": 223,
+      "ğ": 224,
+      "Ġ": 225,
+      "ġ": 226,
+      "Ģ": 227,
+      "ģ": 228,
+      "Ĥ": 229,
+      "ĥ": 230,
+      "Ħ": 231,
+      "ħ": 232,
+      "Ĩ": 233,
+      "ĩ": 234,
+      "Ī": 235,
+      "ī": 236,
+      "Ĭ": 237,
+      "ĭ": 238,
+      "Į": 239,
+      "į": 240,
+      "İ": 241,
+      "ı": 242,
+      "Ĳ": 243,
+      "ĳ": 244,
+      "Ĵ": 245,
+      "ĵ": 246,
+      "Ķ": 247,
+      "ķ": 248,
+      "ĸ": 249,
+      "Ĺ": 250,
+      "ĺ": 251,
+      "Ļ": 252,
+      "ļ": 253,
+      "Ľ": 254,
+      "ľ": 255,
+      "Ŀ": 256,
+      "ŀ": 257,
+      "Ł": 258,
+      "ł": 259,
+      "Ń": 260,
+      "Ġ}": 261,
+      "Ġ{": 262,
+      "Ġ\\": 263,
+      "Ġ_": 264,
+      "Ġ^": 265,
+      "Ġ)": 266,
+      "Ġ(": 267,
+      "Ġ1": 268,
+      "Ġ2": 269,
+      "Ġ=": 270,
+      "Ġ,": 271,
+      "Ġ-": 272,
+      "ra": 273,
+      "Ġ+": 274,
+      "ma": 275,
+      "rac": 276,
+      "frac": 277,
+      "ta": 278,
+      "Ġ0": 279,
+      "ig": 280,
+      "Ġi": 281,
+      "Ġx": 282,
+      "al": 283,
+      "Ġn": 284,
+      "le": 285,
+      "ar": 286,
+      "me": 287,
+      "th": 288,
+      "in": 289,
+      "Ġ.": 290,
+      "ft": 291,
+      "ph": 292,
+      "Ġt": 293,
+      "Ġk": 294,
+      "math": 295,
+      "Ġd": 296,
+      "igh": 297,
+      "righ": 298,
+      "am": 299,
+      "Ġa": 300,
+      "ti": 301,
+      "eta": 302,
+      "left": 303,
+      "right": 304,
+      "Ġm": 305,
+      "Ġj": 306,
+      "Ġ\\,": 307,
+      "Ġp": 308,
+      "de": 309,
+      "Ġs": 310,
+      "Ġr": 311,
+      "Ġ3": 312,
+      "Ġe": 313,
+      "si": 314,
+      "Ġ|": 315,
+      "ri": 316,
+      "mu": 317,
+      "Ġc": 318,
+      "Ġ&": 319,
+      "pha": 320,
+      "alpha": 321,
+      "da": 322,
+      "Ġl": 323,
+      "ot": 324,
+      "dot": 325,
+      "bda": 326,
+      "ambda": 327,
+      "Ġu": 328,
+      "Ġf": 329,
+      "Ġg": 330,
+      "ĠA": 331,
+      "Ġz": 332,
+      "Ġ4": 333,
+      "psi": 334,
+      "pri": 335,
+      "prime": 336,
+      "Ġ\\\\": 337,
+      "Ġy": 338,
+      "par": 339,
+      "tial": 340,
+      "partial": 341,
+      "to": 342,
+      "phi": 343,
+      "rm": 344,
+      "Ġb": 345,
+      "mathrm": 346,
+      "na": 347,
+      "lta": 348,
+      "Ġq": 349,
+      "su": 350,
+      "amma": 351,
+      "lambda": 352,
+      "cal": 353,
+      "ĠN": 354,
+      "Ġ~": 355,
+      "pi": 356,
+      "sum": 357,
+      "op": 358,
+      "ĠT": 359,
+      "nu": 360,
+      "Ġ]": 361,
+      "lo": 362,
+      "var": 363,
+      "ope": 364,
+      "tor": 365,
+      "rator": 366,
+      "operator": 367,
+      "name": 368,
+      "operatorname": 369,
+      "int": 370,
+      "igma": 371,
+      "Ġv": 372,
+      "ga": 373,
+      "mega": 374,
+      "ĠB": 375,
+      "ĠR": 376,
+      "beta": 377,
+      "rt": 378,
+      "Ġh": 379,
+      "ĠL": 380,
+      "ve": 381,
+      "Ġ[": 382,
+      "Ġ/": 383,
+      "lon": 384,
+      "bf": 385,
+      "ĠM": 386,
+      "theta": 387,
+      "delta": 388,
+      "ĠD": 389,
+      "ĠX": 390,
+      "ng": 391,
+      "Ġ\\;": 392,
+      "psilon": 393,
+      "bar": 394,
+      "sigma": 395,
+      "gamma": 396,
+      "ngle": 397,
+      "ĠC": 398,
+      "ĠF": 399,
+      "ĠS": 400,
+      "lde": 401,
+      "tilde": 402,
+      "cdot": 403,
+      "epsilon": 404,
+      "ĠH": 405,
+      "sq": 406,
+      "ĠP": 407,
+      "hi": 408,
+      "ho": 409,
+      "rho": 410,
+      "ray": 411,
+      "array": 412,
+      "la": 413,
+      "ha": 414,
+      "hat": 415,
+      "be": 416,
+      "nd": 417,
+      "sqrt": 418,
+      "Ġo": 419,
+      "end": 420,
+      "gin": 421,
+      "begin": 422,
+      "qu": 423,
+      "tau": 424,
+      "inft": 425,
+      "infty": 426,
+      "ĠE": 427,
+      "xi": 428,
+      "ĠV": 429,
+      "ĠI": 430,
+      "Ġ5": 431,
+      "omega": 432,
+      "ĠG": 433,
+      "Ġ*": 434,
+      "Ġw": 435,
+      "mathcal": 436,
+      "big": 437,
+      "ro": 438,
+      "ge": 439,
+      "Ġ:": 440,
+      "mes": 441,
+      "times": 442,
+      "leq": 443,
+      "ad": 444,
+      "ĠQ": 445,
+      "quad": 446,
+      "ĠK": 447,
+      "mathbf": 448,
+      "dots": 449,
+      "Ġ6": 450,
+      "De": 451,
+      "Delta": 452,
+      "ap": 453,
+      "varphi": 454,
+      "Ġ\\}": 455,
+      "ll": 456,
+      "ĠJ": 457,
+      "ĠU": 458,
+      "Gamma": 459,
+      "rangle": 460,
+      "Phi": 461,
+      "lin": 462,
+      "line": 463,
+      "tri": 464,
+      "rline": 465,
+      "Ġ\\{": 466,
+      "Ġ;": 467,
+      "ĠW": 468,
+      "Omega": 469,
+      "ĠZ": 470,
+      "matri": 471,
+      "matrix": 472,
+      "ove": 473,
+      "Ġ8": 474,
+      "Ġ\\|": 475,
+      "app": 476,
+      "\\{": 477,
+      "se": 478,
+      "ell": 479,
+      "vec": 480,
+      "Big": 481,
+      "Lambda": 482,
+      "pm": 483,
+      "bb": 484,
+      "mathbb": 485,
+      "chi": 486,
+      "Ġ<": 487,
+      "ĠY": 488,
+      "bla": 489,
+      "nabla": 490,
+      "langle": 491,
+      "tar": 492,
+      "overline": 493,
+      "varepsilon": 494,
+      "ĠO": 495,
+      "row": 496,
+      "Ġ>": 497,
+      "wi": 498,
+      "wide": 499,
+      "ed": 500,
+      "appa": 501,
+      "kappa": 502,
+      "cdots": 503,
+      "tarrow": 504,
+      "ldots": 505,
+      "Psi": 506,
+      "zeta": 507,
+      "Ġ\\!": 508,
+      "geq": 509,
+      "Ġ7": 510,
+      "ex": 511,
+      "rightarrow": 512,
+      "iv": 513,
+      "otimes": 514,
+      "bo": 515,
+      "Ġ9": 516,
+      "bol": 517,
+      "st": 518,
+      "qquad": 519,
+      "pro": 520,
+      "rc": 521,
+      "prod": 522,
+      "equ": 523,
+      "equiv": 524,
+      "set": 525,
+      "ci": 526,
+      "circ": 527,
+      "vert": 528,
+      "widetilde": 529,
+      "ca": 530,
+      "ses": 531,
+      "cases": 532,
+      "Sigma": 533,
+      "Ġ!": 534,
+      "dag": 535,
+      "co": 536,
+      "tex": 537,
+      "wed": 538,
+      "wedge": 539,
+      "\\}": 540,
+      "bigg": 541,
+      "text": 542,
+      "un": 543,
+      "sin": 544,
+      "unde": 545,
+      "sim": 546,
+      "ger": 547,
+      "dagger": 548,
+      "eq": 549,
+      "ign": 550,
+      "align": 551,
+      "aligned": 552,
+      "us": 553,
+      "Pi": 554,
+      "cos": 555,
+      "up": 556,
+      "widehat": 557,
+      "cap": 558,
+      "mi": 559,
+      "ast": 560,
+      "Th": 561,
+      "Theta": 562,
+      "Ġ\\:": 563,
+      "bold": 564,
+      "ck": 565,
+      "neq": 566,
+      "mid": 567,
+      "sub": 568,
+      "cup": 569,
+      "om": 570,
+      "brac": 571,
+      "bin": 572,
+      "binom": 573,
+      "fra": 574,
+      "mathfra": 575,
+      "mathfrak": 576,
+      "ln": 577,
+      "lus": 578,
+      "sy": 579,
+      "sym": 580,
+      "hbar": 581,
+      "symbol": 582,
+      "boldsymbol": 583,
+      "oplus": 584,
+      "sp": 585,
+      "angle": 586,
+      "underline": 587,
+      "exp": 588,
+      "fo": 589,
+      "rox": 590,
+      "approx": 591,
+      "re": 592,
+      "rall": 593,
+      "forall": 594,
+      "subset": 595,
+      "\\|": 596,
+      "er": 597,
+      "yle": 598,
+      "style": 599,
+      "brace": 600,
+      "Ve": 601,
+      "sta": 602,
+      "stack": 603,
+      "Vert": 604,
+      "star": 605,
+      "per": 606,
+      "perp": 607,
+      "io": 608,
+      "iota": 609,
+      "under": 610,
+      "over": 611,
+      "vartheta": 612,
+      "or": 613,
+      "bigl": 614,
+      "bigr": 615,
+      "textrm": 616,
+      "di": 617,
+      "not": 618,
+      "sf": 619,
+      "mp": 620,
+      "ac": 621,
+      "Xi": 622,
+      "log": 623,
+      "Bigr": 624,
+      "rel": 625,
+      "meq": 626,
+      "simeq": 627,
+      "Bigl": 628,
+      "stackrel": 629,
+      "flo": 630,
+      "floor": 631,
+      "lay": 632,
+      "splay": 633,
+      "display": 634,
+      "displaystyle": 635,
+      "spac": 636,
+      "space": 637,
+      "Bigg": 638,
+      "inus": 639,
+      "varrho": 640,
+      "vdots": 641,
+      "long": 642,
+      "Ġ'": 643,
+      "minus": 644,
+      "textbf": 645,
+      "setminus": 646,
+      "biggr": 647,
+      "biggl": 648,
+      "div": 649,
+      "mathsf": 650,
+      "Upsilon": 651,
+      "sc": 652,
+      "sla": 653,
+      "hspace": 654,
+      "lle": 655,
+      "sh": 656,
+      "tan": 657,
+      "longrightarrow": 658,
+      "triangle": 659,
+      "pt": 660,
+      "ript": 661,
+      "script": 662,
+      "ddot": 663,
+      "underbrace": 664,
+      "sinh": 665,
+      "brack": 666,
+      "sto": 667,
+      "psto": 668,
+      "mapsto": 669,
+      "ch": 670,
+      "top": 671,
+      "substack": 672,
+      "leftrightarrow": 673,
+      "eck": 674,
+      "check": 675,
+      "cosh": 676,
+      "bigcup": 677,
+      "lor": 678,
+      "sup": 679,
+      "supset": 680,
+      "oint": 681,
+      "bu": 682,
+      "varpi": 683,
+      "rfloor": 684,
+      "li": 685,
+      "notin": 686,
+      "upsilon": 687,
+      "lfloor": 688,
+      "sqcup": 689,
+      "Ġ\\#": 690,
+      "vee": 691,
+      "subseteq": 692,
+      "boldmath": 693,
+      "od": 694,
+      "parrow": 695,
+      "textstyle": 696,
+      "pr": 697,
+      "arrow": 698,
+      "ddots": 699,
+      "colon": 700,
+      "uparrow": 701,
+      "bigoplus": 702,
+      "llet": 703,
+      "bullet": 704,
+      "lim": 705,
+      "nt": 706,
+      "opto": 707,
+      "propto": 708,
+      "overrightarrow": 709,
+      "slant": 710,
+      "overbrace": 711,
+      "it": 712,
+      "Righ": 713,
+      "Rightarrow": 714,
+      "ow": 715,
+      "own": 716,
+      "il": 717,
+      "bot": 718,
+      "slash": 719,
+      "underset": 720,
+      "down": 721,
+      "imath": 722,
+      "sqcap": 723,
+      "Re": 724,
+      "varsigma": 725,
+      "arp": 726,
+      "cong": 727,
+      "eil": 728,
+      "downarrow": 729,
+      "lef": 730,
+      "overset": 731,
+      "circle": 732,
+      "det": 733,
+      "leftarrow": 734,
+      "ss": 735,
+      "emp": 736,
+      "ty": 737,
+      "empty": 738,
+      "emptyset": 739,
+      "no": 740,
+      "scriptstyle": 741,
+      "circled": 742,
+      "ara": 743,
+      "para": 744,
+      "llel": 745,
+      "parallel": 746,
+      "textcircled": 747,
+      "bre": 748,
+      "Ġ--": 749,
+      "Im": 750,
+      "leqslant": 751,
+      "breve": 752,
+      "ack": 753,
+      "back": 754,
+      "varPhi": 755,
+      "backslash": 756,
+      "gg": 757,
+      "textup": 758,
+      "less": 759,
+      "box": 760,
+      "ne": 761,
+      "varDelta": 762,
+      "sharp": 763,
+      "varGamma": 764,
+      "ze": 765,
+      "lesssim": 766,
+      "size": 767,
+      "mal": 768,
+      "nto": 769,
+      "phanto": 770,
+      "phantom": 771,
+      "varTheta": 772,
+      "ut": 773,
+      "varPsi": 774,
+      "nor": 775,
+      "normal": 776,
+      "varUpsilon": 777,
+      "varOmega": 778,
+      "mbe": 779,
+      "numbe": 780,
+      "number": 781,
+      "nonumber": 782,
+      "atop": 783,
+      "bigcap": 784,
+      "mod": 785,
+      "wp": 786,
+      "tt": 787,
+      "varLambda": 788,
+      "xist": 789,
+      "xists": 790,
+      "ct": 791,
+      "exists": 792,
+      "varXi": 793,
+      "Lo": 794,
+      "varSigma": 795,
+      "textnormal": 796,
+      "pmod": 797,
+      "Long": 798,
+      "varPi": 799,
+      "ect": 800,
+      "jmath": 801,
+      "rvert": 802,
+      "lvert": 803,
+      "ing": 804,
+      "rbrace": 805,
+      "Biggr": 806,
+      "sma": 807,
+      "Biggl": 808,
+      "ject": 809,
+      "bject": 810,
+      "acut": 811,
+      "acute": 812,
+      "scriptsize": 813,
+      "rceil": 814,
+      "small": 815,
+      "lbrack": 816,
+      "ceil": 817,
+      "lceil": 818,
+      "tin": 819,
+      "tiny": 820,
+      "scriptscriptstyle": 821,
+      "odot": 822,
+      "iint": 823,
+      "Le": 824,
+      "cot": 825,
+      "Left": 826,
+      "Leftrightarrow": 827,
+      "arc": 828,
+      "mathr": 829,
+      "cfrac": 830,
+      "ref": 831,
+      "mathring": 832,
+      "ker": 833,
+      "pre": 834,
+      "en": 835,
+      "mathit": 836,
+      "bmod": 837,
+      "ond": 838,
+      "overleftarrow": 839,
+      "hline": 840,
+      "Longrightarrow": 841,
+      "pmb": 842,
+      "amond": 843,
+      "kern": 844,
+      "sk": 845,
+      "geqslant": 846,
+      "diamond": 847,
+      "ip": 848,
+      "skip": 849,
+      "arctan": 850,
+      "xrightarrow": 851,
+      "mathtt": 852,
+      "lbrace": 853,
+      "eqq": 854,
+      "lar": 855,
+      "prec": 856,
+      "coloneqq": 857,
+      "lVert": 858,
+      "fla": 859,
+      "flat": 860,
+      "rVert": 861,
+      "arpo": 862,
+      "bigwedge": 863,
+      "dotsc": 864,
+      "gra": 865,
+      "grave": 866,
+      "object": 867,
+      "land": 868,
+      "ĠObject": 869,
+      "eph": 870,
+      "aleph": 871,
+      "underrightarrow": 872,
+      "overleftrightarrow": 873,
+      "Longleftrightarrow": 874,
+      "rbrack": 875,
+      "arpoo": 876,
+      "tanh": 877,
+      "underleftarrow": 878,
+      "tit": 879,
+      "textit": 880,
+      "enspace": 881,
+      "Bo": 882,
+      "underleftrightarrow": 883,
+      "Box": 884,
+      "ni": 885,
+      "squ": 886,
+      "triangleq": 887,
+      "mathop": 888,
+      "ff": 889,
+      "iff": 890,
+      "bigtriangle": 891,
+      "mit": 892,
+      "bigotimes": 893,
+      "neg": 894,
+      "eqref": 895,
+      "are": 896,
+      "square": 897,
+      "coth": 898,
+      "\\,": 899,
+      "dash": 900,
+      "boxtimes": 901,
+      "hdots": 902,
+      "tharpoo": 903,
+      "underbar": 904,
+      "dim": 905,
+      "textsf": 906,
+      "cc": 907,
+      "varkappa": 908,
+      "ere": 909,
+      "there": 910,
+      "fore": 911,
+      "therefore": 912,
+      "imp": 913,
+      "impli": 914,
+      "es": 915,
+      "implies": 916,
+      "Ġ\\%": 917,
+      "sb": 918,
+      "longleftrightarrow": 919,
+      "succ": 920,
+      "fbox": 921,
+      "otnot": 922,
+      "footnot": 923,
+      "footnote": 924,
+      "ominus": 925,
+      "bigtriangleup": 926,
+      "doteq": 927,
+      "em": 928,
+      "Ġ\\_": 929,
+      "vphantom": 930,
+      "jlim": 931,
+      "ok": 932,
+      "hook": 933,
+      "hd": 934,
+      "longmapsto": 935,
+      "cro": 936,
+      "omi": 937,
+      "cron": 938,
+      "omicron": 939,
+      "bigsqcup": 940,
+      "Ġ?": 941,
+      "nup": 942,
+      "tharpoonup": 943,
+      "texttt": 944,
+      "footnotesize": 945,
+      "vdash": 946,
+      "hookrightarrow": 947,
+      "textsc": 948,
+      "\\#": 949,
+      "rightharpoonup": 950,
+      "bigvee": 951,
+      "large": 952,
+      "tabu": 953,
+      "tabular": 954,
+      "lap": 955,
+      "supseteq": 956,
+      "emph": 957,
+      "Ti": 958,
+      "Tilde": 959,
+      "Ġ\"": 960,
+      "thing": 961,
+      "varno": 962,
+      "varnothing": 963,
+      "sec": 964,
+      "rtimes": 965,
+      "Ġ`": 966,
+      "ral": 967,
+      "triangleright": 968,
+      "\\;": 969,
+      "min": 970,
+      "dotsb": 971,
+      "searrow": 972,
+      "mkern": 973,
+      "plus": 974,
+      "med": 975,
+      "boxplus": 976,
+      "ãĢ": 977,
+      "Lar": 978,
+      "Large": 979,
+      "tu": 980,
+      "rai": 981,
+      "natu": 982,
+      "arcsin": 983,
+      "natural": 984,
+      "raise": 985,
+      "nmid": 986,
+      "rhd": 987,
+      "\\:": 988,
+      "triangleleft": 989,
+      "medskip": 990,
+      "csc": 991,
+      "dle": 992,
+      "middle": 993,
+      "ãĢģ": 994,
+      "hf": 995,
+      "enskip": 996,
+      "deg": 997,
+      "cdotp": 998,
+      "ts": 999,
+      "gets": 1000,
+      "boxed": 1001,
+      "preceq": 1002,
+      "asym": 1003,
+      "asymp": 1004,
+      "on": 1005,
+      "arg": 1006,
+      "AA": 1007,
+      "ner": 1008,
+      "Ġ\\&": 1009,
+      "inter": 1010,
+      "intercal": 1011,
+      "cop": 1012,
+      "projlim": 1013,
+      "ou": 1014,
+      "ĠãĢģ": 1015,
+      "subsetneq": 1016,
+      "rod": 1017,
+      "coprod": 1018,
+      "pou": 1019,
+      "smi": 1020,
+      "varprojlim": 1021,
+      "nds": 1022,
+      "pounds": 1023,
+      "smile": 1024,
+      "drel": 1025,
+      "buil": 1026,
+      "buildrel": 1027,
+      "nearrow": 1028,
+      "smallsetminus": 1029,
+      "Ġ\\/": 1030,
+      "injlim": 1031,
+      "succeq": 1032,
+      "low": 1033,
+      "ill": 1034,
+      "put": 1035,
+      "otect": 1036,
+      "protect": 1037,
+      "varinjlim": 1038,
+      "prescript": 1039,
+      "rut": 1040,
+      "strut": 1041,
+      "lnot": 1042,
+      "iiint": 1043,
+      "nfrac": 1044,
+      "rlap": 1045,
+      "ver": 1046,
+      "genfrac": 1047,
+      "\\!": 1048,
+      "intop": 1049,
+      "suit": 1050,
+      "gt": 1051,
+      "sl": 1052,
+      "hfill": 1053,
+      "mathver": 1054,
+      "sion": 1055,
+      "dotsm": 1056,
+      "mathversion": 1057,
+      "ddagger": 1058,
+      "gtr": 1059,
+      "max": 1060,
+      "ke": 1061,
+      "make": 1062,
+      "makebox": 1063,
+      "pe": 1064,
+      "use": 1065,
+      "beca": 1066,
+      "because": 1067,
+      "Bar": 1068,
+      "ak": 1069,
+      "noalign": 1070,
+      "break": 1071,
+      "leng": 1072,
+      "length": 1073,
+      "tch": 1074,
+      "ule": 1075,
+      "bigtriangledown": 1076,
+      "frow": 1077,
+      "lhd": 1078,
+      "frown": 1079,
+      "ipsi": 1080,
+      "vspace": 1081,
+      "mathell": 1082,
+      "rcor": 1083,
+      "real": 1084,
+      "ipsis": 1085,
+      "mathellipsis": 1086,
+      "rcorner": 1087,
+      "mo": 1088,
+      "Ġâ": 1089,
+      "null": 1090,
+      "mode": 1091,
+      "ĠâĢ": 1092,
+      "ls": 1093,
+      "lrcorner": 1094,
+      "mspace": 1095,
+      "gtrsim": 1096,
+      "models": 1097,
+      "smallskip": 1098,
+      "vline": 1099,
+      "Ġ\\*": 1100,
+      "col": 1101,
+      "Bbb": 1102,
+      "arpoon": 1103,
+      "Bbbk": 1104,
+      "allow": 1105,
+      "rule": 1106,
+      "uph": 1107,
+      "upharpoon": 1108,
+      "hslash": 1109,
+      "llap": 1110,
+      "ĠâĢĲ": 1111,
+      "upharpoonright": 1112,
+      "deset": 1113,
+      "sideset": 1114,
+      "allowbreak": 1115,
+      "ltimes": 1116,
+      "labe": 1117,
+      "bigm": 1118,
+      "raisebox": 1119,
+      "label": 1120,
+      "arrayst": 1121,
+      "retch": 1122,
+      "arraystretch": 1123,
+      "bigstar": 1124,
+      "sep": 1125,
+      "smash": 1126,
+      "diamondsuit": 1127,
+      "sha": 1128,
+      "shape": 1129,
+      "colsep": 1130,
+      "ns": 1131,
+      "tharpoons": 1132,
+      "Ġ\\-": 1133,
+      "new": 1134,
+      "ce": 1135,
+      "normalsize": 1136,
+      "arraycolsep": 1137,
+      "thin": 1138,
+      "rightlef": 1139,
+      "rightleftharpoons": 1140,
+      "SS": 1141,
+      "he": 1142,
+      "dast": 1143,
+      "setlength": 1144,
+      "circledast": 1145,
+      "cent": 1146,
+      "ure": 1147,
+      "pict": 1148,
+      "picture": 1149,
+      "thinspace": 1150,
+      "ddag": 1151,
+      "hphantom": 1152,
+      "mma": 1153,
+      "rd": 1154,
+      "surd": 1155,
+      "comma": 1156,
+      "command": 1157,
+      "uplus": 1158,
+      "newcommand": 1159,
+      "renewcommand": 1160,
+      "Vec": 1161,
+      "limit": 1162,
+      "Ġ---": 1163,
+      "Vdash": 1164,
+      "eth": 1165,
+      "longleftarrow": 1166,
+      "cu": 1167,
+      "leqq": 1168,
+      "cur": 1169,
+      "oslash": 1170,
+      "sure": 1171,
+      "mathc": 1172,
+      "bigcirc": 1173,
+      "ensure": 1174,
+      "ensuremath": 1175,
+      "xleftarrow": 1176,
+      "varlim": 1177,
+      "inte": 1178,
+      "triangledown": 1179,
+      "rner": 1180,
+      "sho": 1181,
+      "mathor": 1182,
+      "corner": 1183,
+      "short": 1184,
+      "mathord": 1185,
+      "Ġcm": 1186,
+      "rtex": 1187,
+      "intertex": 1188,
+      "intertext": 1189,
+      "hfil": 1190,
+      "an": 1191,
+      "bigskip": 1192,
+      "wr": 1193,
+      "vartriangle": 1194,
+      "warrow": 1195,
+      "updownarrow": 1196,
+      "ae": 1197,
+      "mathrel": 1198,
+      "endaligned": 1199,
+      "amal": 1200,
+      "dddot": 1201,
+      "arrowvert": 1202,
+      "amalg": 1203,
+      "vrule": 1204,
+      "ohe": 1205,
+      "tw": 1206,
+      "xlon": 1207,
+      "qual": 1208,
+      "gequal": 1209,
+      "smallint": 1210,
+      "ohead": 1211,
+      "twohead": 1212,
+      "xlongequal": 1213,
+      "tag": 1214,
+      "upshape": 1215,
+      "twoheadrightarrow": 1216,
+      "at": 1217,
+      "ly": 1218,
+      "curly": 1219,
+      "llcorner": 1220,
+      "center": 1221,
+      "lg": 1222,
+      "md": 1223,
+      "textmd": 1224,
+      "ase": 1225,
+      "ick": 1226,
+      "nnu": 1227,
+      "mannu": 1228,
+      "meral": 1229,
+      "tharpo": 1230,
+      "thick": 1231,
+      "fter": 1232,
+      "mathbin": 1233,
+      "dafter": 1234,
+      "romannu": 1235,
+      "rcase": 1236,
+      "unit": 1237,
+      "uppe": 1238,
+      "expan": 1239,
+      "displayskip": 1240,
+      "ondown": 1241,
+      "tharpoondown": 1242,
+      "romannumeral": 1243,
+      "unitlength": 1244,
+      "uppercase": 1245,
+      "expandafter": 1246,
+      "Down": 1247,
+      "Hat": 1248,
+      "tion": 1249,
+      "Downarrow": 1250,
+      "cline": 1251,
+      "ction": 1252,
+      "stri": 1253,
+      "leme": 1254,
+      "comp": 1255,
+      "restri": 1256,
+      "varlimsup": 1257,
+      "lement": 1258,
+      "complement": 1259,
+      "restriction": 1260,
+      "Ġ@": 1261,
+      "rightrightarrow": 1262,
+      "itshape": 1263,
+      "rightrightarrows": 1264,
+      "ftarrow": 1265,
+      "llde": 1266,
+      "swarrow": 1267,
+      "igarrow": 1268,
+      "rightsqu": 1269,
+      "nullde": 1270,
+      "for": 1271,
+      "erspace": 1272,
+      "limiterspace": 1273,
+      "rightsquigarrow": 1274,
+      "nulldelimiterspace": 1275,
+      "rq": 1276,
+      "biguplus": 1277,
+      "AR": 1278,
+      "GE": 1279,
+      "LAR": 1280,
+      "ub": 1281,
+      "Ġmm": 1282,
+      "arccos": 1283,
+      "trianglelefteq": 1284,
+      "LARGE": 1285,
+      "Ġ\\(": 1286,
+      "Ġ\\)": 1287,
+      "inf": 1288,
+      "def": 1289,
+      "biggm": 1290,
+      "limits": 1291,
+      "lti": 1292,
+      "te": 1293,
+      "tsuit": 1294,
+      "artsuit": 1295,
+      "multi": 1296,
+      "black": 1297,
+      "cite": 1298,
+      "smallfrown": 1299,
+      "heartsuit": 1300,
+      "shortintertext": 1301,
+      "Pr": 1302,
+      "mathope": 1303,
+      "lose": 1304,
+      "mathclose": 1305,
+      "mathopen": 1306,
+      "vcent": 1307,
+      "roup": 1308,
+      "ggg": 1309,
+      "lower": 1310,
+      "mathclap": 1311,
+      "vcentcolon": 1312,
+      "mebox": 1313,
+      "sqsubset": 1314,
+      "lax": 1315,
+      "framebox": 1316,
+      "relax": 1317,
+      "centerdot": 1318,
+      "inde": 1319,
+      "Bigm": 1320,
+      "curlyeq": 1321,
+      "mn": 1322,
+      "umn": 1323,
+      "¿½": 1324,
+      "ï¿½": 1325,
+      "Ġï¿½": 1326,
+      "rightharpoondown": 1327,
+      "supsetneq": 1328,
+      "column": 1329,
+      "multicolumn": 1330,
+      "of": 1331,
+      "uge": 1332,
+      "ĠãĢ": 1333,
+      "ngleftarrow": 1334,
+      "root": 1335,
+      "Biggm": 1336,
+      "circlearrow": 1337,
+      "Longleftarrow": 1338,
+      "shortparallel": 1339,
+      "ĠãĢĤ": 1340,
+      "Uparrow": 1341,
+      "textsl": 1342,
+      "And": 1343,
+      "ab": 1344,
+      "dig": 1345,
+      "vskip": 1346,
+      "geqq": 1347,
+      "textsub": 1348,
+      "unlhd": 1349,
+      "above": 1350,
+      "digamma": 1351,
+      "textsubscript": 1352,
+      "Da": 1353,
+      "Di": 1354,
+      "do": 1355,
+      "hskip": 1356,
+      "vDa": 1357,
+      "wti": 1358,
+      "with": 1359,
+      "bowti": 1360,
+      "dashv": 1361,
+      "Diamond": 1362,
+      "vDash": 1363,
+      "bowtie": 1364,
+      "below": 1365,
+      "varliminf": 1366,
+      "abovedisplayskip": 1367,
+      "belowdisplayskip": 1368,
+      "Sub": 1369,
+      "ldot": 1370,
+      "nsubseteq": 1371,
+      "mathstrut": 1372,
+      "pitch": 1373,
+      "fork": 1374,
+      "Subset": 1375,
+      "ldotp": 1376,
+      "pitchfork": 1377,
+      "lefteq": 1378,
+      "mathrlap": 1379,
+      "smashoperator": 1380,
+      "lefteqn": 1381,
+      "cd": 1382,
+      "group": 1383,
+      "gcd": 1384,
+      "hrule": 1385,
+      "xRightarrow": 1386,
+      "loze": 1387,
+      "vearrow": 1388,
+      "nge": 1389,
+      "sqsupset": 1390,
+      "sqsubseteq": 1391,
+      "unrhd": 1392,
+      "circledS": 1393,
+      "subsetneqq": 1394,
+      "curvearrow": 1395,
+      "blacktriangleright": 1396,
+      "lozenge": 1397,
+      "--": 1398,
+      "lead": 1399,
+      "Ġpt": 1400,
+      "mpeq": 1401,
+      "bumpeq": 1402,
+      "eqqcolon": 1403,
+      "negmed": 1404,
+      "succcurlyeq": 1405,
+      "leadsto": 1406,
+      "negmedspace": 1407,
+      "Dot": 1408,
+      "Huge": 1409,
+      "nwarrow": 1410,
+      "bigodot": 1411,
+      "textless": 1412,
+      "leftharpoondown": 1413,
+      "hdotsfor": 1414,
+      "curlyvee": 1415,
+      "thicksim": 1416,
+      "circlearrowleft": 1417,
+      "fill": 1418,
+      "mho": 1419,
+      "Ġ\\'": 1420,
+      "dotso": 1421,
+      "lines": 1422,
+      "smallsmile": 1423,
+      "hookleftarrow": 1424,
+      "thicklines": 1425,
+      "cl": 1426,
+      "lcorner": 1427,
+      "ulcorner": 1428,
+      "mathnormal": 1429,
+      "barwedge": 1430,
+      "newline": 1431,
+      "ubsuit": 1432,
+      "index": 1433,
+      "indent": 1434,
+      "clubsuit": 1435,
+      "ag": 1436,
+      "ade": 1437,
+      "rightleftarrow": 1438,
+      "delim": 1439,
+      "linebreak": 1440,
+      "spade": 1441,
+      "diag": 1442,
+      "withdelim": 1443,
+      "curvearrowright": 1444,
+      "rightleftarrows": 1445,
+      "spadesuit": 1446,
+      "withdelims": 1447,
+      "ew": 1448,
+      "rgroup": 1449,
+      "xlongrightarrow": 1450,
+      "Ġå": 1451,
+      "lll": 1452,
+      "vector": 1453,
+      "skew": 1454,
+      "gtrless": 1455,
+      "lgroup": 1456,
+      "Doteq": 1457,
+      "mskip": 1458,
+      "oparrow": 1459,
+      "looparrow": 1460,
+      "beth": 1461,
+      "unboldmath": 1462,
+      "lessdot": 1463,
+      "boxminus": 1464,
+      "Leftarrow": 1465,
+      "preccurlyeq": 1466,
+      "et": 1467,
+      "eri": 1468,
+      "huge": 1469,
+      "idots": 1470,
+      "lt": 1471,
+      "nrightarrow": 1472,
+      "vcenter": 1473,
+      "Ġ\\\"": 1474,
+      "Ġ\\^": 1475,
+      "super": 1476,
+      "operatornamewith": 1477,
+      "textsuper": 1478,
+      "eqsim": 1479,
+      "eqno": 1480,
+      "displaylimits": 1481,
+      "bracket": 1482,
+      "leftharpoonup": 1483,
+      "lessgtr": 1484,
+      "circlearrowright": 1485,
+      "idotsint": 1486,
+      "operatornamewithlimits": 1487,
+      "textsuperscript": 1488,
+      "Chi": 1489,
+      "Up": 1490,
+      "eci": 1491,
+      "gi": 1492,
+      "hss": 1493,
+      "lq": 1494,
+      "sph": 1495,
+      "mel": 1496,
+      "inner": 1497,
+      "mathinner": 1498,
+      "calangle": 1499,
+      "vartriangleleft": 1500,
+      "sqsupseteq": 1501,
+      "span": 1502,
+      "speci": 1503,
+      "coloneq": 1504,
+      "Ref": 1505,
+      "noindent": 1506,
+      "atopwithdelims": 1507,
+      "---": 1508,
+      "diagdown": 1509,
+      "looparrowright": 1510,
+      "ericalangle": 1511,
+      "Updownarrow": 1512,
+      "gimel": 1513,
+      "sphericalangle": 1514,
+      "special": 1515,
+      "crc": 1516,
+      "ju": 1517,
+      "nleftrightarrow": 1518,
+      "oo": 1519,
+      "rk": 1520,
+      "ter": 1521,
+      "Ġç": 1522,
+      "mark": 1523,
+      "dotsi": 1524,
+      "parbox": 1525,
+      "adju": 1526,
+      "coun": 1527,
+      "underbracket": 1528,
+      "circledcirc": 1529,
+      "boxdot": 1530,
+      "dashrightarrow": 1531,
+      "footnotemark": 1532,
+      "crcr": 1533,
+      "ooalign": 1534,
+      "adjust": 1535,
+      "counter": 1536,
+      "14": 1537,
+      "\\-": 1538,
+      "ide": 1539,
+      "nparallel": 1540,
+      "oin": 1541,
+      "vss": 1542,
+      "xmapsto": 1543,
+      "yright": 1544,
+      "tail": 1545,
+      "dotfill": 1546,
+      "vartriangleright": 1547,
+      "varsubsetneq": 1548,
+      "within": 1549,
+      "rightarrowtail": 1550,
+      "setcounter": 1551,
+      "displaybreak": 1552,
+      "fboxsep": 1553,
+      "copyright": 1554,
+      "verb": 1555,
+      "ble": 1556,
+      "dou": 1557,
+      "gre": 1558,
+      "nleq": 1559,
+      "ncong": 1560,
+      "nleftarrow": 1561,
+      "ointop": 1562,
+      "Ġä": 1563,
+      "dotplus": 1564,
+      "hom": 1565,
+      "bigtimes": 1566,
+      "textgre": 1567,
+      "font": 1568,
+      "vdotswithin": 1569,
+      "divide": 1570,
+      "leftrightarrows": 1571,
+      "owns": 1572,
+      "backsim": 1573,
+      "lessapprox": 1574,
+      "nexists": 1575,
+      "precsim": 1576,
+      "negthick": 1577,
+      "dasharrow": 1578,
+      "ontimes": 1579,
+      "ater": 1580,
+      "centering": 1581,
+      "multiput": 1582,
+      "blacktriangledown": 1583,
+      "curvearrowleft": 1584,
+      "blebarwedge": 1585,
+      "doublebarwedge": 1586,
+      "textgreater": 1587,
+      "divideontimes": 1588,
+      "negthickspace": 1589,
+      "Al": 1590,
+      "Kappa": 1591,
+      "\\&": 1592,
+      "\\_": 1593,
+      "by": 1594,
+      "bcolsep": 1595,
+      "ddddot": 1596,
+      "gneq": 1597,
+      "join": 1598,
+      "nprec": 1599,
+      "ov": 1600,
+      "ppro": 1601,
+      "van": 1602,
+      "xhookrightarrow": 1603,
+      "Ġæ": 1604,
+      "Ġ16": 1605,
+      "rappro": 1606,
+      "tabcolsep": 1607,
+      "rightharpoons": 1608,
+      "leftrightharpoons": 1609,
+      "advan": 1610,
+      "edby": 1611,
+      "rightarrowfill": 1612,
+      "overwithdelims": 1613,
+      "nolinebreak": 1614,
+      "circleddash": 1615,
+      "impliedby": 1616,
+      "gtrappro": 1617,
+      "gtrdot": 1618,
+      "ĠâĢ¦": 1619,
+      "allowdisplaybreak": 1620,
+      "blacktriangle": 1621,
+      "blacksquare": 1622,
+      "diagup": 1623,
+      "adjustlimits": 1624,
+      "Alpha": 1625,
+      "joinrel": 1626,
+      "oval": 1627,
+      "advance": 1628,
+      "gtrapprox": 1629,
+      "allowdisplaybreaks": 1630,
+      "Cup": 1631,
+      "Eq": 1632,
+      "Move": 1633,
+      "\\/": 1634,
+      "fi": 1635,
+      "tfrac": 1636,
+      "temp": 1637,
+      "urcorner": 1638,
+      "vadjust": 1639,
+      "è§": 1640,
+      "Īĸ": 1641,
+      "Ńī": 1642,
+      "alse": 1643,
+      "leftrightsquigarrow": 1644,
+      "muskip": 1645,
+      "varsubsetneqq": 1646,
+      "circeq": 1647,
+      "spli": 1648,
+      "scshape": 1649,
+      "veebar": 1650,
+      "normalfont": 1651,
+      "iffalse": 1652,
+      "protectu": 1653,
+      "thickapprox": 1654,
+      "Ġåħ": 1655,
+      "ĠçŃī": 1656,
+      "ĠæĪĸ": 1657,
+      "EqLeft": 1658,
+      "MoveEqLeft": 1659,
+      "splitfrac": 1660,
+      "Ar": 1661,
+      "Ddot": 1662,
+      "Join": 1663,
+      "Rrightarrow": 1664,
+      "ave": 1665,
+      "dth": 1666,
+      "etimes": 1667,
+      "eject": 1668,
+      "ever": 1669,
+      "gdots": 1670,
+      "harpoon": 1671,
+      "ost": 1672,
+      "off": 1673,
+      "pod": 1674,
+      "pen": 1675,
+      "post": 1676,
+      "vmode": 1677,
+      "ymath": 1678,
+      "¹Ļ": 1679,
+      "Ľ¸": 1680,
+      "Ġ10": 1681,
+      "alty": 1682,
+      "let": 1683,
+      "lect": 1684,
+      "leave": 1685,
+      "thre": 1686,
+      "mathac": 1687,
+      "mathch": 1688,
+      "leftthre": 1689,
+      "risin": 1690,
+      "endgroup": 1691,
+      "begingroup": 1692,
+      "linewi": 1693,
+      "linethick": 1694,
+      "rlineskip": 1695,
+      "rowvert": 1696,
+      "color": 1697,
+      "neqq": 1698,
+      "overunderset": 1699,
+      "overbracket": 1700,
+      "displaypen": 1701,
+      "limsup": 1702,
+      "downharpoon": 1703,
+      "norm": 1704,
+      "ness": 1705,
+      "normalcolor": 1706,
+      "precapprox": 1707,
+      "doteqdot": 1708,
+      "ĠâĢĵ": 1709,
+      "ĠâĢĻ": 1710,
+      "upharpoonleft": 1711,
+      "interlineskip": 1712,
+      "curlywedge": 1713,
+      "looparrowleft": 1714,
+      "ĠçĽ¸": 1715,
+      "Ġä¸": 1716,
+      "Ġä¹Ļ": 1717,
+      "è§£": 1718,
+      "Arrowvert": 1719,
+      "everymath": 1720,
+      "gdotseq": 1721,
+      "offinterlineskip": 1722,
+      "postdisplaypen": 1723,
+      "leavevmode": 1724,
+      "mathaccent": 1725,
+      "mathchar": 1726,
+      "leftthreetimes": 1727,
+      "risingdotseq": 1728,
+      "linewidth": 1729,
+      "linethickness": 1730,
+      "postdisplaypenalty": 1731,
+      "Sup": 1732,
+      "\\*": 1733,
+      "asure": 1734,
+      "bchi": 1735,
+      "bgroup": 1736,
+      "dus": 1737,
+      "ep": 1738,
+      "erline": 1739,
+      "egroup": 1740,
+      "fam": 1741,
+      "go": 1742,
+      "ij": 1743,
+      "iiiint": 1744,
+      "ice": 1745,
+      "lra": 1746,
+      "nsim": 1747,
+      "nRightarrow": 1748,
+      "nsupseteq": 1749,
+      "nVdash": 1750,
+      "oli": 1751,
+      "qno": 1752,
+      "rr": 1753,
+      "seta": 1754,
+      "soli": 1755,
+      "vide": 1756,
+      "§į": 1757,
+      "±¡": 1758,
+      "±³": 1759,
+      "·²": 1760,
+      "»£": 1761,
+      "»Ħ": 1762,
+      "¼ı": 1763,
+      "½ĵ": 1764,
+      "¿Ĳ": 1765,
+      "Ã¹": 1766,
+      "ç»Ħ": 1767,
+      "è±¡": 1768,
+      "è¿Ĳ": 1769,
+      "éĻ": 1770,
+      "Ġ#": 1771,
+      "ĠĠ": 1772,
+      "Ġè§": 1773,
+      "ĠÃ¹": 1774,
+      "Ġè¿Ĳ": 1775,
+      "ĠéĻ": 1776,
+      "Ģį": 1777,
+      "Īļ": 1778,
+      "Ĭ¨": 1779,
+      "įĥ": 1780,
+      "İŁ": 1781,
+      "ĴĮ": 1782,
+      "ľį": 1783,
+      "Ġ\\@": 1784,
+      "Ġ\\[": 1785,
+      "fraction": 1786,
+      "tast": 1787,
+      "lett": 1788,
+      "measure": 1789,
+      "rightskip": 1790,
+      "dangle": 1791,
+      "veqno": 1792,
+      "thetasym": 1793,
+      "ngeq": 1794,
+      "hoice": 1795,
+      "labchi": 1796,
+      "select": 1797,
+      "step": 1798,
+      "provide": 1799,
+      "textast": 1800,
+      "textfraction": 1801,
+      "approxeq": 1802,
+      "odbreak": 1803,
+      "liminf": 1804,
+      "nolimits": 1805,
+      "backprime": 1806,
+      "backsimeq": 1807,
+      "numberwithin": 1808,
+      "lvertneqq": 1809,
+      "reflect": 1810,
+      "refstep": 1811,
+      "skcenter": 1812,
+      "precneqq": 1813,
+      "dashleftarrow": 1814,
+      "medmuskip": 1815,
+      "raiseta": 1816,
+      "protectE": 1817,
+      "protectZ": 1818,
+      "protecte": 1819,
+      "protectm": 1820,
+      "makeat": 1821,
+      "ĠâĪļ": 1822,
+      "thinmuskip": 1823,
+      "centerline": 1824,
+      "mathchoice": 1825,
+      "shortmid": 1826,
+      "twoheadleftarrow": 1827,
+      "thickmuskip": 1828,
+      "supsetneqq": 1829,
+      "Ġå·²": 1830,
+      "Ġå¼ı": 1831,
+      "Ġå½ĵ": 1832,
+      "ĠåĢį": 1833,
+      "ĠåĬ¨": 1834,
+      "Ġåįĥ": 1835,
+      "ĠåİŁ": 1836,
+      "ĠåĴĮ": 1837,
+      "eriskcenter": 1838,
+      "Ġç§į": 1839,
+      "Ġç±³": 1840,
+      "Ġä»£": 1841,
+      "fontsize": 1842,
+      "Ġæľį": 1843,
+      "Ġåħ¥": 1844,
+      "Ġåħ¨": 1845,
+      "Ġåħ«": 1846,
+      "downharpoonleft": 1847,
+      "downharpoonright": 1848,
+      "Ġä¸ī": 1849,
+      "Ġä¸Ķ": 1850,
+      "Supset": 1851,
+      "goodbreak": 1852,
+      "lrarr": 1853,
+      "solidus": 1854,
+      "Ġè§Ĵ": 1855,
+      "ĠéĻĲ": 1856,
+      "letter": 1857,
+      "measuredangle": 1858,
+      "selectfont": 1859,
+      "providecommand": 1860,
+      "textasteriskcenter": 1861,
+      "textfractionsolidus": 1862,
+      "reflectbox": 1863,
+      "refstepcounter": 1864,
+      "raisetag": 1865,
+      "makeatletter": 1866,
+      "textasteriskcentered": 1867
+    },
+    "merges": [
+      [
+        "Ġ",
+        "}"
+      ],
+      [
+        "Ġ",
+        "{"
+      ],
+      [
+        "Ġ",
+        "\\"
+      ],
+      [
+        "Ġ",
+        "_"
+      ],
+      [
+        "Ġ",
+        "^"
+      ],
+      [
+        "Ġ",
+        ")"
+      ],
+      [
+        "Ġ",
+        "("
+      ],
+      [
+        "Ġ",
+        "1"
+      ],
+      [
+        "Ġ",
+        "2"
+      ],
+      [
+        "Ġ",
+        "="
+      ],
+      [
+        "Ġ",
+        ","
+      ],
+      [
+        "Ġ",
+        "-"
+      ],
+      [
+        "r",
+        "a"
+      ],
+      [
+        "Ġ",
+        "+"
+      ],
+      [
+        "m",
+        "a"
+      ],
+      [
+        "ra",
+        "c"
+      ],
+      [
+        "f",
+        "rac"
+      ],
+      [
+        "t",
+        "a"
+      ],
+      [
+        "Ġ",
+        "0"
+      ],
+      [
+        "i",
+        "g"
+      ],
+      [
+        "Ġ",
+        "i"
+      ],
+      [
+        "Ġ",
+        "x"
+      ],
+      [
+        "a",
+        "l"
+      ],
+      [
+        "Ġ",
+        "n"
+      ],
+      [
+        "l",
+        "e"
+      ],
+      [
+        "a",
+        "r"
+      ],
+      [
+        "m",
+        "e"
+      ],
+      [
+        "t",
+        "h"
+      ],
+      [
+        "i",
+        "n"
+      ],
+      [
+        "Ġ",
+        "."
+      ],
+      [
+        "f",
+        "t"
+      ],
+      [
+        "p",
+        "h"
+      ],
+      [
+        "Ġ",
+        "t"
+      ],
+      [
+        "Ġ",
+        "k"
+      ],
+      [
+        "ma",
+        "th"
+      ],
+      [
+        "Ġ",
+        "d"
+      ],
+      [
+        "ig",
+        "h"
+      ],
+      [
+        "r",
+        "igh"
+      ],
+      [
+        "a",
+        "m"
+      ],
+      [
+        "Ġ",
+        "a"
+      ],
+      [
+        "t",
+        "i"
+      ],
+      [
+        "e",
+        "ta"
+      ],
+      [
+        "le",
+        "ft"
+      ],
+      [
+        "righ",
+        "t"
+      ],
+      [
+        "Ġ",
+        "m"
+      ],
+      [
+        "Ġ",
+        "j"
+      ],
+      [
+        "Ġ\\",
+        ","
+      ],
+      [
+        "Ġ",
+        "p"
+      ],
+      [
+        "d",
+        "e"
+      ],
+      [
+        "Ġ",
+        "s"
+      ],
+      [
+        "Ġ",
+        "r"
+      ],
+      [
+        "Ġ",
+        "3"
+      ],
+      [
+        "Ġ",
+        "e"
+      ],
+      [
+        "s",
+        "i"
+      ],
+      [
+        "Ġ",
+        "|"
+      ],
+      [
+        "r",
+        "i"
+      ],
+      [
+        "m",
+        "u"
+      ],
+      [
+        "Ġ",
+        "c"
+      ],
+      [
+        "Ġ",
+        "&"
+      ],
+      [
+        "ph",
+        "a"
+      ],
+      [
+        "al",
+        "pha"
+      ],
+      [
+        "d",
+        "a"
+      ],
+      [
+        "Ġ",
+        "l"
+      ],
+      [
+        "o",
+        "t"
+      ],
+      [
+        "d",
+        "ot"
+      ],
+      [
+        "b",
+        "da"
+      ],
+      [
+        "am",
+        "bda"
+      ],
+      [
+        "Ġ",
+        "u"
+      ],
+      [
+        "Ġ",
+        "f"
+      ],
+      [
+        "Ġ",
+        "g"
+      ],
+      [
+        "Ġ",
+        "A"
+      ],
+      [
+        "Ġ",
+        "z"
+      ],
+      [
+        "Ġ",
+        "4"
+      ],
+      [
+        "p",
+        "si"
+      ],
+      [
+        "p",
+        "ri"
+      ],
+      [
+        "pri",
+        "me"
+      ],
+      [
+        "Ġ\\",
+        "\\"
+      ],
+      [
+        "Ġ",
+        "y"
+      ],
+      [
+        "p",
+        "ar"
+      ],
+      [
+        "ti",
+        "al"
+      ],
+      [
+        "par",
+        "tial"
+      ],
+      [
+        "t",
+        "o"
+      ],
+      [
+        "ph",
+        "i"
+      ],
+      [
+        "r",
+        "m"
+      ],
+      [
+        "Ġ",
+        "b"
+      ],
+      [
+        "math",
+        "rm"
+      ],
+      [
+        "n",
+        "a"
+      ],
+      [
+        "l",
+        "ta"
+      ],
+      [
+        "Ġ",
+        "q"
+      ],
+      [
+        "s",
+        "u"
+      ],
+      [
+        "am",
+        "ma"
+      ],
+      [
+        "l",
+        "ambda"
+      ],
+      [
+        "c",
+        "al"
+      ],
+      [
+        "Ġ",
+        "N"
+      ],
+      [
+        "Ġ",
+        "~"
+      ],
+      [
+        "p",
+        "i"
+      ],
+      [
+        "su",
+        "m"
+      ],
+      [
+        "o",
+        "p"
+      ],
+      [
+        "Ġ",
+        "T"
+      ],
+      [
+        "n",
+        "u"
+      ],
+      [
+        "Ġ",
+        "]"
+      ],
+      [
+        "l",
+        "o"
+      ],
+      [
+        "v",
+        "ar"
+      ],
+      [
+        "op",
+        "e"
+      ],
+      [
+        "to",
+        "r"
+      ],
+      [
+        "ra",
+        "tor"
+      ],
+      [
+        "ope",
+        "rator"
+      ],
+      [
+        "na",
+        "me"
+      ],
+      [
+        "operator",
+        "name"
+      ],
+      [
+        "in",
+        "t"
+      ],
+      [
+        "ig",
+        "ma"
+      ],
+      [
+        "Ġ",
+        "v"
+      ],
+      [
+        "g",
+        "a"
+      ],
+      [
+        "me",
+        "ga"
+      ],
+      [
+        "Ġ",
+        "B"
+      ],
+      [
+        "Ġ",
+        "R"
+      ],
+      [
+        "b",
+        "eta"
+      ],
+      [
+        "r",
+        "t"
+      ],
+      [
+        "Ġ",
+        "h"
+      ],
+      [
+        "Ġ",
+        "L"
+      ],
+      [
+        "v",
+        "e"
+      ],
+      [
+        "Ġ",
+        "["
+      ],
+      [
+        "Ġ",
+        "/"
+      ],
+      [
+        "lo",
+        "n"
+      ],
+      [
+        "b",
+        "f"
+      ],
+      [
+        "Ġ",
+        "M"
+      ],
+      [
+        "th",
+        "eta"
+      ],
+      [
+        "de",
+        "lta"
+      ],
+      [
+        "Ġ",
+        "D"
+      ],
+      [
+        "Ġ",
+        "X"
+      ],
+      [
+        "n",
+        "g"
+      ],
+      [
+        "Ġ\\",
+        ";"
+      ],
+      [
+        "psi",
+        "lon"
+      ],
+      [
+        "b",
+        "ar"
+      ],
+      [
+        "s",
+        "igma"
+      ],
+      [
+        "g",
+        "amma"
+      ],
+      [
+        "ng",
+        "le"
+      ],
+      [
+        "Ġ",
+        "C"
+      ],
+      [
+        "Ġ",
+        "F"
+      ],
+      [
+        "Ġ",
+        "S"
+      ],
+      [
+        "l",
+        "de"
+      ],
+      [
+        "ti",
+        "lde"
+      ],
+      [
+        "c",
+        "dot"
+      ],
+      [
+        "e",
+        "psilon"
+      ],
+      [
+        "Ġ",
+        "H"
+      ],
+      [
+        "s",
+        "q"
+      ],
+      [
+        "Ġ",
+        "P"
+      ],
+      [
+        "h",
+        "i"
+      ],
+      [
+        "h",
+        "o"
+      ],
+      [
+        "r",
+        "ho"
+      ],
+      [
+        "ra",
+        "y"
+      ],
+      [
+        "ar",
+        "ray"
+      ],
+      [
+        "l",
+        "a"
+      ],
+      [
+        "h",
+        "a"
+      ],
+      [
+        "ha",
+        "t"
+      ],
+      [
+        "b",
+        "e"
+      ],
+      [
+        "n",
+        "d"
+      ],
+      [
+        "sq",
+        "rt"
+      ],
+      [
+        "Ġ",
+        "o"
+      ],
+      [
+        "e",
+        "nd"
+      ],
+      [
+        "g",
+        "in"
+      ],
+      [
+        "be",
+        "gin"
+      ],
+      [
+        "q",
+        "u"
+      ],
+      [
+        "ta",
+        "u"
+      ],
+      [
+        "in",
+        "ft"
+      ],
+      [
+        "inft",
+        "y"
+      ],
+      [
+        "Ġ",
+        "E"
+      ],
+      [
+        "x",
+        "i"
+      ],
+      [
+        "Ġ",
+        "V"
+      ],
+      [
+        "Ġ",
+        "I"
+      ],
+      [
+        "Ġ",
+        "5"
+      ],
+      [
+        "o",
+        "mega"
+      ],
+      [
+        "Ġ",
+        "G"
+      ],
+      [
+        "Ġ",
+        "*"
+      ],
+      [
+        "Ġ",
+        "w"
+      ],
+      [
+        "math",
+        "cal"
+      ],
+      [
+        "b",
+        "ig"
+      ],
+      [
+        "r",
+        "o"
+      ],
+      [
+        "g",
+        "e"
+      ],
+      [
+        "Ġ",
+        ":"
+      ],
+      [
+        "me",
+        "s"
+      ],
+      [
+        "ti",
+        "mes"
+      ],
+      [
+        "le",
+        "q"
+      ],
+      [
+        "a",
+        "d"
+      ],
+      [
+        "Ġ",
+        "Q"
+      ],
+      [
+        "qu",
+        "ad"
+      ],
+      [
+        "Ġ",
+        "K"
+      ],
+      [
+        "math",
+        "bf"
+      ],
+      [
+        "dot",
+        "s"
+      ],
+      [
+        "Ġ",
+        "6"
+      ],
+      [
+        "D",
+        "e"
+      ],
+      [
+        "De",
+        "lta"
+      ],
+      [
+        "a",
+        "p"
+      ],
+      [
+        "var",
+        "phi"
+      ],
+      [
+        "Ġ\\",
+        "}"
+      ],
+      [
+        "l",
+        "l"
+      ],
+      [
+        "Ġ",
+        "J"
+      ],
+      [
+        "Ġ",
+        "U"
+      ],
+      [
+        "G",
+        "amma"
+      ],
+      [
+        "ra",
+        "ngle"
+      ],
+      [
+        "P",
+        "hi"
+      ],
+      [
+        "l",
+        "in"
+      ],
+      [
+        "lin",
+        "e"
+      ],
+      [
+        "t",
+        "ri"
+      ],
+      [
+        "r",
+        "line"
+      ],
+      [
+        "Ġ\\",
+        "{"
+      ],
+      [
+        "Ġ",
+        ";"
+      ],
+      [
+        "Ġ",
+        "W"
+      ],
+      [
+        "O",
+        "mega"
+      ],
+      [
+        "Ġ",
+        "Z"
+      ],
+      [
+        "ma",
+        "tri"
+      ],
+      [
+        "matri",
+        "x"
+      ],
+      [
+        "o",
+        "ve"
+      ],
+      [
+        "Ġ",
+        "8"
+      ],
+      [
+        "Ġ\\",
+        "|"
+      ],
+      [
+        "ap",
+        "p"
+      ],
+      [
+        "\\",
+        "{"
+      ],
+      [
+        "s",
+        "e"
+      ],
+      [
+        "e",
+        "ll"
+      ],
+      [
+        "ve",
+        "c"
+      ],
+      [
+        "B",
+        "ig"
+      ],
+      [
+        "L",
+        "ambda"
+      ],
+      [
+        "p",
+        "m"
+      ],
+      [
+        "b",
+        "b"
+      ],
+      [
+        "math",
+        "bb"
+      ],
+      [
+        "c",
+        "hi"
+      ],
+      [
+        "Ġ",
+        "<"
+      ],
+      [
+        "Ġ",
+        "Y"
+      ],
+      [
+        "b",
+        "la"
+      ],
+      [
+        "na",
+        "bla"
+      ],
+      [
+        "la",
+        "ngle"
+      ],
+      [
+        "ta",
+        "r"
+      ],
+      [
+        "ove",
+        "rline"
+      ],
+      [
+        "var",
+        "epsilon"
+      ],
+      [
+        "Ġ",
+        "O"
+      ],
+      [
+        "ro",
+        "w"
+      ],
+      [
+        "Ġ",
+        ">"
+      ],
+      [
+        "w",
+        "i"
+      ],
+      [
+        "wi",
+        "de"
+      ],
+      [
+        "e",
+        "d"
+      ],
+      [
+        "app",
+        "a"
+      ],
+      [
+        "k",
+        "appa"
+      ],
+      [
+        "cdot",
+        "s"
+      ],
+      [
+        "tar",
+        "row"
+      ],
+      [
+        "l",
+        "dots"
+      ],
+      [
+        "P",
+        "si"
+      ],
+      [
+        "z",
+        "eta"
+      ],
+      [
+        "Ġ\\",
+        "!"
+      ],
+      [
+        "ge",
+        "q"
+      ],
+      [
+        "Ġ",
+        "7"
+      ],
+      [
+        "e",
+        "x"
+      ],
+      [
+        "righ",
+        "tarrow"
+      ],
+      [
+        "i",
+        "v"
+      ],
+      [
+        "o",
+        "times"
+      ],
+      [
+        "b",
+        "o"
+      ],
+      [
+        "Ġ",
+        "9"
+      ],
+      [
+        "bo",
+        "l"
+      ],
+      [
+        "s",
+        "t"
+      ],
+      [
+        "q",
+        "quad"
+      ],
+      [
+        "p",
+        "ro"
+      ],
+      [
+        "r",
+        "c"
+      ],
+      [
+        "pro",
+        "d"
+      ],
+      [
+        "e",
+        "qu"
+      ],
+      [
+        "equ",
+        "iv"
+      ],
+      [
+        "se",
+        "t"
+      ],
+      [
+        "c",
+        "i"
+      ],
+      [
+        "ci",
+        "rc"
+      ],
+      [
+        "ve",
+        "rt"
+      ],
+      [
+        "wide",
+        "tilde"
+      ],
+      [
+        "c",
+        "a"
+      ],
+      [
+        "se",
+        "s"
+      ],
+      [
+        "ca",
+        "ses"
+      ],
+      [
+        "S",
+        "igma"
+      ],
+      [
+        "Ġ",
+        "!"
+      ],
+      [
+        "da",
+        "g"
+      ],
+      [
+        "c",
+        "o"
+      ],
+      [
+        "t",
+        "ex"
+      ],
+      [
+        "w",
+        "ed"
+      ],
+      [
+        "wed",
+        "ge"
+      ],
+      [
+        "\\",
+        "}"
+      ],
+      [
+        "big",
+        "g"
+      ],
+      [
+        "tex",
+        "t"
+      ],
+      [
+        "u",
+        "n"
+      ],
+      [
+        "s",
+        "in"
+      ],
+      [
+        "un",
+        "de"
+      ],
+      [
+        "si",
+        "m"
+      ],
+      [
+        "ge",
+        "r"
+      ],
+      [
+        "dag",
+        "ger"
+      ],
+      [
+        "e",
+        "q"
+      ],
+      [
+        "ig",
+        "n"
+      ],
+      [
+        "al",
+        "ign"
+      ],
+      [
+        "align",
+        "ed"
+      ],
+      [
+        "u",
+        "s"
+      ],
+      [
+        "P",
+        "i"
+      ],
+      [
+        "co",
+        "s"
+      ],
+      [
+        "u",
+        "p"
+      ],
+      [
+        "wide",
+        "hat"
+      ],
+      [
+        "c",
+        "ap"
+      ],
+      [
+        "m",
+        "i"
+      ],
+      [
+        "a",
+        "st"
+      ],
+      [
+        "T",
+        "h"
+      ],
+      [
+        "Th",
+        "eta"
+      ],
+      [
+        "Ġ\\",
+        ":"
+      ],
+      [
+        "bol",
+        "d"
+      ],
+      [
+        "c",
+        "k"
+      ],
+      [
+        "n",
+        "eq"
+      ],
+      [
+        "mi",
+        "d"
+      ],
+      [
+        "su",
+        "b"
+      ],
+      [
+        "c",
+        "up"
+      ],
+      [
+        "o",
+        "m"
+      ],
+      [
+        "b",
+        "rac"
+      ],
+      [
+        "b",
+        "in"
+      ],
+      [
+        "bin",
+        "om"
+      ],
+      [
+        "f",
+        "ra"
+      ],
+      [
+        "math",
+        "fra"
+      ],
+      [
+        "mathfra",
+        "k"
+      ],
+      [
+        "l",
+        "n"
+      ],
+      [
+        "l",
+        "us"
+      ],
+      [
+        "s",
+        "y"
+      ],
+      [
+        "sy",
+        "m"
+      ],
+      [
+        "h",
+        "bar"
+      ],
+      [
+        "sym",
+        "bol"
+      ],
+      [
+        "bold",
+        "symbol"
+      ],
+      [
+        "op",
+        "lus"
+      ],
+      [
+        "s",
+        "p"
+      ],
+      [
+        "a",
+        "ngle"
+      ],
+      [
+        "unde",
+        "rline"
+      ],
+      [
+        "ex",
+        "p"
+      ],
+      [
+        "f",
+        "o"
+      ],
+      [
+        "ro",
+        "x"
+      ],
+      [
+        "app",
+        "rox"
+      ],
+      [
+        "r",
+        "e"
+      ],
+      [
+        "ra",
+        "ll"
+      ],
+      [
+        "fo",
+        "rall"
+      ],
+      [
+        "sub",
+        "set"
+      ],
+      [
+        "\\",
+        "|"
+      ],
+      [
+        "e",
+        "r"
+      ],
+      [
+        "y",
+        "le"
+      ],
+      [
+        "st",
+        "yle"
+      ],
+      [
+        "brac",
+        "e"
+      ],
+      [
+        "V",
+        "e"
+      ],
+      [
+        "s",
+        "ta"
+      ],
+      [
+        "sta",
+        "ck"
+      ],
+      [
+        "Ve",
+        "rt"
+      ],
+      [
+        "s",
+        "tar"
+      ],
+      [
+        "p",
+        "er"
+      ],
+      [
+        "per",
+        "p"
+      ],
+      [
+        "i",
+        "o"
+      ],
+      [
+        "io",
+        "ta"
+      ],
+      [
+        "unde",
+        "r"
+      ],
+      [
+        "ove",
+        "r"
+      ],
+      [
+        "var",
+        "theta"
+      ],
+      [
+        "o",
+        "r"
+      ],
+      [
+        "big",
+        "l"
+      ],
+      [
+        "big",
+        "r"
+      ],
+      [
+        "text",
+        "rm"
+      ],
+      [
+        "d",
+        "i"
+      ],
+      [
+        "n",
+        "ot"
+      ],
+      [
+        "s",
+        "f"
+      ],
+      [
+        "m",
+        "p"
+      ],
+      [
+        "a",
+        "c"
+      ],
+      [
+        "X",
+        "i"
+      ],
+      [
+        "lo",
+        "g"
+      ],
+      [
+        "Big",
+        "r"
+      ],
+      [
+        "re",
+        "l"
+      ],
+      [
+        "me",
+        "q"
+      ],
+      [
+        "si",
+        "meq"
+      ],
+      [
+        "Big",
+        "l"
+      ],
+      [
+        "stack",
+        "rel"
+      ],
+      [
+        "f",
+        "lo"
+      ],
+      [
+        "flo",
+        "or"
+      ],
+      [
+        "la",
+        "y"
+      ],
+      [
+        "sp",
+        "lay"
+      ],
+      [
+        "di",
+        "splay"
+      ],
+      [
+        "display",
+        "style"
+      ],
+      [
+        "sp",
+        "ac"
+      ],
+      [
+        "spac",
+        "e"
+      ],
+      [
+        "Big",
+        "g"
+      ],
+      [
+        "in",
+        "us"
+      ],
+      [
+        "var",
+        "rho"
+      ],
+      [
+        "v",
+        "dots"
+      ],
+      [
+        "lon",
+        "g"
+      ],
+      [
+        "Ġ",
+        "'"
+      ],
+      [
+        "m",
+        "inus"
+      ],
+      [
+        "text",
+        "bf"
+      ],
+      [
+        "set",
+        "minus"
+      ],
+      [
+        "bigg",
+        "r"
+      ],
+      [
+        "bigg",
+        "l"
+      ],
+      [
+        "d",
+        "iv"
+      ],
+      [
+        "math",
+        "sf"
+      ],
+      [
+        "U",
+        "psilon"
+      ],
+      [
+        "s",
+        "c"
+      ],
+      [
+        "s",
+        "la"
+      ],
+      [
+        "h",
+        "space"
+      ],
+      [
+        "l",
+        "le"
+      ],
+      [
+        "s",
+        "h"
+      ],
+      [
+        "ta",
+        "n"
+      ],
+      [
+        "long",
+        "rightarrow"
+      ],
+      [
+        "tri",
+        "angle"
+      ],
+      [
+        "p",
+        "t"
+      ],
+      [
+        "ri",
+        "pt"
+      ],
+      [
+        "sc",
+        "ript"
+      ],
+      [
+        "d",
+        "dot"
+      ],
+      [
+        "under",
+        "brace"
+      ],
+      [
+        "sin",
+        "h"
+      ],
+      [
+        "brac",
+        "k"
+      ],
+      [
+        "s",
+        "to"
+      ],
+      [
+        "p",
+        "sto"
+      ],
+      [
+        "ma",
+        "psto"
+      ],
+      [
+        "c",
+        "h"
+      ],
+      [
+        "to",
+        "p"
+      ],
+      [
+        "sub",
+        "stack"
+      ],
+      [
+        "left",
+        "rightarrow"
+      ],
+      [
+        "e",
+        "ck"
+      ],
+      [
+        "ch",
+        "eck"
+      ],
+      [
+        "cos",
+        "h"
+      ],
+      [
+        "big",
+        "cup"
+      ],
+      [
+        "lo",
+        "r"
+      ],
+      [
+        "su",
+        "p"
+      ],
+      [
+        "sup",
+        "set"
+      ],
+      [
+        "o",
+        "int"
+      ],
+      [
+        "b",
+        "u"
+      ],
+      [
+        "var",
+        "pi"
+      ],
+      [
+        "r",
+        "floor"
+      ],
+      [
+        "l",
+        "i"
+      ],
+      [
+        "not",
+        "in"
+      ],
+      [
+        "u",
+        "psilon"
+      ],
+      [
+        "l",
+        "floor"
+      ],
+      [
+        "sq",
+        "cup"
+      ],
+      [
+        "Ġ\\",
+        "#"
+      ],
+      [
+        "ve",
+        "e"
+      ],
+      [
+        "subset",
+        "eq"
+      ],
+      [
+        "bold",
+        "math"
+      ],
+      [
+        "o",
+        "d"
+      ],
+      [
+        "par",
+        "row"
+      ],
+      [
+        "text",
+        "style"
+      ],
+      [
+        "p",
+        "r"
+      ],
+      [
+        "ar",
+        "row"
+      ],
+      [
+        "d",
+        "dots"
+      ],
+      [
+        "co",
+        "lon"
+      ],
+      [
+        "u",
+        "parrow"
+      ],
+      [
+        "big",
+        "oplus"
+      ],
+      [
+        "lle",
+        "t"
+      ],
+      [
+        "bu",
+        "llet"
+      ],
+      [
+        "li",
+        "m"
+      ],
+      [
+        "n",
+        "t"
+      ],
+      [
+        "op",
+        "to"
+      ],
+      [
+        "pr",
+        "opto"
+      ],
+      [
+        "over",
+        "rightarrow"
+      ],
+      [
+        "sla",
+        "nt"
+      ],
+      [
+        "over",
+        "brace"
+      ],
+      [
+        "i",
+        "t"
+      ],
+      [
+        "R",
+        "igh"
+      ],
+      [
+        "Righ",
+        "tarrow"
+      ],
+      [
+        "o",
+        "w"
+      ],
+      [
+        "ow",
+        "n"
+      ],
+      [
+        "i",
+        "l"
+      ],
+      [
+        "b",
+        "ot"
+      ],
+      [
+        "sla",
+        "sh"
+      ],
+      [
+        "under",
+        "set"
+      ],
+      [
+        "d",
+        "own"
+      ],
+      [
+        "i",
+        "math"
+      ],
+      [
+        "sq",
+        "cap"
+      ],
+      [
+        "R",
+        "e"
+      ],
+      [
+        "var",
+        "sigma"
+      ],
+      [
+        "ar",
+        "p"
+      ],
+      [
+        "co",
+        "ng"
+      ],
+      [
+        "e",
+        "il"
+      ],
+      [
+        "down",
+        "arrow"
+      ],
+      [
+        "le",
+        "f"
+      ],
+      [
+        "over",
+        "set"
+      ],
+      [
+        "circ",
+        "le"
+      ],
+      [
+        "de",
+        "t"
+      ],
+      [
+        "lef",
+        "tarrow"
+      ],
+      [
+        "s",
+        "s"
+      ],
+      [
+        "e",
+        "mp"
+      ],
+      [
+        "t",
+        "y"
+      ],
+      [
+        "emp",
+        "ty"
+      ],
+      [
+        "empty",
+        "set"
+      ],
+      [
+        "n",
+        "o"
+      ],
+      [
+        "script",
+        "style"
+      ],
+      [
+        "circle",
+        "d"
+      ],
+      [
+        "a",
+        "ra"
+      ],
+      [
+        "p",
+        "ara"
+      ],
+      [
+        "lle",
+        "l"
+      ],
+      [
+        "para",
+        "llel"
+      ],
+      [
+        "text",
+        "circled"
+      ],
+      [
+        "b",
+        "re"
+      ],
+      [
+        "Ġ-",
+        "-"
+      ],
+      [
+        "I",
+        "m"
+      ],
+      [
+        "leq",
+        "slant"
+      ],
+      [
+        "bre",
+        "ve"
+      ],
+      [
+        "a",
+        "ck"
+      ],
+      [
+        "b",
+        "ack"
+      ],
+      [
+        "var",
+        "Phi"
+      ],
+      [
+        "back",
+        "slash"
+      ],
+      [
+        "g",
+        "g"
+      ],
+      [
+        "text",
+        "up"
+      ],
+      [
+        "le",
+        "ss"
+      ],
+      [
+        "bo",
+        "x"
+      ],
+      [
+        "n",
+        "e"
+      ],
+      [
+        "var",
+        "Delta"
+      ],
+      [
+        "sh",
+        "arp"
+      ],
+      [
+        "var",
+        "Gamma"
+      ],
+      [
+        "z",
+        "e"
+      ],
+      [
+        "less",
+        "sim"
+      ],
+      [
+        "si",
+        "ze"
+      ],
+      [
+        "ma",
+        "l"
+      ],
+      [
+        "n",
+        "to"
+      ],
+      [
+        "pha",
+        "nto"
+      ],
+      [
+        "phanto",
+        "m"
+      ],
+      [
+        "var",
+        "Theta"
+      ],
+      [
+        "u",
+        "t"
+      ],
+      [
+        "var",
+        "Psi"
+      ],
+      [
+        "n",
+        "or"
+      ],
+      [
+        "nor",
+        "mal"
+      ],
+      [
+        "var",
+        "Upsilon"
+      ],
+      [
+        "var",
+        "Omega"
+      ],
+      [
+        "m",
+        "be"
+      ],
+      [
+        "nu",
+        "mbe"
+      ],
+      [
+        "numbe",
+        "r"
+      ],
+      [
+        "no",
+        "number"
+      ],
+      [
+        "a",
+        "top"
+      ],
+      [
+        "big",
+        "cap"
+      ],
+      [
+        "m",
+        "od"
+      ],
+      [
+        "w",
+        "p"
+      ],
+      [
+        "t",
+        "t"
+      ],
+      [
+        "var",
+        "Lambda"
+      ],
+      [
+        "xi",
+        "st"
+      ],
+      [
+        "xist",
+        "s"
+      ],
+      [
+        "c",
+        "t"
+      ],
+      [
+        "e",
+        "xists"
+      ],
+      [
+        "var",
+        "Xi"
+      ],
+      [
+        "L",
+        "o"
+      ],
+      [
+        "var",
+        "Sigma"
+      ],
+      [
+        "text",
+        "normal"
+      ],
+      [
+        "pm",
+        "od"
+      ],
+      [
+        "Lo",
+        "ng"
+      ],
+      [
+        "var",
+        "Pi"
+      ],
+      [
+        "e",
+        "ct"
+      ],
+      [
+        "j",
+        "math"
+      ],
+      [
+        "r",
+        "vert"
+      ],
+      [
+        "l",
+        "vert"
+      ],
+      [
+        "in",
+        "g"
+      ],
+      [
+        "r",
+        "brace"
+      ],
+      [
+        "Bigg",
+        "r"
+      ],
+      [
+        "s",
+        "ma"
+      ],
+      [
+        "Bigg",
+        "l"
+      ],
+      [
+        "j",
+        "ect"
+      ],
+      [
+        "b",
+        "ject"
+      ],
+      [
+        "ac",
+        "ut"
+      ],
+      [
+        "acut",
+        "e"
+      ],
+      [
+        "script",
+        "size"
+      ],
+      [
+        "rc",
+        "eil"
+      ],
+      [
+        "sma",
+        "ll"
+      ],
+      [
+        "l",
+        "brack"
+      ],
+      [
+        "c",
+        "eil"
+      ],
+      [
+        "l",
+        "ceil"
+      ],
+      [
+        "t",
+        "in"
+      ],
+      [
+        "tin",
+        "y"
+      ],
+      [
+        "script",
+        "scriptstyle"
+      ],
+      [
+        "o",
+        "dot"
+      ],
+      [
+        "i",
+        "int"
+      ],
+      [
+        "L",
+        "e"
+      ],
+      [
+        "c",
+        "ot"
+      ],
+      [
+        "Le",
+        "ft"
+      ],
+      [
+        "Left",
+        "rightarrow"
+      ],
+      [
+        "ar",
+        "c"
+      ],
+      [
+        "math",
+        "r"
+      ],
+      [
+        "c",
+        "frac"
+      ],
+      [
+        "re",
+        "f"
+      ],
+      [
+        "mathr",
+        "ing"
+      ],
+      [
+        "k",
+        "er"
+      ],
+      [
+        "p",
+        "re"
+      ],
+      [
+        "e",
+        "n"
+      ],
+      [
+        "math",
+        "it"
+      ],
+      [
+        "b",
+        "mod"
+      ],
+      [
+        "o",
+        "nd"
+      ],
+      [
+        "over",
+        "leftarrow"
+      ],
+      [
+        "h",
+        "line"
+      ],
+      [
+        "Long",
+        "rightarrow"
+      ],
+      [
+        "pm",
+        "b"
+      ],
+      [
+        "am",
+        "ond"
+      ],
+      [
+        "ker",
+        "n"
+      ],
+      [
+        "s",
+        "k"
+      ],
+      [
+        "geq",
+        "slant"
+      ],
+      [
+        "di",
+        "amond"
+      ],
+      [
+        "i",
+        "p"
+      ],
+      [
+        "sk",
+        "ip"
+      ],
+      [
+        "arc",
+        "tan"
+      ],
+      [
+        "x",
+        "rightarrow"
+      ],
+      [
+        "math",
+        "tt"
+      ],
+      [
+        "l",
+        "brace"
+      ],
+      [
+        "eq",
+        "q"
+      ],
+      [
+        "l",
+        "ar"
+      ],
+      [
+        "pre",
+        "c"
+      ],
+      [
+        "colon",
+        "eqq"
+      ],
+      [
+        "l",
+        "Vert"
+      ],
+      [
+        "f",
+        "la"
+      ],
+      [
+        "fla",
+        "t"
+      ],
+      [
+        "r",
+        "Vert"
+      ],
+      [
+        "arp",
+        "o"
+      ],
+      [
+        "big",
+        "wedge"
+      ],
+      [
+        "dots",
+        "c"
+      ],
+      [
+        "g",
+        "ra"
+      ],
+      [
+        "gra",
+        "ve"
+      ],
+      [
+        "o",
+        "bject"
+      ],
+      [
+        "la",
+        "nd"
+      ],
+      [
+        "ĠO",
+        "bject"
+      ],
+      [
+        "e",
+        "ph"
+      ],
+      [
+        "al",
+        "eph"
+      ],
+      [
+        "under",
+        "rightarrow"
+      ],
+      [
+        "over",
+        "leftrightarrow"
+      ],
+      [
+        "Long",
+        "leftrightarrow"
+      ],
+      [
+        "r",
+        "brack"
+      ],
+      [
+        "arpo",
+        "o"
+      ],
+      [
+        "tan",
+        "h"
+      ],
+      [
+        "under",
+        "leftarrow"
+      ],
+      [
+        "ti",
+        "t"
+      ],
+      [
+        "tex",
+        "tit"
+      ],
+      [
+        "en",
+        "space"
+      ],
+      [
+        "B",
+        "o"
+      ],
+      [
+        "under",
+        "leftrightarrow"
+      ],
+      [
+        "Bo",
+        "x"
+      ],
+      [
+        "n",
+        "i"
+      ],
+      [
+        "sq",
+        "u"
+      ],
+      [
+        "triangle",
+        "q"
+      ],
+      [
+        "math",
+        "op"
+      ],
+      [
+        "f",
+        "f"
+      ],
+      [
+        "i",
+        "ff"
+      ],
+      [
+        "big",
+        "triangle"
+      ],
+      [
+        "mi",
+        "t"
+      ],
+      [
+        "big",
+        "otimes"
+      ],
+      [
+        "ne",
+        "g"
+      ],
+      [
+        "eq",
+        "ref"
+      ],
+      [
+        "ar",
+        "e"
+      ],
+      [
+        "squ",
+        "are"
+      ],
+      [
+        "co",
+        "th"
+      ],
+      [
+        "\\",
+        ","
+      ],
+      [
+        "da",
+        "sh"
+      ],
+      [
+        "box",
+        "times"
+      ],
+      [
+        "h",
+        "dots"
+      ],
+      [
+        "th",
+        "arpoo"
+      ],
+      [
+        "under",
+        "bar"
+      ],
+      [
+        "di",
+        "m"
+      ],
+      [
+        "text",
+        "sf"
+      ],
+      [
+        "c",
+        "c"
+      ],
+      [
+        "var",
+        "kappa"
+      ],
+      [
+        "e",
+        "re"
+      ],
+      [
+        "th",
+        "ere"
+      ],
+      [
+        "fo",
+        "re"
+      ],
+      [
+        "there",
+        "fore"
+      ],
+      [
+        "i",
+        "mp"
+      ],
+      [
+        "imp",
+        "li"
+      ],
+      [
+        "e",
+        "s"
+      ],
+      [
+        "impli",
+        "es"
+      ],
+      [
+        "Ġ\\",
+        "%"
+      ],
+      [
+        "s",
+        "b"
+      ],
+      [
+        "long",
+        "leftrightarrow"
+      ],
+      [
+        "su",
+        "cc"
+      ],
+      [
+        "f",
+        "box"
+      ],
+      [
+        "ot",
+        "not"
+      ],
+      [
+        "fo",
+        "otnot"
+      ],
+      [
+        "footnot",
+        "e"
+      ],
+      [
+        "om",
+        "inus"
+      ],
+      [
+        "bigtriangle",
+        "up"
+      ],
+      [
+        "dot",
+        "eq"
+      ],
+      [
+        "e",
+        "m"
+      ],
+      [
+        "Ġ\\",
+        "_"
+      ],
+      [
+        "v",
+        "phantom"
+      ],
+      [
+        "j",
+        "lim"
+      ],
+      [
+        "o",
+        "k"
+      ],
+      [
+        "ho",
+        "ok"
+      ],
+      [
+        "h",
+        "d"
+      ],
+      [
+        "long",
+        "mapsto"
+      ],
+      [
+        "c",
+        "ro"
+      ],
+      [
+        "o",
+        "mi"
+      ],
+      [
+        "cro",
+        "n"
+      ],
+      [
+        "omi",
+        "cron"
+      ],
+      [
+        "big",
+        "sqcup"
+      ],
+      [
+        "Ġ",
+        "?"
+      ],
+      [
+        "nu",
+        "p"
+      ],
+      [
+        "tharpoo",
+        "nup"
+      ],
+      [
+        "text",
+        "tt"
+      ],
+      [
+        "footnote",
+        "size"
+      ],
+      [
+        "v",
+        "dash"
+      ],
+      [
+        "hook",
+        "rightarrow"
+      ],
+      [
+        "text",
+        "sc"
+      ],
+      [
+        "\\",
+        "#"
+      ],
+      [
+        "righ",
+        "tharpoonup"
+      ],
+      [
+        "big",
+        "vee"
+      ],
+      [
+        "lar",
+        "ge"
+      ],
+      [
+        "ta",
+        "bu"
+      ],
+      [
+        "tabu",
+        "lar"
+      ],
+      [
+        "la",
+        "p"
+      ],
+      [
+        "supset",
+        "eq"
+      ],
+      [
+        "em",
+        "ph"
+      ],
+      [
+        "T",
+        "i"
+      ],
+      [
+        "Ti",
+        "lde"
+      ],
+      [
+        "Ġ",
+        "\""
+      ],
+      [
+        "th",
+        "ing"
+      ],
+      [
+        "var",
+        "no"
+      ],
+      [
+        "varno",
+        "thing"
+      ],
+      [
+        "se",
+        "c"
+      ],
+      [
+        "r",
+        "times"
+      ],
+      [
+        "Ġ",
+        "`"
+      ],
+      [
+        "ra",
+        "l"
+      ],
+      [
+        "triangle",
+        "right"
+      ],
+      [
+        "\\",
+        ";"
+      ],
+      [
+        "m",
+        "in"
+      ],
+      [
+        "dots",
+        "b"
+      ],
+      [
+        "se",
+        "arrow"
+      ],
+      [
+        "m",
+        "kern"
+      ],
+      [
+        "p",
+        "lus"
+      ],
+      [
+        "me",
+        "d"
+      ],
+      [
+        "box",
+        "plus"
+      ],
+      [
+        "ã",
+        "Ģ"
+      ],
+      [
+        "L",
+        "ar"
+      ],
+      [
+        "Lar",
+        "ge"
+      ],
+      [
+        "t",
+        "u"
+      ],
+      [
+        "ra",
+        "i"
+      ],
+      [
+        "na",
+        "tu"
+      ],
+      [
+        "arc",
+        "sin"
+      ],
+      [
+        "natu",
+        "ral"
+      ],
+      [
+        "rai",
+        "se"
+      ],
+      [
+        "n",
+        "mid"
+      ],
+      [
+        "r",
+        "hd"
+      ],
+      [
+        "\\",
+        ":"
+      ],
+      [
+        "triangle",
+        "left"
+      ],
+      [
+        "med",
+        "skip"
+      ],
+      [
+        "c",
+        "sc"
+      ],
+      [
+        "d",
+        "le"
+      ],
+      [
+        "mid",
+        "dle"
+      ],
+      [
+        "ãĢ",
+        "ģ"
+      ],
+      [
+        "h",
+        "f"
+      ],
+      [
+        "en",
+        "skip"
+      ],
+      [
+        "de",
+        "g"
+      ],
+      [
+        "cdot",
+        "p"
+      ],
+      [
+        "t",
+        "s"
+      ],
+      [
+        "ge",
+        "ts"
+      ],
+      [
+        "box",
+        "ed"
+      ],
+      [
+        "prec",
+        "eq"
+      ],
+      [
+        "a",
+        "sym"
+      ],
+      [
+        "asym",
+        "p"
+      ],
+      [
+        "o",
+        "n"
+      ],
+      [
+        "ar",
+        "g"
+      ],
+      [
+        "A",
+        "A"
+      ],
+      [
+        "n",
+        "er"
+      ],
+      [
+        "Ġ\\",
+        "&"
+      ],
+      [
+        "int",
+        "er"
+      ],
+      [
+        "inter",
+        "cal"
+      ],
+      [
+        "c",
+        "op"
+      ],
+      [
+        "pro",
+        "jlim"
+      ],
+      [
+        "o",
+        "u"
+      ],
+      [
+        "Ġ",
+        "ãĢģ"
+      ],
+      [
+        "subset",
+        "neq"
+      ],
+      [
+        "ro",
+        "d"
+      ],
+      [
+        "cop",
+        "rod"
+      ],
+      [
+        "p",
+        "ou"
+      ],
+      [
+        "s",
+        "mi"
+      ],
+      [
+        "var",
+        "projlim"
+      ],
+      [
+        "nd",
+        "s"
+      ],
+      [
+        "pou",
+        "nds"
+      ],
+      [
+        "smi",
+        "le"
+      ],
+      [
+        "d",
+        "rel"
+      ],
+      [
+        "bu",
+        "il"
+      ],
+      [
+        "buil",
+        "drel"
+      ],
+      [
+        "ne",
+        "arrow"
+      ],
+      [
+        "small",
+        "setminus"
+      ],
+      [
+        "Ġ\\",
+        "/"
+      ],
+      [
+        "in",
+        "jlim"
+      ],
+      [
+        "succ",
+        "eq"
+      ],
+      [
+        "lo",
+        "w"
+      ],
+      [
+        "i",
+        "ll"
+      ],
+      [
+        "p",
+        "ut"
+      ],
+      [
+        "ot",
+        "ect"
+      ],
+      [
+        "pr",
+        "otect"
+      ],
+      [
+        "var",
+        "injlim"
+      ],
+      [
+        "pre",
+        "script"
+      ],
+      [
+        "r",
+        "ut"
+      ],
+      [
+        "st",
+        "rut"
+      ],
+      [
+        "ln",
+        "ot"
+      ],
+      [
+        "i",
+        "iint"
+      ],
+      [
+        "n",
+        "frac"
+      ],
+      [
+        "r",
+        "lap"
+      ],
+      [
+        "ve",
+        "r"
+      ],
+      [
+        "ge",
+        "nfrac"
+      ],
+      [
+        "\\",
+        "!"
+      ],
+      [
+        "in",
+        "top"
+      ],
+      [
+        "su",
+        "it"
+      ],
+      [
+        "g",
+        "t"
+      ],
+      [
+        "s",
+        "l"
+      ],
+      [
+        "hf",
+        "ill"
+      ],
+      [
+        "math",
+        "ver"
+      ],
+      [
+        "si",
+        "on"
+      ],
+      [
+        "dots",
+        "m"
+      ],
+      [
+        "mathver",
+        "sion"
+      ],
+      [
+        "d",
+        "dagger"
+      ],
+      [
+        "gt",
+        "r"
+      ],
+      [
+        "ma",
+        "x"
+      ],
+      [
+        "k",
+        "e"
+      ],
+      [
+        "ma",
+        "ke"
+      ],
+      [
+        "make",
+        "box"
+      ],
+      [
+        "p",
+        "e"
+      ],
+      [
+        "u",
+        "se"
+      ],
+      [
+        "be",
+        "ca"
+      ],
+      [
+        "beca",
+        "use"
+      ],
+      [
+        "B",
+        "ar"
+      ],
+      [
+        "a",
+        "k"
+      ],
+      [
+        "no",
+        "align"
+      ],
+      [
+        "bre",
+        "ak"
+      ],
+      [
+        "le",
+        "ng"
+      ],
+      [
+        "leng",
+        "th"
+      ],
+      [
+        "t",
+        "ch"
+      ],
+      [
+        "u",
+        "le"
+      ],
+      [
+        "bigtriangle",
+        "down"
+      ],
+      [
+        "f",
+        "row"
+      ],
+      [
+        "l",
+        "hd"
+      ],
+      [
+        "frow",
+        "n"
+      ],
+      [
+        "i",
+        "psi"
+      ],
+      [
+        "v",
+        "space"
+      ],
+      [
+        "math",
+        "ell"
+      ],
+      [
+        "rc",
+        "or"
+      ],
+      [
+        "re",
+        "al"
+      ],
+      [
+        "ipsi",
+        "s"
+      ],
+      [
+        "mathell",
+        "ipsis"
+      ],
+      [
+        "rcor",
+        "ner"
+      ],
+      [
+        "m",
+        "o"
+      ],
+      [
+        "Ġ",
+        "â"
+      ],
+      [
+        "nu",
+        "ll"
+      ],
+      [
+        "mo",
+        "de"
+      ],
+      [
+        "Ġâ",
+        "Ģ"
+      ],
+      [
+        "l",
+        "s"
+      ],
+      [
+        "l",
+        "rcorner"
+      ],
+      [
+        "m",
+        "space"
+      ],
+      [
+        "gtr",
+        "sim"
+      ],
+      [
+        "mode",
+        "ls"
+      ],
+      [
+        "small",
+        "skip"
+      ],
+      [
+        "v",
+        "line"
+      ],
+      [
+        "Ġ\\",
+        "*"
+      ],
+      [
+        "co",
+        "l"
+      ],
+      [
+        "B",
+        "bb"
+      ],
+      [
+        "arpoo",
+        "n"
+      ],
+      [
+        "Bbb",
+        "k"
+      ],
+      [
+        "al",
+        "low"
+      ],
+      [
+        "r",
+        "ule"
+      ],
+      [
+        "u",
+        "ph"
+      ],
+      [
+        "uph",
+        "arpoon"
+      ],
+      [
+        "h",
+        "slash"
+      ],
+      [
+        "l",
+        "lap"
+      ],
+      [
+        "ĠâĢ",
+        "Ĳ"
+      ],
+      [
+        "upharpoon",
+        "right"
+      ],
+      [
+        "de",
+        "set"
+      ],
+      [
+        "si",
+        "deset"
+      ],
+      [
+        "allow",
+        "break"
+      ],
+      [
+        "l",
+        "times"
+      ],
+      [
+        "la",
+        "be"
+      ],
+      [
+        "big",
+        "m"
+      ],
+      [
+        "raise",
+        "box"
+      ],
+      [
+        "labe",
+        "l"
+      ],
+      [
+        "array",
+        "st"
+      ],
+      [
+        "re",
+        "tch"
+      ],
+      [
+        "arrayst",
+        "retch"
+      ],
+      [
+        "big",
+        "star"
+      ],
+      [
+        "se",
+        "p"
+      ],
+      [
+        "sma",
+        "sh"
+      ],
+      [
+        "diamond",
+        "suit"
+      ],
+      [
+        "s",
+        "ha"
+      ],
+      [
+        "sha",
+        "pe"
+      ],
+      [
+        "col",
+        "sep"
+      ],
+      [
+        "n",
+        "s"
+      ],
+      [
+        "tharpoo",
+        "ns"
+      ],
+      [
+        "Ġ\\",
+        "-"
+      ],
+      [
+        "ne",
+        "w"
+      ],
+      [
+        "c",
+        "e"
+      ],
+      [
+        "normal",
+        "size"
+      ],
+      [
+        "array",
+        "colsep"
+      ],
+      [
+        "th",
+        "in"
+      ],
+      [
+        "right",
+        "lef"
+      ],
+      [
+        "rightlef",
+        "tharpoons"
+      ],
+      [
+        "S",
+        "S"
+      ],
+      [
+        "h",
+        "e"
+      ],
+      [
+        "da",
+        "st"
+      ],
+      [
+        "set",
+        "length"
+      ],
+      [
+        "circle",
+        "dast"
+      ],
+      [
+        "ce",
+        "nt"
+      ],
+      [
+        "u",
+        "re"
+      ],
+      [
+        "pi",
+        "ct"
+      ],
+      [
+        "pict",
+        "ure"
+      ],
+      [
+        "thin",
+        "space"
+      ],
+      [
+        "d",
+        "dag"
+      ],
+      [
+        "h",
+        "phantom"
+      ],
+      [
+        "m",
+        "ma"
+      ],
+      [
+        "r",
+        "d"
+      ],
+      [
+        "su",
+        "rd"
+      ],
+      [
+        "co",
+        "mma"
+      ],
+      [
+        "comma",
+        "nd"
+      ],
+      [
+        "up",
+        "lus"
+      ],
+      [
+        "new",
+        "command"
+      ],
+      [
+        "re",
+        "newcommand"
+      ],
+      [
+        "Ve",
+        "c"
+      ],
+      [
+        "li",
+        "mit"
+      ],
+      [
+        "Ġ--",
+        "-"
+      ],
+      [
+        "V",
+        "dash"
+      ],
+      [
+        "e",
+        "th"
+      ],
+      [
+        "long",
+        "leftarrow"
+      ],
+      [
+        "c",
+        "u"
+      ],
+      [
+        "leq",
+        "q"
+      ],
+      [
+        "cu",
+        "r"
+      ],
+      [
+        "o",
+        "slash"
+      ],
+      [
+        "su",
+        "re"
+      ],
+      [
+        "math",
+        "c"
+      ],
+      [
+        "big",
+        "circ"
+      ],
+      [
+        "en",
+        "sure"
+      ],
+      [
+        "ensure",
+        "math"
+      ],
+      [
+        "x",
+        "leftarrow"
+      ],
+      [
+        "var",
+        "lim"
+      ],
+      [
+        "int",
+        "e"
+      ],
+      [
+        "triangle",
+        "down"
+      ],
+      [
+        "r",
+        "ner"
+      ],
+      [
+        "s",
+        "ho"
+      ],
+      [
+        "math",
+        "or"
+      ],
+      [
+        "co",
+        "rner"
+      ],
+      [
+        "sho",
+        "rt"
+      ],
+      [
+        "mathor",
+        "d"
+      ],
+      [
+        "Ġc",
+        "m"
+      ],
+      [
+        "rt",
+        "ex"
+      ],
+      [
+        "inte",
+        "rtex"
+      ],
+      [
+        "intertex",
+        "t"
+      ],
+      [
+        "hf",
+        "il"
+      ],
+      [
+        "a",
+        "n"
+      ],
+      [
+        "big",
+        "skip"
+      ],
+      [
+        "w",
+        "r"
+      ],
+      [
+        "var",
+        "triangle"
+      ],
+      [
+        "w",
+        "arrow"
+      ],
+      [
+        "up",
+        "downarrow"
+      ],
+      [
+        "a",
+        "e"
+      ],
+      [
+        "math",
+        "rel"
+      ],
+      [
+        "end",
+        "aligned"
+      ],
+      [
+        "a",
+        "mal"
+      ],
+      [
+        "d",
+        "ddot"
+      ],
+      [
+        "arrow",
+        "vert"
+      ],
+      [
+        "amal",
+        "g"
+      ],
+      [
+        "v",
+        "rule"
+      ],
+      [
+        "o",
+        "he"
+      ],
+      [
+        "t",
+        "w"
+      ],
+      [
+        "x",
+        "lon"
+      ],
+      [
+        "qu",
+        "al"
+      ],
+      [
+        "ge",
+        "qual"
+      ],
+      [
+        "small",
+        "int"
+      ],
+      [
+        "ohe",
+        "ad"
+      ],
+      [
+        "tw",
+        "ohead"
+      ],
+      [
+        "xlon",
+        "gequal"
+      ],
+      [
+        "ta",
+        "g"
+      ],
+      [
+        "up",
+        "shape"
+      ],
+      [
+        "twohead",
+        "rightarrow"
+      ],
+      [
+        "a",
+        "t"
+      ],
+      [
+        "l",
+        "y"
+      ],
+      [
+        "cur",
+        "ly"
+      ],
+      [
+        "ll",
+        "corner"
+      ],
+      [
+        "cent",
+        "er"
+      ],
+      [
+        "l",
+        "g"
+      ],
+      [
+        "m",
+        "d"
+      ],
+      [
+        "text",
+        "md"
+      ],
+      [
+        "a",
+        "se"
+      ],
+      [
+        "i",
+        "ck"
+      ],
+      [
+        "n",
+        "nu"
+      ],
+      [
+        "ma",
+        "nnu"
+      ],
+      [
+        "me",
+        "ral"
+      ],
+      [
+        "th",
+        "arpo"
+      ],
+      [
+        "th",
+        "ick"
+      ],
+      [
+        "ft",
+        "er"
+      ],
+      [
+        "math",
+        "bin"
+      ],
+      [
+        "da",
+        "fter"
+      ],
+      [
+        "ro",
+        "mannu"
+      ],
+      [
+        "rc",
+        "ase"
+      ],
+      [
+        "un",
+        "it"
+      ],
+      [
+        "up",
+        "pe"
+      ],
+      [
+        "exp",
+        "an"
+      ],
+      [
+        "display",
+        "skip"
+      ],
+      [
+        "ond",
+        "own"
+      ],
+      [
+        "tharpo",
+        "ondown"
+      ],
+      [
+        "romannu",
+        "meral"
+      ],
+      [
+        "unit",
+        "length"
+      ],
+      [
+        "uppe",
+        "rcase"
+      ],
+      [
+        "expan",
+        "dafter"
+      ],
+      [
+        "D",
+        "own"
+      ],
+      [
+        "H",
+        "at"
+      ],
+      [
+        "ti",
+        "on"
+      ],
+      [
+        "Down",
+        "arrow"
+      ],
+      [
+        "c",
+        "line"
+      ],
+      [
+        "c",
+        "tion"
+      ],
+      [
+        "s",
+        "tri"
+      ],
+      [
+        "le",
+        "me"
+      ],
+      [
+        "co",
+        "mp"
+      ],
+      [
+        "re",
+        "stri"
+      ],
+      [
+        "varlim",
+        "sup"
+      ],
+      [
+        "leme",
+        "nt"
+      ],
+      [
+        "comp",
+        "lement"
+      ],
+      [
+        "restri",
+        "ction"
+      ],
+      [
+        "Ġ",
+        "@"
+      ],
+      [
+        "right",
+        "rightarrow"
+      ],
+      [
+        "it",
+        "shape"
+      ],
+      [
+        "rightrightarrow",
+        "s"
+      ],
+      [
+        "f",
+        "tarrow"
+      ],
+      [
+        "l",
+        "lde"
+      ],
+      [
+        "s",
+        "warrow"
+      ],
+      [
+        "ig",
+        "arrow"
+      ],
+      [
+        "right",
+        "squ"
+      ],
+      [
+        "nu",
+        "llde"
+      ],
+      [
+        "fo",
+        "r"
+      ],
+      [
+        "er",
+        "space"
+      ],
+      [
+        "limit",
+        "erspace"
+      ],
+      [
+        "rightsqu",
+        "igarrow"
+      ],
+      [
+        "nullde",
+        "limiterspace"
+      ],
+      [
+        "r",
+        "q"
+      ],
+      [
+        "big",
+        "uplus"
+      ],
+      [
+        "A",
+        "R"
+      ],
+      [
+        "G",
+        "E"
+      ],
+      [
+        "L",
+        "AR"
+      ],
+      [
+        "u",
+        "b"
+      ],
+      [
+        "Ġm",
+        "m"
+      ],
+      [
+        "arc",
+        "cos"
+      ],
+      [
+        "triangleleft",
+        "eq"
+      ],
+      [
+        "LAR",
+        "GE"
+      ],
+      [
+        "Ġ\\",
+        "("
+      ],
+      [
+        "Ġ\\",
+        ")"
+      ],
+      [
+        "in",
+        "f"
+      ],
+      [
+        "de",
+        "f"
+      ],
+      [
+        "bigg",
+        "m"
+      ],
+      [
+        "limit",
+        "s"
+      ],
+      [
+        "l",
+        "ti"
+      ],
+      [
+        "t",
+        "e"
+      ],
+      [
+        "t",
+        "suit"
+      ],
+      [
+        "ar",
+        "tsuit"
+      ],
+      [
+        "mu",
+        "lti"
+      ],
+      [
+        "bla",
+        "ck"
+      ],
+      [
+        "ci",
+        "te"
+      ],
+      [
+        "small",
+        "frown"
+      ],
+      [
+        "he",
+        "artsuit"
+      ],
+      [
+        "short",
+        "intertext"
+      ],
+      [
+        "P",
+        "r"
+      ],
+      [
+        "math",
+        "ope"
+      ],
+      [
+        "lo",
+        "se"
+      ],
+      [
+        "mathc",
+        "lose"
+      ],
+      [
+        "mathope",
+        "n"
+      ],
+      [
+        "v",
+        "cent"
+      ],
+      [
+        "ro",
+        "up"
+      ],
+      [
+        "gg",
+        "g"
+      ],
+      [
+        "low",
+        "er"
+      ],
+      [
+        "mathc",
+        "lap"
+      ],
+      [
+        "vcent",
+        "colon"
+      ],
+      [
+        "me",
+        "box"
+      ],
+      [
+        "sq",
+        "subset"
+      ],
+      [
+        "la",
+        "x"
+      ],
+      [
+        "fra",
+        "mebox"
+      ],
+      [
+        "re",
+        "lax"
+      ],
+      [
+        "center",
+        "dot"
+      ],
+      [
+        "in",
+        "de"
+      ],
+      [
+        "Big",
+        "m"
+      ],
+      [
+        "curly",
+        "eq"
+      ],
+      [
+        "m",
+        "n"
+      ],
+      [
+        "u",
+        "mn"
+      ],
+      [
+        "¿",
+        "½"
+      ],
+      [
+        "ï",
+        "¿½"
+      ],
+      [
+        "Ġ",
+        "ï¿½"
+      ],
+      [
+        "righ",
+        "tharpoondown"
+      ],
+      [
+        "supset",
+        "neq"
+      ],
+      [
+        "col",
+        "umn"
+      ],
+      [
+        "multi",
+        "column"
+      ],
+      [
+        "o",
+        "f"
+      ],
+      [
+        "u",
+        "ge"
+      ],
+      [
+        "Ġ",
+        "ãĢ"
+      ],
+      [
+        "ngle",
+        "ftarrow"
+      ],
+      [
+        "ro",
+        "ot"
+      ],
+      [
+        "Bigg",
+        "m"
+      ],
+      [
+        "circle",
+        "arrow"
+      ],
+      [
+        "Lo",
+        "ngleftarrow"
+      ],
+      [
+        "short",
+        "parallel"
+      ],
+      [
+        "ĠãĢ",
+        "Ĥ"
+      ],
+      [
+        "U",
+        "parrow"
+      ],
+      [
+        "text",
+        "sl"
+      ],
+      [
+        "A",
+        "nd"
+      ],
+      [
+        "a",
+        "b"
+      ],
+      [
+        "d",
+        "ig"
+      ],
+      [
+        "v",
+        "skip"
+      ],
+      [
+        "geq",
+        "q"
+      ],
+      [
+        "text",
+        "sub"
+      ],
+      [
+        "un",
+        "lhd"
+      ],
+      [
+        "ab",
+        "ove"
+      ],
+      [
+        "dig",
+        "amma"
+      ],
+      [
+        "textsub",
+        "script"
+      ],
+      [
+        "D",
+        "a"
+      ],
+      [
+        "D",
+        "i"
+      ],
+      [
+        "d",
+        "o"
+      ],
+      [
+        "h",
+        "skip"
+      ],
+      [
+        "v",
+        "Da"
+      ],
+      [
+        "w",
+        "ti"
+      ],
+      [
+        "wi",
+        "th"
+      ],
+      [
+        "bo",
+        "wti"
+      ],
+      [
+        "dash",
+        "v"
+      ],
+      [
+        "Di",
+        "amond"
+      ],
+      [
+        "vDa",
+        "sh"
+      ],
+      [
+        "bowti",
+        "e"
+      ],
+      [
+        "be",
+        "low"
+      ],
+      [
+        "varlim",
+        "inf"
+      ],
+      [
+        "above",
+        "displayskip"
+      ],
+      [
+        "below",
+        "displayskip"
+      ],
+      [
+        "S",
+        "ub"
+      ],
+      [
+        "l",
+        "dot"
+      ],
+      [
+        "n",
+        "subseteq"
+      ],
+      [
+        "math",
+        "strut"
+      ],
+      [
+        "pi",
+        "tch"
+      ],
+      [
+        "for",
+        "k"
+      ],
+      [
+        "Sub",
+        "set"
+      ],
+      [
+        "ldot",
+        "p"
+      ],
+      [
+        "pitch",
+        "fork"
+      ],
+      [
+        "left",
+        "eq"
+      ],
+      [
+        "mathr",
+        "lap"
+      ],
+      [
+        "smash",
+        "operator"
+      ],
+      [
+        "lefteq",
+        "n"
+      ],
+      [
+        "c",
+        "d"
+      ],
+      [
+        "g",
+        "roup"
+      ],
+      [
+        "g",
+        "cd"
+      ],
+      [
+        "h",
+        "rule"
+      ],
+      [
+        "x",
+        "Rightarrow"
+      ],
+      [
+        "lo",
+        "ze"
+      ],
+      [
+        "ve",
+        "arrow"
+      ],
+      [
+        "ng",
+        "e"
+      ],
+      [
+        "sq",
+        "supset"
+      ],
+      [
+        "sq",
+        "subseteq"
+      ],
+      [
+        "un",
+        "rhd"
+      ],
+      [
+        "circled",
+        "S"
+      ],
+      [
+        "subsetneq",
+        "q"
+      ],
+      [
+        "cur",
+        "vearrow"
+      ],
+      [
+        "black",
+        "triangleright"
+      ],
+      [
+        "loze",
+        "nge"
+      ],
+      [
+        "-",
+        "-"
+      ],
+      [
+        "le",
+        "ad"
+      ],
+      [
+        "Ġp",
+        "t"
+      ],
+      [
+        "mp",
+        "eq"
+      ],
+      [
+        "bu",
+        "mpeq"
+      ],
+      [
+        "eqq",
+        "colon"
+      ],
+      [
+        "neg",
+        "med"
+      ],
+      [
+        "succ",
+        "curlyeq"
+      ],
+      [
+        "lead",
+        "sto"
+      ],
+      [
+        "negmed",
+        "space"
+      ],
+      [
+        "D",
+        "ot"
+      ],
+      [
+        "H",
+        "uge"
+      ],
+      [
+        "n",
+        "warrow"
+      ],
+      [
+        "big",
+        "odot"
+      ],
+      [
+        "text",
+        "less"
+      ],
+      [
+        "lef",
+        "tharpoondown"
+      ],
+      [
+        "hdots",
+        "for"
+      ],
+      [
+        "curly",
+        "vee"
+      ],
+      [
+        "thick",
+        "sim"
+      ],
+      [
+        "circlearrow",
+        "left"
+      ],
+      [
+        "f",
+        "ill"
+      ],
+      [
+        "m",
+        "ho"
+      ],
+      [
+        "Ġ\\",
+        "'"
+      ],
+      [
+        "dots",
+        "o"
+      ],
+      [
+        "line",
+        "s"
+      ],
+      [
+        "small",
+        "smile"
+      ],
+      [
+        "hook",
+        "leftarrow"
+      ],
+      [
+        "thick",
+        "lines"
+      ],
+      [
+        "c",
+        "l"
+      ],
+      [
+        "l",
+        "corner"
+      ],
+      [
+        "u",
+        "lcorner"
+      ],
+      [
+        "math",
+        "normal"
+      ],
+      [
+        "bar",
+        "wedge"
+      ],
+      [
+        "new",
+        "line"
+      ],
+      [
+        "ub",
+        "suit"
+      ],
+      [
+        "inde",
+        "x"
+      ],
+      [
+        "inde",
+        "nt"
+      ],
+      [
+        "cl",
+        "ubsuit"
+      ],
+      [
+        "a",
+        "g"
+      ],
+      [
+        "a",
+        "de"
+      ],
+      [
+        "right",
+        "leftarrow"
+      ],
+      [
+        "de",
+        "lim"
+      ],
+      [
+        "line",
+        "break"
+      ],
+      [
+        "sp",
+        "ade"
+      ],
+      [
+        "di",
+        "ag"
+      ],
+      [
+        "with",
+        "delim"
+      ],
+      [
+        "curvearrow",
+        "right"
+      ],
+      [
+        "rightleftarrow",
+        "s"
+      ],
+      [
+        "spade",
+        "suit"
+      ],
+      [
+        "withdelim",
+        "s"
+      ],
+      [
+        "e",
+        "w"
+      ],
+      [
+        "r",
+        "group"
+      ],
+      [
+        "x",
+        "longrightarrow"
+      ],
+      [
+        "Ġ",
+        "å"
+      ],
+      [
+        "ll",
+        "l"
+      ],
+      [
+        "vec",
+        "tor"
+      ],
+      [
+        "sk",
+        "ew"
+      ],
+      [
+        "gtr",
+        "less"
+      ],
+      [
+        "lg",
+        "roup"
+      ],
+      [
+        "Dot",
+        "eq"
+      ],
+      [
+        "m",
+        "skip"
+      ],
+      [
+        "o",
+        "parrow"
+      ],
+      [
+        "lo",
+        "oparrow"
+      ],
+      [
+        "be",
+        "th"
+      ],
+      [
+        "un",
+        "boldmath"
+      ],
+      [
+        "less",
+        "dot"
+      ],
+      [
+        "box",
+        "minus"
+      ],
+      [
+        "Le",
+        "ftarrow"
+      ],
+      [
+        "prec",
+        "curlyeq"
+      ],
+      [
+        "e",
+        "t"
+      ],
+      [
+        "e",
+        "ri"
+      ],
+      [
+        "h",
+        "uge"
+      ],
+      [
+        "i",
+        "dots"
+      ],
+      [
+        "l",
+        "t"
+      ],
+      [
+        "n",
+        "rightarrow"
+      ],
+      [
+        "v",
+        "center"
+      ],
+      [
+        "Ġ\\",
+        "\""
+      ],
+      [
+        "Ġ\\",
+        "^"
+      ],
+      [
+        "su",
+        "per"
+      ],
+      [
+        "operatorname",
+        "with"
+      ],
+      [
+        "text",
+        "super"
+      ],
+      [
+        "eq",
+        "sim"
+      ],
+      [
+        "eq",
+        "no"
+      ],
+      [
+        "display",
+        "limits"
+      ],
+      [
+        "brack",
+        "et"
+      ],
+      [
+        "lef",
+        "tharpoonup"
+      ],
+      [
+        "less",
+        "gtr"
+      ],
+      [
+        "circlearrow",
+        "right"
+      ],
+      [
+        "idots",
+        "int"
+      ],
+      [
+        "operatornamewith",
+        "limits"
+      ],
+      [
+        "textsuper",
+        "script"
+      ],
+      [
+        "C",
+        "hi"
+      ],
+      [
+        "U",
+        "p"
+      ],
+      [
+        "e",
+        "ci"
+      ],
+      [
+        "g",
+        "i"
+      ],
+      [
+        "h",
+        "ss"
+      ],
+      [
+        "l",
+        "q"
+      ],
+      [
+        "s",
+        "ph"
+      ],
+      [
+        "me",
+        "l"
+      ],
+      [
+        "in",
+        "ner"
+      ],
+      [
+        "math",
+        "inner"
+      ],
+      [
+        "cal",
+        "angle"
+      ],
+      [
+        "var",
+        "triangleleft"
+      ],
+      [
+        "sq",
+        "supseteq"
+      ],
+      [
+        "sp",
+        "an"
+      ],
+      [
+        "sp",
+        "eci"
+      ],
+      [
+        "colon",
+        "eq"
+      ],
+      [
+        "Re",
+        "f"
+      ],
+      [
+        "no",
+        "indent"
+      ],
+      [
+        "atop",
+        "withdelims"
+      ],
+      [
+        "--",
+        "-"
+      ],
+      [
+        "diag",
+        "down"
+      ],
+      [
+        "looparrow",
+        "right"
+      ],
+      [
+        "eri",
+        "calangle"
+      ],
+      [
+        "Up",
+        "downarrow"
+      ],
+      [
+        "gi",
+        "mel"
+      ],
+      [
+        "sph",
+        "ericalangle"
+      ],
+      [
+        "speci",
+        "al"
+      ],
+      [
+        "c",
+        "rc"
+      ],
+      [
+        "j",
+        "u"
+      ],
+      [
+        "n",
+        "leftrightarrow"
+      ],
+      [
+        "o",
+        "o"
+      ],
+      [
+        "r",
+        "k"
+      ],
+      [
+        "t",
+        "er"
+      ],
+      [
+        "Ġ",
+        "ç"
+      ],
+      [
+        "ma",
+        "rk"
+      ],
+      [
+        "dot",
+        "si"
+      ],
+      [
+        "par",
+        "box"
+      ],
+      [
+        "ad",
+        "ju"
+      ],
+      [
+        "co",
+        "un"
+      ],
+      [
+        "under",
+        "bracket"
+      ],
+      [
+        "circled",
+        "circ"
+      ],
+      [
+        "box",
+        "dot"
+      ],
+      [
+        "dash",
+        "rightarrow"
+      ],
+      [
+        "footnote",
+        "mark"
+      ],
+      [
+        "crc",
+        "r"
+      ],
+      [
+        "oo",
+        "align"
+      ],
+      [
+        "adju",
+        "st"
+      ],
+      [
+        "coun",
+        "ter"
+      ],
+      [
+        "1",
+        "4"
+      ],
+      [
+        "\\",
+        "-"
+      ],
+      [
+        "i",
+        "de"
+      ],
+      [
+        "n",
+        "parallel"
+      ],
+      [
+        "o",
+        "in"
+      ],
+      [
+        "v",
+        "ss"
+      ],
+      [
+        "x",
+        "mapsto"
+      ],
+      [
+        "y",
+        "right"
+      ],
+      [
+        "ta",
+        "il"
+      ],
+      [
+        "dot",
+        "fill"
+      ],
+      [
+        "var",
+        "triangleright"
+      ],
+      [
+        "var",
+        "subsetneq"
+      ],
+      [
+        "wi",
+        "thin"
+      ],
+      [
+        "rightarrow",
+        "tail"
+      ],
+      [
+        "set",
+        "counter"
+      ],
+      [
+        "display",
+        "break"
+      ],
+      [
+        "fbox",
+        "sep"
+      ],
+      [
+        "cop",
+        "yright"
+      ],
+      [
+        "ver",
+        "b"
+      ],
+      [
+        "b",
+        "le"
+      ],
+      [
+        "d",
+        "ou"
+      ],
+      [
+        "g",
+        "re"
+      ],
+      [
+        "n",
+        "leq"
+      ],
+      [
+        "n",
+        "cong"
+      ],
+      [
+        "n",
+        "leftarrow"
+      ],
+      [
+        "o",
+        "intop"
+      ],
+      [
+        "Ġ",
+        "ä"
+      ],
+      [
+        "dot",
+        "plus"
+      ],
+      [
+        "ho",
+        "m"
+      ],
+      [
+        "big",
+        "times"
+      ],
+      [
+        "text",
+        "gre"
+      ],
+      [
+        "fo",
+        "nt"
+      ],
+      [
+        "vdots",
+        "within"
+      ],
+      [
+        "div",
+        "ide"
+      ],
+      [
+        "leftrightarrow",
+        "s"
+      ],
+      [
+        "own",
+        "s"
+      ],
+      [
+        "back",
+        "sim"
+      ],
+      [
+        "less",
+        "approx"
+      ],
+      [
+        "ne",
+        "xists"
+      ],
+      [
+        "prec",
+        "sim"
+      ],
+      [
+        "neg",
+        "thick"
+      ],
+      [
+        "dash",
+        "arrow"
+      ],
+      [
+        "on",
+        "times"
+      ],
+      [
+        "at",
+        "er"
+      ],
+      [
+        "center",
+        "ing"
+      ],
+      [
+        "multi",
+        "put"
+      ],
+      [
+        "black",
+        "triangledown"
+      ],
+      [
+        "curvearrow",
+        "left"
+      ],
+      [
+        "ble",
+        "barwedge"
+      ],
+      [
+        "dou",
+        "blebarwedge"
+      ],
+      [
+        "textgre",
+        "ater"
+      ],
+      [
+        "divide",
+        "ontimes"
+      ],
+      [
+        "negthick",
+        "space"
+      ],
+      [
+        "A",
+        "l"
+      ],
+      [
+        "K",
+        "appa"
+      ],
+      [
+        "\\",
+        "&"
+      ],
+      [
+        "\\",
+        "_"
+      ],
+      [
+        "b",
+        "y"
+      ],
+      [
+        "b",
+        "colsep"
+      ],
+      [
+        "d",
+        "dddot"
+      ],
+      [
+        "g",
+        "neq"
+      ],
+      [
+        "j",
+        "oin"
+      ],
+      [
+        "n",
+        "prec"
+      ],
+      [
+        "o",
+        "v"
+      ],
+      [
+        "p",
+        "pro"
+      ],
+      [
+        "v",
+        "an"
+      ],
+      [
+        "x",
+        "hookrightarrow"
+      ],
+      [
+        "Ġ",
+        "æ"
+      ],
+      [
+        "Ġ1",
+        "6"
+      ],
+      [
+        "ra",
+        "ppro"
+      ],
+      [
+        "ta",
+        "bcolsep"
+      ],
+      [
+        "righ",
+        "tharpoons"
+      ],
+      [
+        "left",
+        "rightharpoons"
+      ],
+      [
+        "ad",
+        "van"
+      ],
+      [
+        "ed",
+        "by"
+      ],
+      [
+        "rightarrow",
+        "fill"
+      ],
+      [
+        "over",
+        "withdelims"
+      ],
+      [
+        "no",
+        "linebreak"
+      ],
+      [
+        "circled",
+        "dash"
+      ],
+      [
+        "impli",
+        "edby"
+      ],
+      [
+        "gt",
+        "rappro"
+      ],
+      [
+        "gtr",
+        "dot"
+      ],
+      [
+        "ĠâĢ",
+        "¦"
+      ],
+      [
+        "allow",
+        "displaybreak"
+      ],
+      [
+        "black",
+        "triangle"
+      ],
+      [
+        "black",
+        "square"
+      ],
+      [
+        "diag",
+        "up"
+      ],
+      [
+        "adjust",
+        "limits"
+      ],
+      [
+        "Al",
+        "pha"
+      ],
+      [
+        "join",
+        "rel"
+      ],
+      [
+        "ov",
+        "al"
+      ],
+      [
+        "advan",
+        "ce"
+      ],
+      [
+        "gtrappro",
+        "x"
+      ],
+      [
+        "allowdisplaybreak",
+        "s"
+      ],
+      [
+        "C",
+        "up"
+      ],
+      [
+        "E",
+        "q"
+      ],
+      [
+        "M",
+        "ove"
+      ],
+      [
+        "\\",
+        "/"
+      ],
+      [
+        "f",
+        "i"
+      ],
+      [
+        "t",
+        "frac"
+      ],
+      [
+        "t",
+        "emp"
+      ],
+      [
+        "u",
+        "rcorner"
+      ],
+      [
+        "v",
+        "adjust"
+      ],
+      [
+        "è",
+        "§"
+      ],
+      [
+        "Ī",
+        "ĸ"
+      ],
+      [
+        "Ń",
+        "ī"
+      ],
+      [
+        "al",
+        "se"
+      ],
+      [
+        "left",
+        "rightsquigarrow"
+      ],
+      [
+        "mu",
+        "skip"
+      ],
+      [
+        "var",
+        "subsetneqq"
+      ],
+      [
+        "circ",
+        "eq"
+      ],
+      [
+        "sp",
+        "li"
+      ],
+      [
+        "sc",
+        "shape"
+      ],
+      [
+        "vee",
+        "bar"
+      ],
+      [
+        "normal",
+        "font"
+      ],
+      [
+        "iff",
+        "alse"
+      ],
+      [
+        "protect",
+        "u"
+      ],
+      [
+        "thick",
+        "approx"
+      ],
+      [
+        "Ġå",
+        "ħ"
+      ],
+      [
+        "Ġç",
+        "Ńī"
+      ],
+      [
+        "Ġæ",
+        "Īĸ"
+      ],
+      [
+        "Eq",
+        "Left"
+      ],
+      [
+        "Move",
+        "EqLeft"
+      ],
+      [
+        "spli",
+        "tfrac"
+      ],
+      [
+        "A",
+        "r"
+      ],
+      [
+        "D",
+        "dot"
+      ],
+      [
+        "J",
+        "oin"
+      ],
+      [
+        "R",
+        "rightarrow"
+      ],
+      [
+        "a",
+        "ve"
+      ],
+      [
+        "d",
+        "th"
+      ],
+      [
+        "e",
+        "times"
+      ],
+      [
+        "e",
+        "ject"
+      ],
+      [
+        "e",
+        "ver"
+      ],
+      [
+        "g",
+        "dots"
+      ],
+      [
+        "h",
+        "arpoon"
+      ],
+      [
+        "o",
+        "st"
+      ],
+      [
+        "o",
+        "ff"
+      ],
+      [
+        "p",
+        "od"
+      ],
+      [
+        "p",
+        "en"
+      ],
+      [
+        "p",
+        "ost"
+      ],
+      [
+        "v",
+        "mode"
+      ],
+      [
+        "y",
+        "math"
+      ],
+      [
+        "¹",
+        "Ļ"
+      ],
+      [
+        "Ľ",
+        "¸"
+      ],
+      [
+        "Ġ1",
+        "0"
+      ],
+      [
+        "al",
+        "ty"
+      ],
+      [
+        "le",
+        "t"
+      ],
+      [
+        "le",
+        "ct"
+      ],
+      [
+        "le",
+        "ave"
+      ],
+      [
+        "th",
+        "re"
+      ],
+      [
+        "math",
+        "ac"
+      ],
+      [
+        "math",
+        "ch"
+      ],
+      [
+        "left",
+        "thre"
+      ],
+      [
+        "ri",
+        "sin"
+      ],
+      [
+        "end",
+        "group"
+      ],
+      [
+        "begin",
+        "group"
+      ],
+      [
+        "line",
+        "wi"
+      ],
+      [
+        "line",
+        "thick"
+      ],
+      [
+        "rline",
+        "skip"
+      ],
+      [
+        "row",
+        "vert"
+      ],
+      [
+        "co",
+        "lor"
+      ],
+      [
+        "neq",
+        "q"
+      ],
+      [
+        "over",
+        "underset"
+      ],
+      [
+        "over",
+        "bracket"
+      ],
+      [
+        "display",
+        "pen"
+      ],
+      [
+        "lim",
+        "sup"
+      ],
+      [
+        "down",
+        "harpoon"
+      ],
+      [
+        "no",
+        "rm"
+      ],
+      [
+        "ne",
+        "ss"
+      ],
+      [
+        "normal",
+        "color"
+      ],
+      [
+        "prec",
+        "approx"
+      ],
+      [
+        "doteq",
+        "dot"
+      ],
+      [
+        "ĠâĢ",
+        "ĵ"
+      ],
+      [
+        "ĠâĢ",
+        "Ļ"
+      ],
+      [
+        "upharpoon",
+        "left"
+      ],
+      [
+        "inte",
+        "rlineskip"
+      ],
+      [
+        "curly",
+        "wedge"
+      ],
+      [
+        "looparrow",
+        "left"
+      ],
+      [
+        "Ġç",
+        "Ľ¸"
+      ],
+      [
+        "Ġä",
+        "¸"
+      ],
+      [
+        "Ġä",
+        "¹Ļ"
+      ],
+      [
+        "è§",
+        "£"
+      ],
+      [
+        "Ar",
+        "rowvert"
+      ],
+      [
+        "ever",
+        "ymath"
+      ],
+      [
+        "gdots",
+        "eq"
+      ],
+      [
+        "off",
+        "interlineskip"
+      ],
+      [
+        "post",
+        "displaypen"
+      ],
+      [
+        "leave",
+        "vmode"
+      ],
+      [
+        "mathac",
+        "cent"
+      ],
+      [
+        "mathch",
+        "ar"
+      ],
+      [
+        "leftthre",
+        "etimes"
+      ],
+      [
+        "risin",
+        "gdotseq"
+      ],
+      [
+        "linewi",
+        "dth"
+      ],
+      [
+        "linethick",
+        "ness"
+      ],
+      [
+        "postdisplaypen",
+        "alty"
+      ],
+      [
+        "S",
+        "up"
+      ],
+      [
+        "\\",
+        "*"
+      ],
+      [
+        "a",
+        "sure"
+      ],
+      [
+        "b",
+        "chi"
+      ],
+      [
+        "b",
+        "group"
+      ],
+      [
+        "d",
+        "us"
+      ],
+      [
+        "e",
+        "p"
+      ],
+      [
+        "e",
+        "rline"
+      ],
+      [
+        "e",
+        "group"
+      ],
+      [
+        "f",
+        "am"
+      ],
+      [
+        "g",
+        "o"
+      ],
+      [
+        "i",
+        "j"
+      ],
+      [
+        "i",
+        "iiint"
+      ],
+      [
+        "i",
+        "ce"
+      ],
+      [
+        "l",
+        "ra"
+      ],
+      [
+        "n",
+        "sim"
+      ],
+      [
+        "n",
+        "Rightarrow"
+      ],
+      [
+        "n",
+        "supseteq"
+      ],
+      [
+        "n",
+        "Vdash"
+      ],
+      [
+        "o",
+        "li"
+      ],
+      [
+        "q",
+        "no"
+      ],
+      [
+        "r",
+        "r"
+      ],
+      [
+        "s",
+        "eta"
+      ],
+      [
+        "s",
+        "oli"
+      ],
+      [
+        "v",
+        "ide"
+      ],
+      [
+        "§",
+        "į"
+      ],
+      [
+        "±",
+        "¡"
+      ],
+      [
+        "±",
+        "³"
+      ],
+      [
+        "·",
+        "²"
+      ],
+      [
+        "»",
+        "£"
+      ],
+      [
+        "»",
+        "Ħ"
+      ],
+      [
+        "¼",
+        "ı"
+      ],
+      [
+        "½",
+        "ĵ"
+      ],
+      [
+        "¿",
+        "Ĳ"
+      ],
+      [
+        "Ã",
+        "¹"
+      ],
+      [
+        "ç",
+        "»Ħ"
+      ],
+      [
+        "è",
+        "±¡"
+      ],
+      [
+        "è",
+        "¿Ĳ"
+      ],
+      [
+        "é",
+        "Ļ"
+      ],
+      [
+        "Ġ",
+        "#"
+      ],
+      [
+        "Ġ",
+        "Ġ"
+      ],
+      [
+        "Ġ",
+        "è§"
+      ],
+      [
+        "Ġ",
+        "Ã¹"
+      ],
+      [
+        "Ġ",
+        "è¿Ĳ"
+      ],
+      [
+        "Ġ",
+        "éĻ"
+      ],
+      [
+        "Ģ",
+        "į"
+      ],
+      [
+        "Ī",
+        "ļ"
+      ],
+      [
+        "Ĭ",
+        "¨"
+      ],
+      [
+        "į",
+        "ĥ"
+      ],
+      [
+        "İ",
+        "Ł"
+      ],
+      [
+        "Ĵ",
+        "Į"
+      ],
+      [
+        "ľ",
+        "į"
+      ],
+      [
+        "Ġ\\",
+        "@"
+      ],
+      [
+        "Ġ\\",
+        "["
+      ],
+      [
+        "frac",
+        "tion"
+      ],
+      [
+        "ta",
+        "st"
+      ],
+      [
+        "le",
+        "tt"
+      ],
+      [
+        "me",
+        "asure"
+      ],
+      [
+        "right",
+        "skip"
+      ],
+      [
+        "da",
+        "ngle"
+      ],
+      [
+        "ve",
+        "qno"
+      ],
+      [
+        "theta",
+        "sym"
+      ],
+      [
+        "ng",
+        "eq"
+      ],
+      [
+        "ho",
+        "ice"
+      ],
+      [
+        "la",
+        "bchi"
+      ],
+      [
+        "se",
+        "lect"
+      ],
+      [
+        "st",
+        "ep"
+      ],
+      [
+        "pro",
+        "vide"
+      ],
+      [
+        "tex",
+        "tast"
+      ],
+      [
+        "text",
+        "fraction"
+      ],
+      [
+        "approx",
+        "eq"
+      ],
+      [
+        "od",
+        "break"
+      ],
+      [
+        "lim",
+        "inf"
+      ],
+      [
+        "no",
+        "limits"
+      ],
+      [
+        "back",
+        "prime"
+      ],
+      [
+        "back",
+        "simeq"
+      ],
+      [
+        "number",
+        "within"
+      ],
+      [
+        "lvert",
+        "neqq"
+      ],
+      [
+        "ref",
+        "lect"
+      ],
+      [
+        "ref",
+        "step"
+      ],
+      [
+        "sk",
+        "center"
+      ],
+      [
+        "prec",
+        "neqq"
+      ],
+      [
+        "dash",
+        "leftarrow"
+      ],
+      [
+        "med",
+        "muskip"
+      ],
+      [
+        "rai",
+        "seta"
+      ],
+      [
+        "protect",
+        "E"
+      ],
+      [
+        "protect",
+        "Z"
+      ],
+      [
+        "protect",
+        "e"
+      ],
+      [
+        "protect",
+        "m"
+      ],
+      [
+        "make",
+        "at"
+      ],
+      [
+        "Ġâ",
+        "Īļ"
+      ],
+      [
+        "thin",
+        "muskip"
+      ],
+      [
+        "cent",
+        "erline"
+      ],
+      [
+        "mathc",
+        "hoice"
+      ],
+      [
+        "short",
+        "mid"
+      ],
+      [
+        "twohead",
+        "leftarrow"
+      ],
+      [
+        "thick",
+        "muskip"
+      ],
+      [
+        "supsetneq",
+        "q"
+      ],
+      [
+        "Ġå",
+        "·²"
+      ],
+      [
+        "Ġå",
+        "¼ı"
+      ],
+      [
+        "Ġå",
+        "½ĵ"
+      ],
+      [
+        "Ġå",
+        "Ģį"
+      ],
+      [
+        "Ġå",
+        "Ĭ¨"
+      ],
+      [
+        "Ġå",
+        "įĥ"
+      ],
+      [
+        "Ġå",
+        "İŁ"
+      ],
+      [
+        "Ġå",
+        "ĴĮ"
+      ],
+      [
+        "eri",
+        "skcenter"
+      ],
+      [
+        "Ġç",
+        "§į"
+      ],
+      [
+        "Ġç",
+        "±³"
+      ],
+      [
+        "Ġä",
+        "»£"
+      ],
+      [
+        "font",
+        "size"
+      ],
+      [
+        "Ġæ",
+        "ľį"
+      ],
+      [
+        "Ġåħ",
+        "¥"
+      ],
+      [
+        "Ġåħ",
+        "¨"
+      ],
+      [
+        "Ġåħ",
+        "«"
+      ],
+      [
+        "downharpoon",
+        "left"
+      ],
+      [
+        "downharpoon",
+        "right"
+      ],
+      [
+        "Ġä¸",
+        "ī"
+      ],
+      [
+        "Ġä¸",
+        "Ķ"
+      ],
+      [
+        "Sup",
+        "set"
+      ],
+      [
+        "go",
+        "odbreak"
+      ],
+      [
+        "lra",
+        "rr"
+      ],
+      [
+        "soli",
+        "dus"
+      ],
+      [
+        "Ġè§",
+        "Ĵ"
+      ],
+      [
+        "ĠéĻ",
+        "Ĳ"
+      ],
+      [
+        "lett",
+        "er"
+      ],
+      [
+        "measure",
+        "dangle"
+      ],
+      [
+        "select",
+        "font"
+      ],
+      [
+        "provide",
+        "command"
+      ],
+      [
+        "textast",
+        "eriskcenter"
+      ],
+      [
+        "textfraction",
+        "solidus"
+      ],
+      [
+        "reflect",
+        "box"
+      ],
+      [
+        "refstep",
+        "counter"
+      ],
+      [
+        "raiseta",
+        "g"
+      ],
+      [
+        "makeat",
+        "letter"
+      ],
+      [
+        "textasteriskcenter",
+        "ed"
+      ]
+    ]
+  }
+}
